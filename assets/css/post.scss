@@ -77,7 +77,7 @@ main {
 }
 
 .slide-gallery {
-    width: 50%;
+    // width: 50%;
     margin: 0 auto;
 
     img {
@@ -94,12 +94,13 @@ main {
         }
     }
     .controls {
-        width: 100%;
+        display: table;
         height: 20px;
         padding-top: 0.5em;
         padding-left: 0px;
         padding-bottom: 1.5em;
         margin: auto auto;
+
     }
     .slide-bubble {
         float: left;
