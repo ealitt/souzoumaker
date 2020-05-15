@@ -77,17 +77,17 @@ thumbnail:
     <hr>
     <div>
         <p>During my first year in college, I worked on the observatory every Friday, finding interesting things to look at for the people who came by. At one point, I decided to make a telescope adapter to take pictures of the moon and other celestial objects in the sky.</p>
-        <div id="result" class="slide-gallery">
+        <div id="telescope" class="slide-gallery">
             {% for img in site.data.lens_adapter %}
-                {% if img.category == "result" %}
+                {% if img.category == "telescope" %}
                     <img class="slides" src="{{img.img-url}}">
                 {% endif %}
             {% endfor %}
             <ul class="controls">
             {% assign bubbles = 0 %}
                 {% for img in site.data.lens_adapter %}
-                    {% if img.category == "result" %}
-                        <li class="slide-bubble result highlight show" onclick="currentSlide({{bubbles}}, '#result')" onmouseover="currentSlide({{bubbles}}, '#result')">
+                    {% if img.category == "telescope" %}
+                        <li class="slide-bubble telescope highlight show" onclick="currentSlide({{bubbles}}, '#telescope')" onmouseover="currentSlide({{bubbles}}, '#telescope')">
                             <svg><circle/></svg> 
                         </li>
                         {% assign bubbles = bubbles | plus: 1 %}

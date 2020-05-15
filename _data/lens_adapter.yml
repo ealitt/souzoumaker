@@ -19,15 +19,15 @@
   img-url: "https://lh3.googleusercontent.com/kdVWtRXnPo_-9dRuppNsko28lOvjL6GyzHwMztnyPt7j6onOsbc0Qp8L-1wSaBQp0RDL2cHTk4UqQICgsQV8OpvxxR1kEVWVMdoiNz9Mk3jURmHBcAbIFnijKXa2q0xumJzBlPHFQeA=w1920-h1080"
    
 - name: "telescope adapter top"
-  category: "part"
+  category: "telescope"
   img-url: "https://lh3.googleusercontent.com/YRNBtmVZ16KO_55XgIMz14sb0M6HeIr1vIXdR1bO120NYCfrATMBazrbGiOYemvpgbdlPDjzSOUsX5tNTKpntiKcuYu4bhLTvBoBNHDt8owE3EPHtevfZFtV_olWub6-uPsS8Vb2v8U=w1920-h1080"
    
 - name: "telescope adapter side"
-  category: "part"
+  category: "telescope"
   img-url: "https://lh3.googleusercontent.com/pH4zOVwqj5wS4HrdyfTlRAmGb5Ua-MxCSLpi1f1ZrDE-y5wRV9ajjU5yfwvAnFZPyyXefIEE4YpTTHKGSTlsESWgMXjtpER5Ej7ZohB68dpn4t9msKjvzFeQezHbB--_N553MKkNBro=w1920-h1080"
    
 - name: "telescope adapter parts"
-  category: "part"
+  category: "telescope"
   img-url: "https://lh3.googleusercontent.com/VsEmYfRWLXpx_LjcK_Qm_Kc-1vTizLBpmS9QwgCRFokdrqo27DEO-wrFG5y8m_o3rpAkoWfxA9bubGUDAcQ15TkzVDEU7vrYtH2s2Ba46D1_NTOEgn2aMTmN4Ky-yZQw4pef0-qai_o=w1920-h1080"
    
 - name: "test shot"
@@ -43,7 +43,7 @@
   img-url: "https://lh3.googleusercontent.com/kNbnlarK1Z8wYYfhVWeAWhHoRkX7fyZUQYCHZVwYs-uhucJady3kSaBNHgGiNOA7eRd9sP785RmCcjCE5lFFpqr8Ccsqz2n6is1fVDcsv-F-PXlLeYJNjI_YQ4IXqU9s7LDrxFao83k=w1920-h1080"
    
 - name: "telescope"
-  category: "part"
+  category: "telescope"
   img-url: "https://lh3.googleusercontent.com/zT07Gga7kbc1aFPI3qJoFyLEbOqwFXRd5EY5osKj3oQjg4I9t-1yKyxC58GHjJBwnRySSHREJhtwcELQ_Y_EP49SKQvMwM40md9iFk3ERfUVqM0OrNueNR1lb09W2pV-gkqTUDN_gzc=w1920-h1080"
    
 - name: "phone case adapter"
