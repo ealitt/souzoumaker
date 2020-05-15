@@ -21,7 +21,7 @@ thumbnail:
         {% assign bubbles = 0 %}
             {% for img in site.data.rubiks_cube %}
                 {% if img.category == "result" %}
-                    <li class="slide-bubble highlight show" onclick="currentSlide({{bubbles}}, '#result')" onmouseover="currentSlide({{bubbles}}, '#result')">
+                    <li class="slide-bubble highlight hide" onclick="currentSlide({{bubbles}}, '#result')" onmouseover="currentSlide({{bubbles}}, '#result')">
                         <svg><circle/></svg> 
                     </li>
                     {% assign bubbles = bubbles | plus: 1 %}
