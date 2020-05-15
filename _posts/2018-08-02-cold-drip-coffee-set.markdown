@@ -2,7 +2,8 @@
 layout: post
 title: "Cold Drip Coffee Set"
 date: 2018-08-02
-category: project
+categories: project
+language: english
 thumbnail: 
     dimensions: 
         - 2500

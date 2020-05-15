@@ -2,7 +2,8 @@
 layout: post
 title: "Tripod Pour Over Coffee"
 date: 2018-07-17
-category: project
+categories: project
+language: english
 thumbnail: 
     dimensions: 
         - 2500

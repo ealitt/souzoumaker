@@ -2,7 +2,8 @@
 layout: post
 title: "TLID Clock"
 date: 2018-07-30
-category: project
+categories: project
+language: english
 thumbnail: 
     dimensions: 
         - 1000

@@ -2,7 +2,8 @@
 layout: post
 title: "Lens Adapter"
 date: 2017-08-09
-category: project
+categories: project
+language: english
 thumbnail: 
     dimensions: 
         - 2500

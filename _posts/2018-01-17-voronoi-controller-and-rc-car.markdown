@@ -2,7 +2,8 @@
 layout: post
 title: "Voronoi Controller and RC Car"
 date: 2018-01-17
-category: project
+categories: project
+language: english
 thumbnail: 
     dimensions: 
         - 2500

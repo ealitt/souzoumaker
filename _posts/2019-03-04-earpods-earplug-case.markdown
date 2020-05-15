@@ -2,7 +2,8 @@
 layout: post
 title: "Earpods Earplug Case"
 date: 2019-03-04
-category: project
+categories: project
+language: english
 thumbnail: 
     dimensions: 
         - 2500

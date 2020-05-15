@@ -2,7 +2,8 @@
 layout: post
 title: "SD Card Case"
 date: 2020-01-05
-category: project
+categories: project
+language: english
 thumbnail: 
     dimensions: 
         - 4894

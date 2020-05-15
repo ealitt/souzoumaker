@@ -2,7 +2,8 @@
 layout: post
 title: "Mechanical Iris"
 date: 2017-08-12
-category: project
+categories: project
+language: english
 thumbnail: 
     dimensions: 
         - 1000

@@ -2,7 +2,8 @@
 layout: post
 title: "Printing Origami"
 date: 2019-01-16
-category: project
+categories: project
+language: english
 thumbnail: 
     dimensions: 
         - 1280

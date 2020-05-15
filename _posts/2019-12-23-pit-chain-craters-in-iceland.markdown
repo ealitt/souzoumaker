@@ -2,7 +2,8 @@
 layout: post
 title: "Pit Chain Craters in Iceland"
 date: 2019-12-23
-category: project
+categories: project
+language: english
 thumbnail: 
     dimensions: 
         - 2500

@@ -2,7 +2,8 @@
 layout: post
 title: "Hard Drive Case"
 date: 2018-07-15
-category: project
+categories: project
+language: english
 thumbnail: 
     dimensions: 
         - 1875

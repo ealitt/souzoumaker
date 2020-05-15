@@ -2,7 +2,8 @@
 layout: post
 title: "Mini Rotary Tool"
 date: 2017-08-18
-category: project
+categories: project
+language: english
 thumbnail: 
     dimensions: 
         - 1875

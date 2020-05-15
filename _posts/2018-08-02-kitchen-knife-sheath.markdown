@@ -2,7 +2,8 @@
 layout: post
 title: "Kitchen Knife Sheath"
 date: 2018-08-02
-category: project
+categories: project
+language: english
 thumbnail: 
     dimensions: 
         - 1000

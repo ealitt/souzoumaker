@@ -3,8 +3,8 @@ layout: post
 title: "Bottle Cutter"
 date: 2017-08-08
 categories: project
-language: english
-permalink: :categories/:year/:month/:day/:title:output_ext
+language: japanese
+permalink: jp/:categories/:year/:month/:day/:title:output_ext
 thumbnail: 
     dimensions: 
         - 2500

@@ -2,7 +2,8 @@
 layout: post
 title: "Sprouting Strainer Mason Jars"
 date: 2020-03-23
-category: project
+categories: project
+language: english
 thumbnail: 
     dimensions: 
         - 1000

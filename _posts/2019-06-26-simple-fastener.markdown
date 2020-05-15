@@ -2,7 +2,8 @@
 layout: post
 title: "Simple Fastener"
 date: 2019-06-26
-category: project
+categories: project
+language: english
 thumbnail: 
     dimensions: 
         - 2500

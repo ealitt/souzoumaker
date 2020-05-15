@@ -2,36 +2,36 @@
     <div id="mobile-nav">
         <nav class="nav-bar" id="nav-content">
             <a href="{{site.url}}">Home</a>
-            <a href="https://souzoumaker.com">Projects</a>
+            <!-- <a href="https://souzoumaker.com">Projects</a>
                 <li class="subNav-mobile">
                     <a href="mini-projects">Mini Projects</a>
-                </li>
-            <a href="https://souzoumaker.com">ホーム</a>
-            <a href="https://souzoumaker.com">About</a>
+                </li> -->
+            <a href="{{site.url}}/jp.html">ホーム</a>
+            <a href="{{site.url}}/about">About</a>
         </nav>
         <button id="menu" onclick="toggleNav()">
             <img class="icons" src="{{site.url}}/assets/icons/menu.svg">
         </button>
     </div>
-    <h1>Souzou Maker</h1>
+    <a href="{{site.url}}" style="text-decoration:none;color:black;"><h1>Souzou Maker</h1></a>
     <nav id="desktop-nav">
         <ul>
             <li class="navLink">
                 <a href="{{site.url}}">Home</a>
             </li>
-            <li class="navLink">
+            <!-- <li class="navLink">
                 <a href="https://souzoumaker.com">Projects</a>
                 <ul>
                     <li class="subNav">
                         <a href="mini-projects">Mini Projects</a>
                     </li>
                 </ul>
+            </li> -->
+            <li class="navLink">
+                <a href="{{site.url}}/jp.html">ホーム</a>
             </li>
             <li class="navLink">
-                <a href="https://souzoumaker.com">ホーム</a>
-            </li>
-            <li class="navLink">
-                <a href="https://souzoumaker.com">About</a>
+                <a href="{{site.url}}/about">About</a>
             </li>
         </ul>
     </nav>

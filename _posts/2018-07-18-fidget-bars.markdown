@@ -2,7 +2,8 @@
 layout: post
 title: "Fidget Bars"
 date: 2018-07-18
-category: project
+categories: project
+language: english
 thumbnail: 
     dimensions: 
         - 2500

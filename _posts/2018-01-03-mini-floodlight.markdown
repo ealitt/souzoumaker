@@ -2,7 +2,8 @@
 layout: post
 title: "Mini Floodlight"
 date: 2018-01-03
-category: project
+categories: project
+language: english
 thumbnail: 
     dimensions: 
         - 1000

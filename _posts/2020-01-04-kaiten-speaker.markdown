@@ -2,7 +2,8 @@
 layout: post
 title: "Kaiten Speaker"
 date: 2020-01-04
-category: project
+categories: project
+language: english
 thumbnail: 
     dimensions: 
         - 2500

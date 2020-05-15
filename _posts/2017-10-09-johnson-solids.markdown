@@ -2,7 +2,8 @@
 layout: post
 title: "Johnson Solids"
 date: 2017-10-09
-category: project
+categories: project
+language: english
 thumbnail: 
     dimensions: 
         - 2500

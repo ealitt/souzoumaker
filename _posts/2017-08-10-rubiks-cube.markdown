@@ -2,7 +2,8 @@
 layout: post
 title: "Rubik's Cube"
 date: 2017-08-10
-category: project
+categories: project
+language: english
 thumbnail: 
     dimensions: 
         - 2500

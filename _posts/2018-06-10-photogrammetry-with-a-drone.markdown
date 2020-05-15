@@ -2,7 +2,8 @@
 layout: post
 title: "Photogrammetry with a Drone"
 date: 2018-06-10
-category: project
+categories: project
+language: english
 thumbnail: 
     dimensions: 
         - 1920

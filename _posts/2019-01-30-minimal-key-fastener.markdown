@@ -2,7 +2,8 @@
 layout: post
 title: "Minimal Key Fastener"
 date: 2019-01-30
-category: project
+categories: project
+language: english
 thumbnail: 
     dimensions: 
         - 2500

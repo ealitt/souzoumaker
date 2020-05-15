@@ -2,7 +2,8 @@
 layout: post
 title: "Origami Lantern"
 date: 2019-01-15
-category: project
+categories: project
+language: english
 thumbnail: 
     dimensions: 
         - 2500
