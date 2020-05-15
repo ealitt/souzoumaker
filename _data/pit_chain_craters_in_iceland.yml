@@ -1,0 +1,67 @@
+- name: "shallow crater"
+  category: "pit-chain" 
+  img-url: "https://lh3.googleusercontent.com/RmeiWIONT7TnNECEfCektGrUIlpc2Pbr6lFiNkQ9vt-FYEJetxH6otJ8I4XekvG_dtTOalFMq81boV5ESduyqbMOnUQQvnOXTp02NG21vMhIZjiyPlVmh_zAhUsT7dbHxhD2Q_rLBH0=w1920-h1080"
+   
+- name: "shallow crater 2"
+  category: "reflector"
+  img-url: "https://lh3.googleusercontent.com/OQuz9XNx8g7v2PGgw5oLP6XVtIQoaL5AcXKdwb9Nz14BTYzXKaw-1mJHDREYVI8ScM9TYt5YBuLAqDm-TQPXrik94hL5phyHaedY-nG2UIrazK0sSgVZjauyrDOWVyT_VYp5IEsG77Y=w1920-h1080"
+   
+- name: "linear crater"
+  category: "pit-chain"
+  img-url: "https://lh3.googleusercontent.com/OcdGHGdbL8UGdm2zRyqg5VQegFLY0RST3Jem_uUS9Q8KyRET-1cZe7l0EAZ7XrGokkNAgR18JWPkqv7bJhZG0Zk-CoGWDQdmGUzQ9OC-xqXPUpM9aO0N0NzdOQjuPweL8fvYs4gXZEU=w1920-h1080"
+   
+- name: "linear crater 2"
+  category: "pit-chain"
+  img-url: "https://lh3.googleusercontent.com/DbUYQXb6RAtrlujtEyOlhv1W3-PpX3JGKYZYUWD-wLxQiU3kSfux2GU0279W6fHoVVthBjrlJ72zFDTiwBeYFiVL-wI7zcVRFuu73r-e9KxqWDpCROsx6sklR3s5kp2ITvvZwGAqrnk=w1920-h1080"
+   
+- name: "shallow crater 3"
+  category: "pit-chain"
+  img-url: "https://lh3.googleusercontent.com/e6KvyuFSCtTvr-Z8XR9xOS9ojZXgaVD_id_nUee0nPXMIeuPlSN9oInTcsi9t3dWv0J4ZdHYNR_ibpM5RvKU1Ol0HnesaN4ZpQP9MGWbL_PWSLsFweXswmm7NC1uOhY-cw2s9jDYtYw=w1920-h1080"
+   
+- name: "shallow crater 4"
+  category: "pit-chain"
+  img-url: "https://lh3.googleusercontent.com/tr8D1RZuABe8REf0rUWMnthJewqwps2XwGwgoGGXGHrhf9TNGxewdLOvXHL7Dk-6VU6YzLTSFPPqWfJ_fMjNcKnOnP_ZOMCI_bJ_fU0s_P_Y3MZKcqcSdaerG_MbDKXxxReuGTIj6PU=w1920-h1080"
+   
+- name: "river"
+  category: "landscape"
+  img-url: "https://lh3.googleusercontent.com/asYdgySPquLV9eX27rT91oSo3axmEkPSW91xFNeW8Pd--aUgRMviZRlAr3Y2mq1yLOv55Beig0dqD6FXgxgFCeXO2hoQOFidUnAGCQ594MxHu47cvUxLvTJDTJj28NsM1Oc2vfr6K3o=w1920-h1080"
+   
+- name: "river 2"
+  category: "landscape"
+  img-url: "https://lh3.googleusercontent.com/9Vu9PCgQJxxBZhBJLVsmVl1zZ6--FCj--5e_XDsLswPuHpuT44g_ZtKyPkFddIagvEQvb8jNMK8d18d1W_9FDmFH6B9t0_i5SlogZajE1siYnDCDRwHdGnQF3wOeKSK2P6mygH4VZ_g=w1920-h1080"
+   
+- name: "shallow crater 5"
+  category: "pit-chain"
+  img-url: "https://lh3.googleusercontent.com/Bii7p-pc-zpB1jsu1mRCctnDlQiCTcJdFTK-c3BPqCTacafNO_khqKY7EuNl1OjbzY1ej-IZrPNrIVcrtMbrjvOb8HM8j3BrDS72aZ7CsBtHG1aKfBPAm5XmhLa3NqDEpwrqm_1B8wQ=w1920-h1080"
+   
+- name: "moss"
+  category: "landscape"
+  img-url: "https://lh3.googleusercontent.com/SzDiuEzp6jySzD7woes9DwioSoNRLhTyqJ2BbbK6AWUnCjDVbBRxiFLe2le6puuS_uHyTHWWiHNO8QlfX1m6LdWtGo-Xx47c4Uu1jkd-QAFNkcjXv7DBc_3Px6mB8-H47rv0AmyKV8U=w1920-h1080"
+   
+- name: "moss 2"
+  category: "landscape"
+  img-url: "https://lh3.googleusercontent.com/zwR8awdUD7ykVOIg2LXT7VTslJSdm0rvCZiEU9T1wJYCrslNe41zMV-PIxffH7n4pmPj1ZfOiZKgtCAzU6TmyEVU37yarSdf_EkV93L6P4CZocZ-1fhuRjofm_iUnPobIZu9EMMf8MI=w1920-h1080"
+   
+- name: "volcano remnants"
+  category: "landscape"
+  img-url: "https://lh3.googleusercontent.com/2YJm_ghaKSwd5DZSl4eZVOSJNZ_m-zoWn1rybvX5jfu0Xie8BJz8UDQ9qWTHX0lDZRBjwKDhvIOIMLhc3POPAtd4Ska_MPkIw2yo7y32fjNvWB3QpktvQAtd3avrHO1IB4ibricMG7o=w1920-h1080"
+   
+- name: "wavy rock"
+  category: "landscape"
+  img-url: "https://lh3.googleusercontent.com/vctv8KzFNXUMR71KLLLkBS7ktDDeBme77QRamT4gIYDTNjNkVSNdFoCP3QFuy3pCgAYwBb-2L_enXu2-YjtgWMl3_SeDR8oq1HW9iEsOvyenm0rNLbk27YA1z1ePFvGrd6UqXzKNVec=w1920-h1080"
+   
+- name: "hexagonal columns"
+  category: "landscape"
+  img-url: "https://lh3.googleusercontent.com/qWqmqQcFHTShW9fLzBQuPzxtmTbILvOXhALwXECdY2GiQ6QltFmRfiAYVgHXKnZLsmtyRu5IS7GTt5OWC8O5RfNOZxFrtXTrYGo8UL3Ox4yHl2mykAju9m3aOdDAJq4wIE_7j3CTZIo=w1920-h1080"
+   
+- name: "wavy rock 2"
+  category: "landscape"
+  img-url: "https://lh3.googleusercontent.com/2PeXpXFTKAZYmnMTPjtsKHtXjIV6nwgpTK-2tdXSOsR5PLUZ9xMfg5qUJ6baN8M7r6kULm_bwsUxHwEHSAA98pqugfY0pogKbAwvuDhoEpgbpq46Ly6ESeUFV03fWQpDf2PVqXM7zCs=w1920-h1080"
+   
+- name: "river canyon"
+  category: "landscape"
+  img-url: "https://lh3.googleusercontent.com/0WmzOGHyqaBvpIA_FBZYv22Ol5zLFzyv_iUrlcRmvDNeWA8lnH0TtqEuXGCfW9jHkawGUbGl7209pEQQjSdf-FPB7mooZeQqWmrR9ysDEWfICvXH_yVecZZSsR-TJfISm_n__E1QkbM=w1920-h1080"
+
+- name: "thumbnail"
+  category: "thumbnail"
+  img-url: "https://lh3.googleusercontent.com/EbhV_2EO44XK58oOPn8j4spJ5oKThQh-VxzB-NmuGuIW1RBeZ2WEh-eBoVp43Bqv-0F9KbROf3HlQ6eNogwir31SIhTMGhYgpMhybHQIS5lNz3_FV8ZjbDLF9nqdNUU3-2dL0mL4tZA=w1920-h1080"

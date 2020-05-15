@@ -1,0 +1,155 @@
+- name: "thumbnail"
+  category: "thumbnail"
+  img-url: "https://lh3.googleusercontent.com/JJt3hRSYsxx1CAz500L-FBZuaplbCAF92JcVx6Bq82zZYcb_exfzc-g2pQLcxpaTQh5N0hYmYU6obQCvWohQUBkP9VPDBYCwF2AK9psKc3KXhLXhRRus5cvLv_KBQ2JdFfZ_1UaVkl8=w1920-h1080"
+
+- name: "speaker parts"
+  category: "parts"
+  img-url: "https://lh3.googleusercontent.com/QL7koPjZVjrAkhA0dTukt9wcXlP0nc8ZHNW0SqN3gMwv4_PsL4pKF6p7r0jOvKcOb6MUZL5A2HIJ0gGJhLkb57ceOS2jMNEiQNYlL_IfldTHlk2s1_5yHqXkQzQsrTfTtzYosnZdVg8=w1920-h1080"
+  
+- name: "speaker base electronics"
+  category: "older-parts"
+  img-url: "https://lh3.googleusercontent.com/FDlolTXnRdQEovaiNGeuUSm6DYA0ls0mWL1iHZeeFBooZMtozLc54zrCLoKdGgjoGLh3F6zgqoKGAsdIbRGrM7e_GgXN0dcQxlDgxOcfUHNTvZMHmGoHOiyRsywZ5hy410Z4CAI1J8Y=w1920-h1080"
+   
+- name: "electronics"
+  category: "older-parts"
+  img-url: "https://lh3.googleusercontent.com/IN4WZebXN1-wvOpipWOYAFa-a-H-tqNk_2AYe3Zma7njeeRpUE-trwXs6iPP0FFSXTFvnKB1EhzRqaJHQvebwmpk5Gj70U5ZwFpCIqdBE906zhaz62_tQqwIzsY7s0mKpAewVcYK6hs=w1920-h1080"
+   
+- name: "desoldered audio amp"
+  category: "older-parts"
+  img-url: "https://lh3.googleusercontent.com/KZwE6rHtYHIa8VGOMe9B-cWSz_4_UEGmjAKkq9tDhz4y1XYH_sFNY6TdPoBqabRj3j97-pZy9iYTyGBGnz5VS7C0XorAJh8ley9d5bdmLqIpMpFQKgcjXAmEtc0B07ZH-ArsfBajSCc=w1920-h1080"
+   
+- name: "bearing in base"
+  category: "assembly"
+  img-url: "https://lh3.googleusercontent.com/_O3blI_5ljRcT_3JLqL3rhD15nK1-gT7v-tzCrAOFXjqlgF2pUudetjQBvn6xk979fyTvsNuyw7I6V6cYVbPXNnCA_0h52D7hzVCVy-drYsqnYE5BginuhDr6VcdOjLyI3SMWHMSqcs=w1920-h1080"
+   
+- name: "extending audio amp wire"
+  category: "older-parts"
+  img-url: "https://lh3.googleusercontent.com/tGcnu1jqoKF3tINghaZ_xigA7Hfx3D5fcb7IErsgFTlqAN0qyyJD4wi4Uciqt4B-kVCqhIgGkIJ5OzS8ImJOfE8qSfzHgCdvTk6D2l33B1VAjBZgjIhD4Z6IgtXHPL288XzhboINI2U=w1920-h1080"
+
+- name: "speaker wire pin"
+  category: "assembly"
+  img-url: "https://lh3.googleusercontent.com/eeF5mRtPD3-mguCkIl1m-_2y1A_DW2JLOuDPPBrnZxHSE2Izl8OfFgnYL7ZQeM1Y5wwxDps3fn-w_Mq5EFAMqE_g8HPNdyKikSAsTRidprRHZf0QnEYllAuhvlQFXlseFCPjjPCOppY=w1920-h1080"
+   
+- name: "speaker pin in bottom sphere cover"
+  category: "assembly"
+  img-url: "https://lh3.googleusercontent.com/kIzSZFiP2eokekE2f-sm5wAr-IVohBOBjaxV8OJyqRhO31pldm8-fzXKjs3DaDhUkJpYIldXcpqiwUMj3frs8hwrHc8a48SU3d4FONhvU2jKXOV3woqa49I56XWvS-dHly2hKIhnF5M=w1920-h1080"
+   
+- name: "wire through flat base"
+  category: "assembly"
+  img-url: "https://lh3.googleusercontent.com/kMvR-n9rqf9ghY4vqkZ0ustwIgHJauMPowW8vLojIFpzm_iLxSx2Hqg6pE8VPpzhdUDiKADWnklb5388oY50vZo0YEREy33p0tRis8P8t8aYQD7OdejTFPiI8pV1FvNF-gtK9L35vqQ=w1920-h1080"
+   
+- name: "pin through flat base"
+  category: "assembly"
+  img-url: "https://lh3.googleusercontent.com/osK78BJ0OPNnViMFLgZvBiXNLIdPap8jdi7AaQjO26Fm7MTGdBDpGFO6oaoXNhaUl-ZhlhzKq7InB9t-zK2AL3CH1VuReAAs_L82KP6B7ap-Xn03uxHrDPsY0SPlo9lUtmwLixfXPjw=w1920-h1080"
+   
+- name: "speaker top half completed"
+  category: "assembly"
+  img-url: "https://lh3.googleusercontent.com/MPNaEi2v_3Qe1nB-Fj9QtCAYof8qPZfKZqa1Ft9WTXRGd-SfpVqrGTFHuJmHkWvVsmYRx4it4YagjsN4iBNHk2RpWo9YqvBQz73g7n9FCc1QOXoEG8BxhwnTy_lQIeHC6KMK6UCYc0M=w1920-h1080"
+
+- name: "wiring diagram"
+  category: "wiring"
+  img-url: "https://lh3.googleusercontent.com/8fNPiqMfsZc9B6vPAKbaQEHZYA9ZxBNB5l8vAZxTqjeCVXoHDnmhCeZwGAKzh6k9GvI8ij6IQPRP8WbC15iWbYWbNV6LgcTzGjLNg4Fuy_c3mT9FhnUBe8qsb-nUXBoulgovNzZopFw=w1920-h1080"
+
+- name: "audio amp electronics v3"
+  category: "version-3"
+  img-url: "https://lh3.googleusercontent.com/RtVZaAlUqi-6V3ceP_CntVzPLRW2euk0viEK_p9K67N2lJeiS-mlWCnUzHSB_YB_onhRywW3ngGCo2ECu1EgH4rDSOh-kfbd4PM53tCwWRxG8DGC3dQtw247fIItfwViW3rHIdVuYOo=w1920-h1080"
+   
+- name: "wire spool"
+  category: "assembly"
+  img-url: "https://lh3.googleusercontent.com/af4FOWXVQcgpC761M5ZXEfsQYTsNFIg2uLKLHsUz9C5eJ8AafjFBDbNUyBX1J4MmPtYdnSGm57vQSobERvmZWXC1XF9DSJqv5-RFO-UsSz-hi4_rl-QxBLNR-ghgIs-Vi4FcsJCuywQ=w1920-h1080"
+   
+- name: "bluetooth included audio amp"
+  category: "version-2"
+  img-url: "https://lh3.googleusercontent.com/Vqk4hV929Yu4oDeEsL0jBcGeJ9W0DkJwgi8r_SnNN0CngCtVBdmujekku-oD0S-m1Ct1McLCl9zdxrT3K8Hgn07ekmTU24XyxFaPec3YipYkJhhd-wBrpl9bJLLVTqKRQicXgfFD9m0=w1920-h1080"
+   
+- name: "speaker wiring top v2"
+  category: "assembly"
+  img-url: "https://lh3.googleusercontent.com/96Yq0ZYThl66DHyOOfZJ4smntZLvULuKjGdMpqT74aBl3fm7BknqeljODzNeacoTkHFa1WnZ53OS_CBJ-YajqpWpBIZlN0kWWPJ6qJnWylNfuhJC4S-Atv5i8vK27QCiAbdEqrskePA=w1920-h1080"
+   
+- name: "speaker wiring bottom v2"
+  category: "assembly"
+  img-url: "https://lh3.googleusercontent.com/YVs9nfbQGB1CNmKzZToVZuiJeDjc6l1MrL2Y62_ui5_yVq8X838Zjf-V7gZc3O-P5udxUXh_wxh_2WSsZ1-lBDtaDLak_fPTAZiQKgQhpSaL_Uv0fdizcle82H6VBm-GGfpT0HqlGmc=w1920-h1080"
+   
+- name: "speaker fiting pin in bottom sphere v2"
+  category: "assembly"
+  img-url: "https://lh3.googleusercontent.com/k8utjqQaDmtYqL1CmdjLloS9RU7cO72yEtcG1OPYRY1ahRwj36brB8wvmTc9CF3D8b1EwkJ_aoHowR8GTPD5ZMrN5UlR8maIT0_w9SWHIXXG4PFXeF045OVpTht_VjbFxj0vxIZNYzQ=w1920-h1080"
+   
+- name: "speaker locked pin"
+  category: "assembly"
+  img-url: "https://lh3.googleusercontent.com/smW4cqnX_di0bofXZ2_pNnC49Pn6XmMR_-P62ZlQa-45RfYApJ-bynALFPIz3IwK3hUeA_6rhmoLmJ5R5TMRAIdpxcl5SJlMyF45q4aOg04owrOwYMTNBZ2bhEAgEbupR6RHwsMulyk=w1920-h1080"
+   
+- name: "speaker locked pin outside"
+  category: "assembly"
+  img-url: "https://lh3.googleusercontent.com/Xf33UVXLz-Hh8w-30gqD0NZpx6xwuEojQqrXoPdJYe_t7lh2o4t7DsZDjoeewlFGf9fFh1JwEZuRnffInRLYA_EnjL0tVOKODPmUf_BjEggueS6wHRIfjZXt7wtfyP8aXfncved1f2E=w1920-h1080"
+   
+- name: "speaker bottom sphere screwed on"
+  category: "assembly"
+  img-url: "https://lh3.googleusercontent.com/EqIeJLzfpfj9-6wKCTeHUXMGdcJs4RgTXPF3E8-8NVD4zeTgjIUUFlNw-Bu8x-c-0qmXCPbn4GZF2nyayVrZY2RfdTYLGtjw8QhOHHrV577jFbSd6O5eyLcu4LKEZ-8g578QoSDofj4=w1920-h1080"
+   
+- name: "attaching speaker to electronics base"
+  category: "assembly"
+  img-url: "https://lh3.googleusercontent.com/eB02J7FK9g-iRMWS88qwVnWgQ1r35N-Ly5aWURGxVY0JTDfUT9V_XPdcYK9PBDwTZO9SwVRTWsyS0yYS1ILyyV962sfYD8cKN4X-APd_DOav9jK5gkDuG0oAszulg-za01NOwYgo45k=w1920-h1080"
+   
+- name: "speaker electronics in base"
+  category: "assembly"
+  img-url: "https://lh3.googleusercontent.com/jlf39Nl0WO0uNlwwqrF77plWDoLvns2LBU4Y9pJ4XdMDAnSRX7IcIr8jK3LyVcivPjpa3zeaatBezAH9UQzZscPN4Osj109MmBZ1c933hmwFlpoq7Oub-uTT4usfNHwc5TDPI1iKo8A=w1920-h1080"
+   
+- name: "speaker electronics in base 2"
+  category: "assembly"
+  img-url: "https://lh3.googleusercontent.com/HreCkdKWrYKw1p0LdSzJTzIZPMHss675KOvsCoF8bQi38tp174Hng8KdaUI3YRaOCEQCse5SPliOGj4NflBVuk7tnwrOrzGNqBTQvyPLh64AqV-dj-rC2WZsJTLMnahev2pTC3nZbfA=w1920-h1080"
+   
+- name: "speaker long wire"
+  category: "assembly"
+  img-url: "https://lh3.googleusercontent.com/q87wldXJZ7oTcL6x9ym0dE9sRQtvQlXxTU4YViH5UVvsFUrIguixzjuzQNdxjr_ZGLYMq7Grnpjnt7lHrwo-2u9Pqb9AKwnhfS7J7ZRtSWL5A7b8fUKmoxBOff_Y_aAeLEUhynzDPhQ=w1920-h1080"
+   
+- name: "speaker long wire pin"
+  category: "assembly"
+  img-url: "https://lh3.googleusercontent.com/WqUc7xncUR3D08gRzQ3LuAzIPS-lP7Rvt9yPEeGCUuQCUxc2pz-cH7gIAq6mY9PamjWiFnAkWwvhUoA7ZjsfnyV5bdHgEbmi6ZgHfkhN1VVQKeWiKJ8Zq7RcbTgJjxeG2gArKGypPsU=w1920-h1080"
+   
+- name: "speaker long wire top cover"
+  category: "assembly"
+  img-url: "https://lh3.googleusercontent.com/vx35TRwFHUr5JyqjZCZIfY7qXmovxq95MB31Dq1lHfq1hBXCEoWyagt60p624IX80p-HTU0ordnJtbXUVX_3yokTNP-eNR81HKbMMLBExW7_TMQ0NJLiz7IjCKjmbP5rkV79L7OoUO4=w1920-h1080"
+   
+- name: "speaker long wire pin"
+  category: "assembly"
+  img-url: "https://lh3.googleusercontent.com/hBcgPLjUy8oN83gqhNGiY7XR5fbM-DQCjCaRDcZ5prTxEap8lUa4NBapdh4gPS9TzaI6fkLciqfUdjjypbAVFgH1cWtv6WeWzC5-HuSmUQNDmkIhBNNqKS62lMbR5o39PNEch1PN9lQ=w1920-h1080"
+   
+- name: "speaker long wire fitted pin"
+  category: "assembly"
+  img-url: "https://lh3.googleusercontent.com/K7vghpKwexM_NBSi-OhZZBsOwy-DWp1Sv69-WDV2flX3pw_8hPl4A_ag8y5FQKUGC0Aewv8yU5JE7kEn4uKuBcLaQ2Wtiulglctcs8eYAT39Lf3sECNr7gNWBsfbXn5qlXNHmhRBJGE=w1920-h1080"
+   
+- name: "speaker long wire pin through flat base"
+  category: "assembly"
+  img-url: "https://lh3.googleusercontent.com/QqzgJX7ZMMjTMU_W_ugzpJkxdaDS85NZdGQ31ObLNaNssqqYw-uzxoTj5MBage3KpFpYs79oo1suMArzh3Zhp6PLhAggV9pA_rWjRuKW6H2psr-PwaRh0ftG0S1Uxi8WA1T1jXq6ayk=w1920-h1080"
+   
+- name: "wire spool base"
+  category: "assembly"
+  img-url: "https://lh3.googleusercontent.com/x80ERXlCbRUlC8lF4irMP6D7zhmstuDtau9yF0x6iFbJPgFIccACTF5njb09B7gSqwedxBzkzyVBAN0xgRDLL51oAEAZ3kGkYJkh2l7EIQG6hRpt2wydBSoY_XCjXN5ZXhQq3_xkSOc=w1920-h1080"
+   
+- name: "long wire through wire spool base"
+  category: "assembly"
+  img-url: "https://lh3.googleusercontent.com/cHaqYqn7eXAj2f2qq9U0jY7b08wEal4B0HZJwjnJnd2tZi6coMgFg7FNnq9xIplBbKhJEYWTeKtWDAgpn-Y-UIQzh-1pPUsML1GJ1hZUu8RF8oCgN-izo-PWOw5cA7p2FR0wosjYNmo=w1920-h1080"
+   
+- name: "wire through spool flower"
+  category: "assembly"
+  img-url: "https://lh3.googleusercontent.com/dbBZ8igODW6EFJM_7UJD29b14iIr6Xy-rqH-AjapjhgpocJafcObdcS_zeyQLqsgKe96uL-FuoJo6l4765xUd49szO5zuIMnK8T4G_KE4fTDWh84dNEi3dqF_g-PysZYT2OeM3k6EIo=w1920-h1080"
+   
+- name: "spool flower fitted"
+  category: "assembly"
+  img-url: "https://lh3.googleusercontent.com/1b1fLmGBErNzOlFxFfy4GfVFFX7t5_HVb-bGdDLpqapmEh3HpIQRm1GhuV5kvuHN4UdH4vrbIiYozNerNc2xshnQR304XIn_-6NaKmQRZL-aZMbq6kS4YJ2Bo5KKPofeO0CbOsO5spI=w1920-h1080"
+   
+- name: "assembled long wire speaker"
+  category: "assembly"
+  img-url: "https://lh3.googleusercontent.com/A708upQ6JV-Fy_86YqygH-aiGt5nveQ6POc8_uIvnIO2wdLSDHm8MZ-xIa7Mhr7dqLHLjToJWs44XFvbHacJUMUfPHZYwj45-F4C0Jh_kznQxGyq-vMvx3IduoLecVu9gz_677q8JCE=w1920-h1080"
+   
+- name: "attaching long wire speaker to main speaker"
+  category: "assembly"
+  img-url: "https://lh3.googleusercontent.com/w6NrTz7YbbonRYY8EPJTy0L2kpIvwTjRK4dIDVjwavgirW6pMmQXdU_aoDbTAWmcPUEavW4XG9vxWQ9DkXuDnTG1c4MraChBPzo30eEHrbySiI8wSvqYgtHPwXSZbJ_RMbJZTXrD10M=w1920-h1080"
+   
+- name: "completed speaker"
+  category: "result"
+  img-url: "https://lh3.googleusercontent.com/YZWw720qgJ1qF4n_NjA4i-dy3z9IAvInakCH1Zrd4ssLGhqFhVjCTn_9kTL5W3duLaXMyI0e7lnO9LhYPWi6d_tc4IDQZoGQOMVjpWdNnMtrQyHXHBY5BWhLiQBoUxNSm5FoqhY2dRg=w1920-h1080"
+   
+- name: "completed speaker 2"
+  category: "result"
+  img-url: "https://lh3.googleusercontent.com/2gNC1qiHOjazgJx8yOQjbFGgygqQxKOpOPeU_FvBioBZAvQqR4Mgq-msIHhLmoBAqsPIfyWGf4zIZ5xS52HJLH8DW5hnwbULbunSYK58pJ5OtLTr_ww8gMfH4xXdlGw_4eV8vXW6ihY=w1920-h1080"

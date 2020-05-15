@@ -1,0 +1,67 @@
+- name: "stand finished"
+  category: "assembly"
+  img-url: "https://lh3.googleusercontent.com/ZlsRnLLLW_fwJbitWKrilOP7vhJoRXEmLcfpm-LGvAzcj9_B-35DhDYVYu0TreqGqNRlSE59s4CyRM0bvUUdMR3aAdGpyj1RjxlpEXDwp3yOLNNuzIe_LEFSPTwgZIrLbyRU_0G5K1E=w1920-h1080"
+   
+- name: "blue lantern"
+  category: "result"
+  img-url: "https://lh3.googleusercontent.com/-qQb9joEELQYpA1O4-sch_MAjv7EVJdVa9E9bZteHSFgTaTAddDJyQX2gVZaQsgZunr5YH9TovJbUyGfIfJfSnVA8bZz8oeCX60OYfwOs7iwk5yg1JVyBzkdFgz-wBCk5qTacXG_aYs=w1920-h1080"
+   
+- name: "prints"
+  category: "parts"
+  img-url: "https://lh3.googleusercontent.com/L1Wp4gZA-GjhLdtusqvcfmv7Nte9lSsoTe_GHSOaCmNh4dBPyyUt2uRq34iBfzdd216Uo9r97qYbBJ2gtRuN9yUq6lG4LU6rbTICL8PGeTdj2zlBvx8cFhw7x497bmWXn8zAeIfi6i8=w1920-h1080"
+   
+- name: "led and wires"
+  category: "parts"
+  img-url: "https://lh3.googleusercontent.com/LefwwdiL4DtHOa5JHQmOnlB-LaOTVBSsapTO-rvIB1He2b9dW3YYnJge_wF7Xn0uE6Q5xNvyxgXmAy6upSDXeMzIIfB9yYUdY4cG2h2m5DTXc2OEvaVM2vEH1wsHmw9YJec1sYRa62I=w1920-h1080"
+   
+- name: "origami cover"
+  category: "assembly"
+  img-url: "https://lh3.googleusercontent.com/D0C0LEwZUE7O4r19DPNIF5C-KA9HFOsES1Gn-8QqD0gd_GvAV4PplCxN-chVJR9FXRHQBIS-uoLBdk4sId3h6ZQ0E5HyDpyRuQJtbxqw7lM_GD0kJV_1a40TGEVmn2JFZZce--q3Ltc=w1920-h1080"
+   
+- name: "hexagon wiring taping"
+  category: "assembly"
+  img-url: "https://lh3.googleusercontent.com/Ir-kGIYJu11qkkPqKZUPFBjvmdw--8NJdkZka7_Kw3ZmAyV6flxsHbsAuW1EjES2SBvEMUsFniNRgsxp_6sUD2eQwPE3cZ7TaCaSMzD2Fvk8L1zcInuSQM-DWRmaJyzY_tjAolclhTA=w1920-h1080"
+   
+- name: "hexagon wiring soldered"
+  category: "assembly"
+  img-url: "https://lh3.googleusercontent.com/D-sRxI9SSfl-11kLA2g-C1umCifOCnDevNh-iUsYyCxZRwM7NJDJ_Y8ao4_Bi167ePiALpGgjTl1MHEEOVApCwy67nn0gILUW0yiXL2HKbE-YKBhr6oiR5CyAgKIBcnD8ma8Zt-sk_c=w1920-h1080"
+   
+- name: "hexagon wiring wires"
+  category: "assembly"
+  img-url: "https://lh3.googleusercontent.com/juPcXw0ebMm6zkep-_MvSe7stkQmaXmeP10_JJgs5EQ-KAK5Kc_AsfaM2M73TBKUocRRhNY-DD5miqltT4OF5n24xhr5wJSRs4fmEHegbg_2P_9fmH2IlF4QwBvHEMBPt5FuJag_wpg=w1920-h1080"
+   
+- name: "hexagon wiring power"
+  category: "assembly"
+  img-url: "https://lh3.googleusercontent.com/z-hJh_iAHBG63EUKnUeAPTxMGmaksvYn02YOB8pq3Fn5TvxcNfSLE7ioiTSntJy2t8QX8pQ77XlFOelulgAk_jTnOO2qp9n94lnBz_b3wp-zqEXlA_qAtj4rOw7yKqQ7md1ev5jcedE=w1920-h1080"
+   
+- name: "hexagon wiring pre-led"
+  category: "assembly"
+  img-url: "https://lh3.googleusercontent.com/GUQIAdIHWNSk-LOiIpYqFvYMV-ccjn5SH1uSa42JeZJdM5wq3j7VHt919g2fy1lfpLCQRnWn8zC7KPewnLH2TsV4wab1RNIaweh9cQzfZ5wW7QNG8AurjcQish_EESzYnT9NSs_Spok=w1920-h1080"
+   
+- name: "hexagon wiring led"
+  category: "assembly"
+  img-url: "https://lh3.googleusercontent.com/aNJsxxOx13-bkx-9Gd4IlZ7H-IvVaOI0HUzL2rGlduWotHqHvrGQBbR63cynbsskVQPk6QknhWWb1Kfd52oJjshRbPYLW0uOvKRCi0m42FRWLbKfnCYw0DLiKTjFSOYi4d6ctjcnsy4=w1920-h1080"
+   
+- name: "three lanterns"
+  category: "result"
+  img-url: "https://lh3.googleusercontent.com/qMMcEuYccsd1yMDqthg9e35wxbPTNVk0kqH15GO4iOCGK12nM5DnVlh0pNtOZeooil1wSY4Y0A1-woLWfaw191ErcEcsX7UCZcM-jt5U_dNZw9Jjx7Ni22ylWh-CXZgs6f8e25iC5XY=w1920-h1080"
+   
+- name: "lantern blue"
+  category: "result-2"
+  img-url: "https://lh3.googleusercontent.com/9fBpzLxFUpns00UaGGVWn9Ml9MlDWOHSqDUGi3tc3B0sUtD3xm-zfHMvjHaUrAeQgW7MxMyCKNdN983mpLwHZatQqV9f2iOyfR3EQN_2j4etUhOgwk9ZQ8aQVBel6lXncVVAiHTyUFE=w1920-h1080"
+   
+- name: "lantern black"
+  category: "result-2"
+  img-url: "https://lh3.googleusercontent.com/nLBkTUrhP0hXTEEplZQag4kIqpmJfd7AOC7YyGHtzs-EmKDMCvdTrg0l_XgST3BGn-2X8xWfNZd9Vt9wCyuxZcRI951doeeiIf-sVtEs2ZAyzd7bBwovJDqj2qxJIIhoXUN-rz76S-I=w1920-h1080"
+   
+- name: "lantern blue bright"
+  category: "result-2"
+  img-url: "https://lh3.googleusercontent.com/aIQ3vdPYOFBBBda6BLDnRwOCqLzJPMfqwDeOIS1ScP_fZykgUPz9yfkPrklgZ60PnDfP8T2GGS_rDVtb1-97aHsUWoukdYuD3J8yWZFnEyuMpFTY9cpY9HiwCJiS588FLg0oVgvATRo=w1920-h1080"
+   
+- name: "three lantern dark"
+  category: "result"
+  img-url: "https://lh3.googleusercontent.com/tD-yyKliVTkBWEe4j9c0Vn6NeQPsjJEb_j_OPC_pY7K8jkyv5faTJxp1_KPhkcyCiVxo4a6wew3AoES0VJWFrY4i329QFrYTFmeOKAOI1g5V7r0y_OjSxIk0849ARabt3lXSIRT9a5I=w1920-h1080"
+
+- name: "hexagon tower"
+  category: "origami-template"
+  img-url: "https://lh3.googleusercontent.com/8FPJv5v-3J-tYVWq5wP3sapvJEL_9TiksEWcp4MM8N-2sKPOu9u9aaxuZYjnb6uotB3vq9-KC4QKconcVF-jMic-uavH0tGYP7NAq4Z162cKwccR49pXm9IAOQPiYw6hr3AdMqM0BLA=w1920-h1080"

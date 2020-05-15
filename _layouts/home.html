@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+<div id="masonry" class="flex-images" style="display:none;">
+    {% for post in site.posts %}
+        <div class="item" data-w="{{ post.thumbnail.dimensions[0] }}" data-h="{{ post.thumbnail.dimensions[1] }}">
+            <img src={{post.thumbnail.thumbnail-url}}>
+            <a class="post-link" href="{{ post.url | relative_url }}">
+                <div class="overlay">
+                </div>
+                <h6>{{post.title}}</h6>
+            </a>
+        </div>
+    {% endfor %}
+</div>

@@ -1,0 +1,63 @@
+- name: "electronics"
+  category: "parts"
+  img-url: "https://lh3.googleusercontent.com/6ycXCbI2F13CUej-zcXImpioz5zj048BDnFOw1atTI6I7iT3H87WHnJYRwDdPf4fETVXCZM2-CDYK0ZBir_Uqo3QK15dPedxKb48GFIzWBN-_eIN317JnNwwvCx0VG7-ilHbddTU1TA=w1920-h1080"
+   
+- name: "wiring nrf24l01"
+  category: "controller-assembly"
+  img-url: "https://lh3.googleusercontent.com/a8VZmFaE99hF9UTVkMYfn7MBlMJZyCq1-MyR4tCU_vQCrQmdAM4zFL-IK96F76tkhHPQ7jxkGoPZpLJoqpJWXBjR-IRndm-DsalRNJ5ZTMDS43nxLgckie5NaMcMgKetBSshQcm1hWE=w1920-h1080"
+   
+- name: "controller panel front"
+  category: "controller-assembly"
+  img-url: "https://lh3.googleusercontent.com/gzizSkcnvlyEpUyUvUYVZFchaj7QLhdolLiM9PK6XlwSuqOwIBrd1tmN-ytM2B-jYreZ8cfSM4Ty4xftcaVM7_3diHrv0unievT3DrzERU73yjBK2MkNR-sBCnNQCWUpRWGekpyNlno=w1920-h1080"
+   
+- name: "controller panel back"
+  category: "controller-assembly"
+  img-url: "https://lh3.googleusercontent.com/PO7ZP2PnyP6Q6CQtoAYKJjMzs5AQjsoED7pSGmPl3fvAZN8mfeeAGcF9BJUyabBgpr3__DQ8qyCSHNx3mKsgVNu2kbaBqEpLV5QUK0P3wy-U_6c1upbLWJxjSw3ISiM561cAme4gQ-0=w1920-h1080"
+   
+- name: "assembled controller"
+  category: "controller-assembly"
+  img-url: "https://lh3.googleusercontent.com/wJ3WVuEyth-7FWh6kTd2Ky6HWUd0zpjOc96492rBB6dTHbhx4AIC5Of33FQb3zOeD1gOueW0q2xpGVsXqhmtZ6geE6HasYaHftjD8OZbSZDm1voIH7nRTJPB8F7uO9RhFS2SCUrD1DE=w1920-h1080"
+   
+- name: "prototypes"
+  category: "prototype"
+  img-url: "https://lh3.googleusercontent.com/sq8czEwhLt2XQX_qN7fBpSHQPH7lX-HoB6xI8flraw9IGGriB5nX0WBD6U38N0ECMpMIq1Je-b1f-1lyZiJKVWEDlEtFSiGdLiCEMVkKx3ji7p5eInzVljaH7xKWAWRYpwmf8EoIJAs=w1920-h1080"
+   
+- name: "rc car"
+  category: "result"
+  img-url: "https://lh3.googleusercontent.com/cZI9baDp8b7lDvQpfqbl1MiA3u6GjtxI53abtPH6dPjqeRUbVm4ozwVlI4zpGijk3IsrPgj4MZ2vCgFjzU8kecvdz5gOxhnJYHOt0bjBBlJLWsisg5elXr8eH31387v8NFJd53WDg28=w1920-h1080"
+   
+- name: "rc car electronics"
+  category: "rc-assembly"
+  img-url: "https://lh3.googleusercontent.com/5BVHymJtBKBKonrq7Oj71WhJoysiwq9NJLA3D1MaLUeSF8Ut9KdfmxK1QHRa6MzbkrKTuqYZx82BTUYCOUPrz9niRGuPHpdRjOj9TJedGPznTwfgJOjXtQjsCHbGls2myW1Va8U3apk=w1920-h1080"
+   
+- name: "pin generator"
+  category: "modularity"
+  img-url: "https://lh3.googleusercontent.com/bPL3UkD3FfVhSiEYlVQmHfQ3coO32PGl8n4l1-scHFer6Iyg6Q08LfU9MZLFrrCBw40jHa1ZSDJG2ZpCywheZzxXfwmrJ3AZFubaTljfoEhhJFjX7lTXay204zaVyHvh6IQrUg8Heb0=w1920-h1080"
+   
+- name: "rc car bottom"
+  category: "rc-assembly"
+  img-url: "https://lh3.googleusercontent.com/3kC_3GUv09pBQtFDUTU0vXZrFFixdXfbkjKlyJklmsDiOkqiOo4QEWQ4st9PqR7Fr0Fxeg2x5d24qNGxo7SI0IszRVHB3AFF7rydlBxFBwojgmywbHChov3APWhHnThB1FqofI0yMEQ=w1920-h1080"
+   
+- name: "rc car motor mount"
+  category: "modularity"
+  img-url: "https://lh3.googleusercontent.com/baslu4HZDKGUe1X1VZ4-NAXdMoxQTvFXvHJLXSNfuoO9K_Ucd-ua1TRSvP3fnzc1Rhl56dFRm8ZXSRLzNE6AY_Bm7cvOWNheFZ9iUhuBf6dMfAyN9bRYU_8WRoYS5djZZoSLuCdmnjc=w1920-h1080"
+   
+- name: "wheel top"
+  category: "modularity"
+  img-url: "https://lh3.googleusercontent.com/5V_lImaoRiKpug7FP0kGu6BbBo7kovo2qr-2yjUOtE3ZCMrJ-nvwOD9k9LNUcuZZNGNv-DvVGRAcEhhyvewv8tzcAQcO4_zKIny58Flh_oOHMPhJdCNBQwubGOqnm_IVFMqlSefVT5Q=w1920-h1080"
+   
+- name: "wheel side"
+  category: "wheels"
+  img-url: "https://lh3.googleusercontent.com/fUtFoVGnzDXA0ykAfKXn0eHxQmq7HfV2M6i5syV_O3w9fFmkBxU4IOfy6m2R3oZPZN6-ecygxxcT2e2t5EfPc3u-LxfzLFHSXr2uLjnk8LK_6LwEHceKjqkjO8X38V4BzXmmjXgiJ18=w1920-h1080"
+   
+- name: "wheel types"
+  category: "wheels"
+  img-url: "https://lh3.googleusercontent.com/VaKWIuMpOW4nP2TF1hH85pNmgv7He5vQ49xBGBiN9DWDUrcxe3eG8fuxpX257r9Io2TAFLMq6xk8on3snskIU60wMdSXs9OC4u9miD5iIXJDygbtFv_3D-i65sVb1KthDc0bwaNbDL4=w1920-h1080"
+  
+- name: "joystick wiring diagram"
+  category: "wiring-joystick"
+  img-url: "https://lh3.googleusercontent.com/T8uSanh5T_SnltF472T9AhRVfAYDwwkX5OV7nqUq2qiwKpUYUfPazbQC--bt6PGHOTfKI9mZf07dT-teF_96sEVPFyv6XaQpPq45YoWeuWTP4y_qGB9-vHp1ZL4gTdKhAzj8rHOXKko=w1920-h1080"
+
+- name: "rc car wiring diagram"
+  category: "wiring-rc"
+  img-url: "https://lh3.googleusercontent.com/5MphPTX1preVDx3cMbfJHloiwx32I_hdML0_pHW_Jmvw7R0efvJOls4YHwh43Xn-Q0ab42rsrkxkcYxL-YV3OgQt3mPgSFE0_BM91PGpE7uheby2e-ytnqMAVWqQy9DsLw0OQwl7m-s=w1920-h1080"

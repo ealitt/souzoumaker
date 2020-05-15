@@ -1,0 +1,151 @@
+- name: "bottle cutter parts"
+  category: "parts"
+  img-url: "https://lh3.googleusercontent.com/Jr3jMY0aOLgoeiFCJd0UKqtF6Z6dbyqE58ETmf2zc3MIFWWWMYMTPYEwTt63iw38Bfp6BuxLyjIv3nzaJPJy35QwNEGWY5HJfU-VHJhSkjTrLsJlWYC9VNqowA6AlOU_VYgp6He5oPQ=w1920-h1080"
+
+- name: "bending aluminum"
+  category: "assembly"
+  img-url: "https://lh3.googleusercontent.com/gMboC8e8LyqfA0tkCYY9NaXC98zfmx4G2ZyRQV-nWwjEeB03BcejXfRg21U9itDPJ2zc4FGDQvZxwxuBmMw6vAxHouDEHS4X0lSGQ3W0o38_uUKb9_7xCfpQOUR-6vjtR-F6K6iY5eE=w1920-h1080"
+
+- name: "shaping aluminum"
+  category: "assembly"
+  img-url: "https://lh3.googleusercontent.com/UfTtls66n4e9u9ogp5NpuU-ZK0bsnaJaU15qfz3i77SYB6jICt7KpXXQp_a5v1_me2M4VO3DlOCL7rFM7D6U483X0LLWbKx_Dei67LWo3Kmz_7fo86kFCOPKF4FuIvsw16fe2idGLeU=w1920-h1080"
+
+- name: "flatten side"
+  category: "assembly"
+  img-url: "https://lh3.googleusercontent.com/htuFx9PwXjzSMAw0RSibGGjwzh_Ie8XRvlrdIvhYr7Qx3x4aHthwgbQsSvrNms58q2_GDVtUbAZM8g4tVN3u8K_lLGwbkbVULiid0TYICdq3e8q781ohVAWwSPRbUJWHw9LaBN2IgT4=w1920-h1080"
+
+- name: "pre-glue"
+  category: "assembly"
+  img-url: "https://lh3.googleusercontent.com/lG0LXU2bhA3UhfZLAYKTdFWKoMx11qeyf2XQWYDFRXeJuc9OwOp_qKJP3xQK7W6AX5aV3RKD0j-5Pf3RFEYEzoOskrugRu474JJfOZwKWqr9Fddg_dZ4Hkys2o53NWyrX_4ZFvqp5lU=w1920-h1080"
+
+- name: "pre-glue 2"
+  category: "assembly"
+  img-url: "https://lh3.googleusercontent.com/mikIBf2IJiXJwgV0fjeq708WipqKhmMZwGPVbhFVQa91xZxLGhCsFh3cGQ8BuvQbEv2h2H00eWv9BsPz5KgYirTs7tLsMtcsrmeofna1UmeoV93YDHF6LQ3yrwn88o1_MRbMfeMrGFA=w1920-h1080"
+
+- name: "pre-glue 3"
+  category: "assembly"
+  img-url: "https://lh3.googleusercontent.com/cQmlqwJ1_THSO2fJYwaUAtXTcCajFgAo3c_0hgqJp9mrakQ0tpBS-8g8iWmRnVTY_o3RpV0JfhMFHGr67M2nOf3R2LUL7apAg2sbj-Mjb62mB3TFP5BD2v_Yp_y_B_Pp2P50OqooPa0=w1920-h1080"
+
+- name: "slot aluminum base"
+  category: "assembly"
+  img-url: "https://lh3.googleusercontent.com/OyAXU-9C2coih9BViUZ-o6QQEU1n8fY-dof7gwKRJDUKXeh4Up220MUnPT1cjKlHociZUqJL9_FhzAG14XwAswsKpSYm8TwXO77vNVJc64skk6ztaggXsBIIgnZQib3ZfVF5T1x--DQ=w1920-h1080"
+
+- name: "pre-glue aluminum base"
+  category: "assembly"
+  img-url: "https://lh3.googleusercontent.com/GtinSAdYu1SgSeQxtjor2xq_kCvkjR36yYxyBGZtuJltqIApE-B-RWhf8VII8z2Emr6_YGI6ffwXWeFugeJEpAEB7ZNYvS-FSe8YU5LRw_Iobz4ZGh6jukTQzS8mPJZNPoAWUkDyt3Q=w1920-h1080"
+
+- name: "pre-glue guide in base"
+  category: "assembly"
+  img-url: "https://lh3.googleusercontent.com/g3DzU0dFe8sNaLy_addGdEWi9lWCnKOxqf_yQvclsx_fo7NqaC57oY2lCecgu06kJZ0ogBC5lfHLy_QwQigPkc2qKLHWSnoVBKHLaSqcou3DUjr0LW7InSLJAMLFU4cRNXw-wly1OQc=w1920-h1080"
+
+- name: "pre-glue guide"
+  category: "assembly"
+  img-url: "https://lh3.googleusercontent.com/o7ZIFSt278-8Uj8vPPdRqJCV9SMoHCx7VsOqzdSYAs_nQatA5yDXOQbiCXJeWwdkdlFKGBi8AqHOj7JvCChm0upBex0U6Y486PcAixrNjY6a4ynOiKNp3x6eqnhSCCMcr5PiIjlCx6w=w1920-h1080"
+
+- name: "fit guide"
+  category: "assembly"
+  img-url: "https://lh3.googleusercontent.com/VgGMsQT54_2bWTiXunUpv0EqVwl5T2efL24mH6dcKBydkmxIxEMNDkqFGnSAa8m6eGZJzRP-m6x8JUZ5mttv5xJcrpQgRqhtMoc0Ut_r3PDu_RNCEhPxZNK_DpSmaESnIsKcBP8sde8=w1920-h1080"
+
+- name: "glue guide"
+  category: "assembly"
+  img-url: "https://lh3.googleusercontent.com/7r76DmelwB3fUd_hklboDeT-VlBHEFkjV6mzdehGgwvX8T0DZ4lCnqvSQSR2jTRDslNCy2UvYRpsaRTP6lSEvRuh-xOoMm8sxr6OABW8zd_xb9QGl6UmZm5fnFEg89MjkTAE0iHMDeE=w1920-h1080"
+
+- name: "thread handle"
+  category: "assembly"
+  img-url: "https://lh3.googleusercontent.com/ir0YNv9rhA5gFlrBXIWsDrjuRpV8XWqGRQUa1pKjW2xK4Kc_XdCIrR-BL-9Cg1LcaMYQxHEmEafraxkrdaDFkvRfDpgJq_HK-7iv6AtjOyLhOJkEVpQYE50pKsWumv3oxnbDInpwU6M=w1920-h1080"
+
+- name: "threaded handle"
+  category: "assembly"
+  img-url: "https://lh3.googleusercontent.com/PpH2THBpwZgCjIEdSEj0M0uPde9eHEPHscoQ7HX5BkC1W2hPysNYY_b50lYDoQpa7FIbJH0WGovQVoVH68q-sn1HU1dVpwwNF4lWo7JkQK9RxiXQZux81xzkgRaCU6XZ8JH3G9s8mBY=w1920-h1080"
+
+- name: "cutter blade"
+  category: "parts"
+  img-url: "https://lh3.googleusercontent.com/Hme29PwsdHwXATKIuxicHsjHPIWasKTtkGVOFVJ-apXpt426UKZ7znBqSgfXpeeMb655tnVHqruus4SDhhxQagn4jC5W21JWlQMGbqYxUKK94H4i01qx0FRmJP9nOtVAj51h3eAyaV4=w1920-h1080"
+
+- name: "snap blade"
+  category: "assembly"
+  img-url: "https://lh3.googleusercontent.com/t3uj57daWXc76VGkrtjw8HQRGNmD2pgGnzJ3e9HWo4Nt2JDDtHnYztW87Vog2unm-Zmn8ss9yL3aFuYG09HQtzH11T4hdEQUvqQKa2haeEul1GylrHykR_Ih5WmGUf5u1VBjph5Vq3Q=w1920-h1080"
+
+- name: "snapped blade"
+  category: "assembly"
+  img-url: "https://lh3.googleusercontent.com/amXdoMraggqWUbxfUrCHIfZ4WN5CzIpq99n-uKYNphaUZV3WB4jWn9q26sHlUE9ljSFtuAtz6ZqUJvsiF65t_HeEWFvoFWAMb099ha8anS0kWVUnCqGonqA3qiNT6qkdIKrKT1iCOko=w1920-h1080"
+
+- name: "insert blade"
+  category: "assembly"
+  img-url: "https://lh3.googleusercontent.com/EIUVpVJIsigbCmJrij4NK8r941046fSeBrgK02L1WSaj-VTGvuldjnUqzx89-C95ZFJUI585OsmBvgw3k59Zq_45Cj0BGmuTdQjeX9c6_iOCfX6IQ7s1Iq0z47wazUtqHQSZCxgw7fM=w1920-h1080"
+
+- name: "fit final aluminum piece in base"
+  category: "assembly"
+  img-url: "https://lh3.googleusercontent.com/aXFVhDnCz7YRJPIHlTgjArSyDBIfgGAknI1gREVeudb31qacCJPhhqF6DaLjjDL9tObz53wMl7itw7KmwT13iINeA8IdCKNPBy-M1BkFhMfRWgVZbCvcoo2TIfllkvyKRJMMpJGv_-I=w1920-h1080"
+
+- name: "finished guide"
+  category: "assembly"
+  img-url: "https://lh3.googleusercontent.com/fSR45gzmy9QRcBlXpKHQufwE0xSqdetM-P-gse0_dchaux1xJPMQ8uKBs_o8gKya3h5vy5nlrnjg6Ln6VZY-NVREiM7piROVLlrRF1-Qc2_Npgz5CkTX95mizRFniWX9b76J85P9ql4=w1920-h1080"
+
+- name: "bottle cutter back"
+  category: "finish"
+  img-url: "https://lh3.googleusercontent.com/ZGJqHOPf62pGXA5ZSCY8TTzK4Y2DLGes8fbhzb0QGhfxLFDC9U-uG72lA_gpJQX10UxDfDjled82NWi3wDLZG_uIrg0iqprkgjdVgQGtkWJJIyuEzz-JVpmo310JbhWQIbr7rhHuo94=w1920-h1080"
+
+- name: "bottle over candle"
+  category: "how-to"
+  img-url: "https://lh3.googleusercontent.com/RPW9XpH0StefsTgPSQSo9LxAltM68p5b-DcYvaDx3l0XcXpm_n6qAqnkP1qhFoHepU6AxoeArQtNXom97qUrWdlN5Jx12XpCO_eZe_5b6DN-exdPCQJMcz9RgnBEuvrkc_SMK7U1DbE=w1920-h1080"
+
+- name: "warping bottle"
+  category: "how-to"
+  img-url: "https://lh3.googleusercontent.com/AkSvyCv1qKAhegHB3qqU653xUe4VCPuAdc90ORBmobbIVtjg_7Qg9DMkrYTo4z9wQyJMsQ4q3TdD5UXGbTcBAEB7Bg6eKwmUE3gwn4o2i1TNDdWSnL9Qv6KMEdY26WF4c75Cfj7eOO0=w1920-h1080"
+
+- name: "warped bottle"
+  category: "how-to"
+  img-url: "https://lh3.googleusercontent.com/Bon0BcAZ2coDKf_fGbcVvH1WZaF7QchvNIypKacpYTL3W-ep4aJyH8q0b9no1AsKuKmoz0_wjgMYdfzml-zj_Oj40gYoEETYId2YMKQ7oLOtGJGU5ojXUs7ArT5-mPgyDsNR4tnL6ic=w1920-h1080"
+
+- name: "remove cap"
+  category: "how-to"
+  img-url: "https://lh3.googleusercontent.com/XgpVsnNz-xWlGeVJyzNaqrcoW7fQa_bMTbnfENmIzh1T6ST7m5y5UmBCRImddV71ZM02xbRfhTfNVt1XxuGj1ckQ1ZvFIykq8n25jwNsFg11oyMXm2LHCDF72b-BIM7LQM32KZNt--Y=w1920-h1080"
+
+- name: "cutting bottle bottom"
+  category: "how-to"
+  img-url: "https://lh3.googleusercontent.com/gPHbk5dforRM1KGlT4PTxT76op3cdqWhzy_8Mh92WKbwIAYJSNFE7hhB_XabeCxmeaV--I9jgDToq4fpHu95oo5kL6GYu9Z5bW7318Wg47_3E6TiyXeQWXmO1qxpAd6bq_yr4rIz1jM=w1920-h1080"
+
+- name: "cut bottle bottom"
+  category: "how-to"
+  img-url: "https://lh3.googleusercontent.com/N4cP3j30LjUv_Dt0FpSCtJYD8tNDiIgvTXVRuv5TU4WNHTH3LoBtUQBjWnLN_ryX-oDGxf27PTSTaa7A2ISAQMzrPtcEict1otWKatGtieq57luoO5fJ1LJKMqT_cVSwkj3c1iRXaDs=w1920-h1080"
+
+- name: "marking guide"
+  category: "how-to"
+  img-url: "https://lh3.googleusercontent.com/AUtHobfja7WCn6tYH7NSzq0UqEOKCvKdDwCgqgXRdJj_av5s1-cChdAv6GzgL_1749l0Zqe30tffqhYcwHee9fVLsZUZxN54soBhZC2wkYGLFkE6ZZh1Y7Hg_l4vM2Ih86Pr8xtVVIg=w1920-h1080"
+
+- name: "marked guide"
+  category: "how-to"
+  img-url: "https://lh3.googleusercontent.com/yYx4sjKGm4UA3NPemnN-IV-e7LzlOgtX62I9zqiUJt7IKcEZtmB3YyQcPgofYf_PIm_knvJaHa0SYRmZcLaBTFENheVzxdCul5-GymCdssnszwOqfP45VyCtX1XjGmvJuzl-AtqNmHc=w1920-h1080"
+
+- name: "cutting bottle"
+  category: "how-to"
+  img-url: "https://lh3.googleusercontent.com/YGOFFGX01wXaiO7nNLyZmV2432QW0XuGfwl3Bzh5iBnk9YU-m86VhDxka-PnbqDZLDC0u2jPBB0LvF_8pbUNC18xU_WxvWQOMAJJ8eK6SUb2K0cUoyZ83fP9rYfqjzVIVJi3UwqM_LU=w1920-h1080"
+
+- name: "cutting bottle 2"
+  category: "how-to"
+  img-url: "https://lh3.googleusercontent.com/TMH7U2o2l7PDyQFF9_6nQY2nGpJDgcTaQEDq8SgE70zlRcWNxu2Iu870BlAssKqIre2lPcz17SbZehxiT47os7qp03I29weoKAWbNJArpM6CeuoDpyKzOMvZUsfbExqueT4AHsu_y24=w1920-h1080"
+
+- name: "making rope"
+  category: "how-to"
+  img-url: "https://lh3.googleusercontent.com/Qz7I0-I-5PpRjppt5AMLB3-neVsPqQIAxaL-eNgRU0tTBHDxxN0-6fvhpjw9Pfi4jmxNN5Y9iTYPnJ6CX68Eg6ux0lK23UhriX1AJakgv1NsVbFVz1o8Mp6XOeqIwt8_qBTMSuvCZP0=w1920-h1080"
+
+- name: "finish cutting"
+  category: "how-to"
+  img-url: "https://lh3.googleusercontent.com/PpnZrfCjxq6YhtzWODHVyOQzviNr7i5e7o-MuwdvdDXKdUfRsizY55G1wRgLRbJPFDDzz-trbnPLRtpWdWpM_fNFxm8aSk7edS6baqkfPYpOWT9UD0TXcKUaF0_P76nacFZsmNZyG2Q=w1920-h1080"
+
+- name: "plastic rope"
+  category: "how-to"
+  img-url: "https://lh3.googleusercontent.com/NcEiPRRUHdihhPQxPu1lPNIc3s6Zio2G-5Tl-BJ6m1mxC-FHiTjkyqzJ0W06GjmqxaE2ftmCG98jV4zcDdGOA3R2nbZ5_8xMnCF1kO0K-2T2WCJJN9wLvYzIAUEVXRSaKb1Eq_hykRE=w1920-h1080"
+
+- name: "failed strands"
+  category: "how-to"
+  img-url: "https://lh3.googleusercontent.com/GWH7gyWc_yxCD-0gDuoVXATJoeEgNY-Yi48bkOJ9yZHZRs2YFk1hGoKlkJutFrrx4PVtxI1nPeSyR7nYQDbO1yGP1NG91OOmrQexaANeNITR4HFGcpff1mFd6yUcWBKs239Q9TxRoaY=w1920-h1080"
+
+- name: "previous versions"
+  category: "conclusion"
+  img-url: "https://lh3.googleusercontent.com/njMXexukDs0feNOm9ZHImRyT0Qc_n6-l9e87VzRkW43H-8BijVORylGXcL9JgNfK8CirjZjlorAoU3pppTh-pqu1wqAzkcNFmSgh1g9H9orK7TOPwVa0-2lQP8u15iFdRe6CbAdnLos=w1920-h1080"
+
+- name: "plastic bottle cutter tool"
+  category: "finish"
+  img-url: "https://lh3.googleusercontent.com/MZk2nS1EUCCAnjpDxv48Y54UTu8_o_J3D-bULVgH7xdjFm0EDXF_v1zXnL1zVSCZ9k-0YwZ9Zc5LQZ3H-1HUyFHcXlS7ohy81Yb4ssz3JeEZWa35U9WToKAAhCgacsC--1bBZDeJxY0=w1920-h1080"

@@ -1,0 +1,41 @@
+- name: "fusion design v1"
+  category: "design-v1"
+  img-url: "https://lh3.googleusercontent.com/VyF2XgbV9d90aT80ngV4UuRfzfafc1ou_iAf_dM79NMsTQYE9UrsaCoeUR0uiH4R-g0pbc59l_9fiTcszkzTkqHqPgCorbCxSIkT-5tOF5D3rK6JFrsWbdWi7dKJzUmeiV8uAREMxoM=w1920-h1080"
+   
+- name: "colored blocks"
+  category: "part"
+  img-url: "https://lh3.googleusercontent.com/lJkDOT5Fs2EXQOzRvSD2Gno-p4gwwlIA_fN-PEwdxc3TGhr7ihdlkut3xb3AnD82dLPZRBzyVxyC7erRG5E16MNKAqYKWj4lMmOwMLybHeKRGA1Gybyp55yU0HJbPeKdBBP5mn4qgc0=w1920-h1080"
+   
+- name: "fusion design v2"
+  category: "design-v2"
+  img-url: "https://lh3.googleusercontent.com/yKG7zqaT3cBniGea95ljioCAioH-Mddu7k89sMMUJ3IIcu5DM9Pofjg1e4ReLDCWiHFTrUw44HUN0SNmBYgG-A9w4jUVlvTmzWWWc_dqtJIB3bntv5hX-zzYexPJQbWut4IzXRisuXU=w1920-h1080"
+   
+- name: "fusion design v2 parts"
+  category: "design-v2"
+  img-url: "https://lh3.googleusercontent.com/F7PDeKKTj_X6JFLTw2lq6-QVCztA8rK7ckd9m3OuIsF9mDE01Rq7-jJ2HsndKWP3LSQ39ZhrmFivaw2V3QLc3unJfITQydrD9nydPyTtNoUGFxVF6lOfTNd7tZHw9iS7fqgjPCJRiLk=w1920-h1080"
+   
+- name: "assembly center pieces"
+  category: "assembly"
+  img-url: "https://lh3.googleusercontent.com/W68j4BcQpPqKGyKSsrBfOGsxa_lnTLlJetJLARE50kYhaHHzoOSYIo9XUqv_33jLoiui2F4s9S7SGrNjRxiHFNStpaTlAh9ZjsM1KrvRW3VIA_0PIiHDIF6ydYzlyGVhVDEc6_ZkYmw=w1920-h1080"
+   
+- name: "assembly bottom"
+  category: "assembly"
+  img-url: "https://lh3.googleusercontent.com/bj1THXzntS96lVw7gyWgBTxhzOfoHcO4RRDshL0HcHjheY9hCe3Vbgk-7TIq8BI0PScuEg04pCuQvOOm6uwVx0z8Z0T8FOZGJHzxtiw6CrkA3oRcDNZVKEUTfA5ol9cObCU-RQrJD6U=w1920-h1080"
+   
+- name: "assembly top row"
+  category: "assembly"
+  img-url: "https://lh3.googleusercontent.com/LEYs4FHtwfKXTfytjDKK8O5Ipdx1WLAQtScpDZt7T1k62jg99bFnMgMFCkMEivq8z_ODcpw6jYI4R4SJ4O8VYqUIc5gJNClUkSMIh2L7PmOt6mmbXtDvtunmBdES1wteiqcEmjnKImI=w1920-h1080"
+   
+- name: "assembly middle complete"
+  category: "assembly"
+  img-url: "https://lh3.googleusercontent.com/C-vz_u555bpZn7ogLdS38fgsUnclAWqbtJG5h3LaDa46a0--kenfLLoa-EQGVsnCC8wZVyEazpDC1ELtjvO4AdMyljlzC4vqLBDdAMumCaACGDqDjAv-rDsRLewnJeffO9d7T0VX85o=w1920-h1080"
+   
+- name: "assembly corner"
+  category: "assembly"
+  img-url: "https://lh3.googleusercontent.com/rBRGE-SzDwX5Nke73Zyl3N8R8wFNho3qDd9CJdhCd2FXFTUq8IwoKTupio2qrXbd0aoJlg7T08379ApyXFU-qphnVcQZn2GgnaQFUN_ooDTPF8zroG_FHE9KePow4R8yXESdLF2rtt8=w1920-h1080"
+   
+- name: "assembly complete"
+  category: "result"
+  img-url: "https://lh3.googleusercontent.com/ps9DVC6BKr5rtffDrXEJmVP34USlxmn2FHzKXeDJN8HMD6Mm1929bi6NTn9wU_PCbPdM_F4HvOmPmJ7yetX28dlxJvCn7vfClENk_XLZKhC7pQyOsrH8-56x7wWyo_x_oQ9SNiHlISA=w1920-h1080"
+
+

@@ -1,0 +1,83 @@
+- name: "washi miura"
+  category: "washi"
+  img-url: "https://lh3.googleusercontent.com/FlgQQKAyGZlIYBo4iB9H1CFfo7qpP4DD6thbAN0Md8esa8XupUWlcfdfbv1k772WC6tqc8M1wfBgpdpesZ5-PX_uUVRAkQ-q40SkfE9iQxf_xtRzX870HRGA-VSVdKoUkU4FO-IF1Dk=w1920-h1080"
+   
+- name: "paper miura"
+  category: "folds"
+  img-url: "https://lh3.googleusercontent.com/R837qybZAam9K5LJHWQqACEK83TXkBTbExQZnphlZwIYyWRERWM9lYzwfehn_ns6qtMmzXjCgjoqzldVQJBtrNwlvet2tjMWKU996Wm6l33gZ11Om8Ow4TxZezJW5lQq59KWEE6OQnI=w1920-h1080"
+   
+- name: "paper triangle"
+  category: "folds"
+  img-url: "https://lh3.googleusercontent.com/sdKqTLJs2g2TqpyTqodMACK1O6SO02-rJpGeO8I2eJxMQ_Cjsc8XSUjkLbW2arB7WEvqw8YBHwJFqwB-xyPeGdXB7LF8QOMhjraViOKk46Q8qyqSnVJqEOWWJfKox8nLotjYDKbX6T0=w1920-h1080"
+   
+- name: "collection of paper folds"
+  category: "folds"
+  img-url: "https://lh3.googleusercontent.com/HsEcxFWToxXMCzPPUSWtvlfXWnDT2mVmPYy643KAnseh9WNCmDa6Ncx4RywQJcJLXWop6wOJI9G0fwv6CySdI-H4-7OUIA3xwDhQx1-fFpH2dL0aVXTdy66MonEsXIliwVMNBuXr9Kc=w1920-h1080"
+   
+- name: "paper sheet"
+  category: "folds"
+  img-url: "https://lh3.googleusercontent.com/070j1lxC2-jx_PNhheyyPtXQ3U3xHQQs4HwKXIuLFmGj4COJstiDrsL6DO_mwVx3787QB868fIhuffYiC6WiACF8Ab_YQkUrntgzl3I5KMANG6jsma5ElgY0tfh8EbHmG2az7nTsgkc=w1920-h1080"
+   
+- name: "miura fold red"
+  category: "folds"
+  img-url: "https://lh3.googleusercontent.com/EHLY6jqxod8bw0ADNzDDhntkVxijuUt6aSZJcVmHaQuxnkergud3wAit-S-_UsrD_xMy3ucvlaGG4SbRYGnvw_WG5EPULgoI3OmkZMx_PmjRBFRznwkzeLQhutpE-96eeZFpWK6BhZg=w1920-h1080"
+   
+- name: "triangle sheet red"
+  category: "folds"
+  img-url: "https://lh3.googleusercontent.com/p28J1Gv6sfR6TRSIxoz75Amkhgx49AhGI-Jg8dMwAHQwUjI81PWRAehRHmFOZ9YMeM4w1vm6Iyyos7NoivTsnI5i5ERvD7uLzyWy3JE1K3c4FfO91fb6aiuAN3bG_rBVQ_9piKGhHf8=w1920-h1080"
+   
+- name: "miura fold red side"
+  category: "folds"
+  img-url: "https://lh3.googleusercontent.com/pz9cIdWAQdwtzvXwbjX63sB3xY4q5CKW7DH1aVj32SZYp3ZNF5DkZ7EdyBss15Y7r9tj7PNNt_6bUt5GbN3T-Eh0DyDFUgBReGhMPLmFFxvaxz3vTQw1j9GDFmKO312K10sXKALCpfM=w1920-h1080"
+   
+- name: "miura fold red top"
+  category: "folds"
+  img-url: "https://lh3.googleusercontent.com/eWTUCR9KFOCjaOfTETph4BfS6QmCAepXRJa9c7bLtX-EinDbRF-k2wF35CrVLZoysyu3uXUwwjMJzbTmd9x_OdLfXgXi3KVaqaTPtuSaPUCoegrloi9yVxEDgdwRzjjTFzBztxiXnVs=w1920-h1080"
+   
+- name: "miura fold fan red"
+  category: "folds"
+  img-url: "https://lh3.googleusercontent.com/bvEiyryHCVrbN1v9jYackR6xK7q_Gx7sZD2j6CQwpK-z5XZfq7Qa9ZOOZbVjQq_X4vz1C524GVQs7UHA5sy2p9BtAoJSC1YvD_xVHi_e1hj7-L5LrCSC6HI8XVGjNzorsjjYYrH_s6g=w1920-h1080"
+   
+- name: "website home"
+  category: "website"
+  img-url: "https://lh3.googleusercontent.com/HsEBpy5sGm8d7piB5i4F7mt7ZLme0kkKz-eD1q4G8eFUpYWBZfMMLB59peptpPrGT6dRyAYD7mLerxakRY-DBJ97Ffs7zArLwfLeMB3JfW1fxYx6kSp6VFPgO4FoKB-71UgCQe20YJ4=w1920-h1080"
+   
+- name: "website svg"
+  category: "website"
+  img-url: "https://lh3.googleusercontent.com/U834B29RZ8yGIVBcT1r8n_CG09AncxnAzsaQH4TQnfpVN6LCPhbo8KcYQzzowuWJqyvIVdMGe6nm8lmKjfXU5KTcuk-iRQYgWEyKChd1_xYPhuhYAVxzfiST1rD06XkUF9rNDtvKh28=w1920-h1080"
+   
+- name: "website 3d"
+  category: "website"
+  img-url: "https://lh3.googleusercontent.com/gBwGEsHbUIapMPVtJ5PyPTmdHS4T5n1E4wvR3OR3DCBMl2SPFeFCfjcARmOOGoQNfo8pM96BWFHj8f6oe2QgQrGm6SyPGQhRfHP8Cm4WQGff-o3L7L2xVfFsBWFjy9X2DGSDgeiAzDg=w1920-h1080"
+   
+- name: "washi triangle yellow"
+  category: "washi"
+  img-url: "https://lh3.googleusercontent.com/EqfZQljmRVudQdjwg7tk2LR17tak1XTkYb2yHPrgCSjoEGog3FpNFhrUew5h28Ko-o-hRDCWorp6Ysxdv0t7-zwKozHfIKeVYvLxNi6h46KQx5xaCcFtcWMQEVoJ3fAdfxFXOzAiN5c=w1920-h1080"
+   
+- name: "washi miura blue"
+  category: "washi"
+  img-url: "https://lh3.googleusercontent.com/3EzZfINqMoHsu2mJ1A-963L_6aN2LUxSbscjM4cCWyNlh2k_55t1wqT2EAqKpZvXg5_VpgLmI01E71t2ni3129iTVzmOduxLRI9DehHQdlk97rK2ytf-vsxg4raqpr_LWzqPM9hEMbA=w1920-h1080"
+   
+- name: "washi isosceles triangle yellow"
+  category: "washi"
+  img-url: "https://lh3.googleusercontent.com/UttEWOucVTyVgCUUzeAfY7EbfghB53FS0KAGXYbV7kz6_K3e95oaNUNQhyPuq94y4Y8bzPSttxlbKGtE4kzxSnV97P2YKip7Hkn1hr6onYpJm5G1HmKr6llXsjYOOBlhsOyE1rj1LH8=w1920-h1080"
+   
+- name: "triangle"
+  category: "template"
+  img-url: "https://lh3.googleusercontent.com/RTHpSIt5oc8hlP9V2FBMW2f4rpmohGnnZjwxrC_c_RbsOLiC0CIBtUukGnSu1Aezf_PO13z3AR4GDMeqmKaEEIscnyTs708V1qABq1sAHsVUpuyKQvwFydfnBs0tMt_-gkXBxnRjOrE=w1920-h1080"
+   
+- name: "hexagon tower"
+  category: "template"
+  img-url: "https://lh3.googleusercontent.com/MMmlTmPD8173I429zYk8f7LvEGbYpblIpKt6rAkTvdqf7QrSjVteDe3TjGQiECnhnLGxSUSimCPxBqz2tIZFvcn7GnJnV_PkN9wKc3anRjbHH3JbuaAXZOEiu900JukhWBTDEbrscOo=w1920-h1080"
+   
+- name: "wash pre-cleaning"
+  category: "prints"
+  img-url: "https://lh3.googleusercontent.com/6y5STibXvDyhD7xeny8vE9T08-mW8x_Z55emDH3UtiucAHWZ84vl4nT47NEfDSwGhs6LWjKwsPZzTdE40mXU88DhfnOpejJREtGT4d6WRe4mKA_uCT7QncL3ZswntAaQRWl99vGpKdE=w1920-h1080"
+   
+- name: "miura"
+  category: "template"
+  img-url: "https://lh3.googleusercontent.com/rSdVY7mZYyXJanT2O7PpCK6pKkygRw5I5GwpuiejJnceAzckF7lJPZch0ERUxMxS3aIwkBQDgrrDxrt-DqwR_WfYNhpCkY3lm2HBjxh8QTzLuhbSNgeQNF9a6DO-Z7hsvHUDlL1JUT0=w1920-h1080"
+   
+- name: "isosceles triangle"
+  category: "template"
+  img-url: "https://lh3.googleusercontent.com/6JCrcbZhvoTEgTubMlVqj_GhURppi0dPv0RJo1xHDMi-F79Sj4Ceta-2bqOdZzIjB4zAyIqsu0OHzUA2NXl1gKUGg_mw3qDW_4qFb42osYIhOQd8erSDMpXEV7-a_Z87RXTLmJ-xjz0=w1920-h1080"

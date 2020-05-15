@@ -1,0 +1,23 @@
+- name: "hard drive top"
+  category: "parts"
+  img-url: "https://lh3.googleusercontent.com/S8yhMH5_IsW77gScrlqPVnnsTl4ev7fAOsnhthvW2JBuNjGlOyECxuolvqfds1Vz0IG4c0QhpRQyecsGYVqGusSdDtQIj2LmxIertwbO4-t5bwHtfki_lv0t6Fomk4aETYUzT3VJH8o=w1920-h1080"
+   
+- name: "case bottom"
+  category: "assembly"
+  img-url: "https://lh3.googleusercontent.com/FSNd_HpigrHaiG281KMCTMSBhFV_umIyoUAKQwFAYN6d0CpietXCHckMlZ-epncJjlw0DCd2SRRas0Qlz19N98JhqVEEBQjn2F1H3NZjzv_ZHEx5akQZRr7GgjmxLNQKZocd-Lu2gaM=w1920-h1080"
+   
+- name: "hard drive bottom"
+  category: "parts"
+  img-url: "https://lh3.googleusercontent.com/p8L6WpnNdiFFPctTIOpXmsXDUUAP3sUmgY-T716NYX4eWqJ0LJCqca9G7Wo2yOuLZTBuutfM3HQIQTYDrKfgyi6vNMMJrjUpMqANqS3jr9qvWPnR_OoqaH6-KmllXx-J_XR3UQiHNvs=w1920-h1080"
+   
+- name: "rubber feet cut"
+  category: "design"
+  img-url: "https://lh3.googleusercontent.com/56BMFf-SQKpFUQ8Ez-DsD4e3ogAwoz8rnUhVwtB-vR_OqKlydp6vKFXiLOi2Fx6Dc06vPuYrbAOpa2Se3VjhstVEaE0Bw3pvHhkmGhKz5FPBpbY739xGchycbAejfjzYUuA4bp-n94I=w1920-h1080"
+   
+- name: "case"
+  category: "result"
+  img-url: "https://lh3.googleusercontent.com/go0XMBmbPCbkbMhM-XXCaS2l491MbFbFini2gxNrWFvH2OcUkGSUWpIOA4BrY-nQ8BD1JinChvkGBXDjwsgQmalqIYZZfa4yyF9SjV7T06ZZWLDwCnHIPUBe5ZusARjUxfE-Cm2OQK4=w1920-h1080"
+
+- name: "rubber insert"
+  category: "insert"
+  img-url: "https://lh3.googleusercontent.com/kwkddA63HGh3Uv7LbcMtSXadlGAA9lG0YC5WwArjEIxqLV0suu61cPUMFFl3Li03BFvOGCCe7TFF3rg_Rmn-gBEiv1HnKaypOrw8Ctarxze1Glz0K6pV3Ez69zFFDHqOv1vqdpnVUzI=w1920-h1080"

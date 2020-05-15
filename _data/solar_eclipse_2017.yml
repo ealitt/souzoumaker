@@ -1,0 +1,55 @@
+- name: "full sun"
+  category: "eclipse"
+  img-url: "https://lh3.googleusercontent.com/tzKlLqTLYwSnNnrLQ5t_QGAAziwD4GBzJETNj-8UAOrI2owSvjQ2uZYtrKOveCDFR92kwcDoCsaiCzdmXVlNSCHk3_SEyecdUoz_6uwmsNMD1QeZAspqaMMF3zk6RYSu60qUuVeHWQs=w1920-h1080"
+   
+- name: "cover 1"
+  category: "eclipse"
+  img-url: "https://lh3.googleusercontent.com/TAr8-aZ4cEQQKsxy5b4up_70NkshbIZ7-ELJofD1ZCdHLw6F5-qr4h0YCY3n5szoVl9zWKH2Tc3wtHeZE2eElUv4FGzpKrl4xHN45UPYtdjjcyS0F8IsfAsXrUWj3kSiSThyvMW_QWs=w1920-h1080"
+   
+- name: "cover 2"
+  category: "eclipse"
+  img-url: "https://lh3.googleusercontent.com/vMHyV0AAt7btrNJDUsbcwkz55mtX6bugECi5gNgT6Ohn2f60lMp2HgWBzqPsPOZ9IVayBEvWTht8oRHXs8tjYr_KoGKVktxr-17NrSQAQvVjyGcDM9v80N12n3em72CcEPx1z9ha8js=w1920-h1080"
+   
+- name: "cover 3"
+  category: "eclipse"
+  img-url: "https://lh3.googleusercontent.com/rAHhIgfiaJKR3PJMrjURJ9k5Zf-ClfCIT1fUI61-Cg2L-gxSnZuxEWCIme8x3RWWJID9Wl5x7Y-_FdOI8P_7ebhleT_MBNyCSejqTXs5Tpam4mgaV2kzhhNaKTJ5oGGOMHy7nz4N-5k=w1920-h1080"
+   
+- name: "cover 4"
+  category: "eclipse"
+  img-url: "https://lh3.googleusercontent.com/7PlaKlnAIF-ldFAHjvuTlqGZXlIUao6MIESujaal1W7Q9LykvtdxN6xglfSRo3_LyHbEWO4FJHKo89Yv6IVb27ndLgkk-E2OgxSKMLsm7kCQGrYwg7fJyz9wbVtDUZrXdPHHwhk5z9I=w1920-h1080"
+   
+- name: "cover 5"
+  category: "eclipse"
+  img-url: "https://lh3.googleusercontent.com/XQcL3xNZHqYkZlC3RXv_0zl_5kdvosTSzmamzNhkBsBzHqGDeuD6bxS6k08LJHL6j4z3F7MxXC12_URa_hOhorrziordq92JaSZOu5bzalFiZCF9Oah1ML2zw-VN8inzoVS-nPYZt80=w1920-h1080"
+   
+- name: "sunspot-comparison"
+  category: "comparison"
+  img-url: "https://lh3.googleusercontent.com/-vQoKbIS5JJ58OX9hYESoTDdtZ1Y93kQFlNmAp8J5vpi_ncjpFmnOOCxQv6NxBZdNbGl6jL7kX_Vx2MgqB-fGkvXhiEkWz7poxJ86ZrEQfjRtw60d513iWk5AWM_JZnKQh4W0G7nTjY=w1920-h1080"
+   
+- name: "leaf pinhole"
+  category: "pinhole"
+  img-url: "https://lh3.googleusercontent.com/yTvkOrSJ1r9MPIhEAAin7f2Izw3ncrxQb3vK6JI9r7iQA4QswkMaSy1ghH_WXLHt4rF9rgMT8EN99t1Hh1b1KzOeo3l1YpjosLBLWcJjFaG3o7mSJdTyZzX4tnJpBPuzA_cocWMVaKo=w1920-h1080"
+   
+- name: "leaf pinhole 2"
+  category: "pinhole"
+  img-url: "https://lh3.googleusercontent.com/9PJs0Ftev3Y6RxcMYM7sruQjVvDsROXW3dDQiGEc3D2UHyNN_6BCI9uw3HsntT1ObqmaFUh5Q8hf4j0bGDNeR4nt4MZu21oB0ua7hT0TtrMUa0WoIkbfOS63AxXHXWd--jygcp2cvlY=w1920-h1080"
+   
+- name: "telescope setup back"
+  category: "equipment"
+  img-url: "https://lh3.googleusercontent.com/JBzje-FqidF8drj6R-r48_QB5Qy9o_mEGt3mCl6x18D0Uf1SfZAkAs8g0oJkL4Bm6bj4LT2zbpaQpQZWj57hyMG3kuHUbK3xfB3IXbr9e9ZNSj3Kbp-O40Oey2yYTV1Mr6aLvES3738=w1920-h1080"
+   
+- name: "telescope setup front"
+  category: "equipment"
+  img-url: "https://lh3.googleusercontent.com/kmcH8C7Kusl9pD-HeFurT6ApSv3KveJGUNhgmVwXATVw5sJpiuIVbYctgfXdBfL-niqVPd9vV1DabEPWAhjRCQjq4NCrkmTsRnxQc47BMW1hmlivynUmk6KA0pFPXev8ni4c5PtXThs=w1920-h1080"
+   
+- name: "phone adapter front"
+  category: "equipment"
+  img-url: "https://lh3.googleusercontent.com/pxjU93o-aIvHB2K1A3L-UdmP3zL2XbVRGnCpL9wctGh90PapSRBCReH_FhP0r59lq0sZkXns5kgu8rumdeY361V2vz1oW1NpKpuc-hL2lAMhJMEqkqq6mf77zMffnXs-slO__1uKq64=w1920-h1080"
+   
+- name: "phone adapter back"
+  category: "equipment"
+  img-url: "https://lh3.googleusercontent.com/LkiVU6SSMGRsOF0dauMqyDfvGSHDoy1FjW_tjjlRUHOUWUnlYc1-ytXtefYep-l3iZ6dQdMmfqxx8kdp0roEctFovxo5y5ezUQYJ5grfJWWXdc6Gg7PGxi9FxLNIlpkQVWKPofmhIh8=w1920-h1080"
+   
+- name: "eclipse from telescope"
+  category: "equipment"
+  img-url: "https://lh3.googleusercontent.com/hQdFRaQDyzIJvBBj7PYrDALaBEbROMgt1JGSjY8NEsNTsWWgGBDScNMZdwMfwHpXGErvtW44-sdo_VFZn-7VhaEXzl427syJSvUH9pFK16-oBgRAt8AFQWWPBNXR1eh8sdeDGjNqM04=w1920-h1080"

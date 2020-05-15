@@ -1,0 +1,27 @@
+- name: "Parts"
+  category: "parts"
+  img-url: "https://lh3.googleusercontent.com/O85qV1WmnKEVoMADMqOXqMsxhWmUWonHUuuhNB0I_AUcdvqwRB3eYonkTeal2_nEYFznDeqaYnYEghZj0N2oVebDjr2Hqh1h71AaflaA737oxAu2XGTL5VC5iDtDe0AyhrQf9a5ugE4=w1920-h1080"
+   
+- name: "rotary tool back"
+  category: "result"
+  img-url: "https://lh3.googleusercontent.com/1pgAQ9-CHirOY7DkY9oOMmvZLqrcNmsAN-M7KISPy4xQrfUiwL1XhBTewNR5Kx8cVdZpa0ubTst_IFMXxmMkZnNPOjUjr2opfdouCt8onPdjUq35QlbI2Er7L1YD-RSLuSUUwy8ORUo=w1920-h1080"
+   
+- name: "wiring part 1"
+  category: "assembly"
+  img-url: "https://lh3.googleusercontent.com/SWhN8yF1l7gVCH2d4nrY-yK4LWlBwFECuBqQvD8ae8f6IfPlnfrAO9_We5h0ib_TglcDK4TNLk02rfikCoD6usm40SDtzFVoEP89dkhqHLktE4VTkgGx4Qmy7c460CPsIAiYf7oBm4s=w1920-h1080"
+   
+- name: "wiring part 2"
+  category: "assembly"
+  img-url: "https://lh3.googleusercontent.com/fMSmxcHjWQd1Sn85-zi3gFCQtCcLNBj7uyyY9p3dtyD3uwwSPuXX-MGWqmwn1HpIi4DzWkaawX1YxHO1Al92eKSB0cV_4rG_Rg7S3_qTPnmfshb-7KhzuKf1MF2emRdz3I7-YJc89OM=w1920-h1080"
+   
+- name: "glue power socket"
+  category: "assembly"
+  img-url: "https://lh3.googleusercontent.com/3y_4D5js__hQnMWv3Ig__sm3IQnF1ydUAlcyBGFO0GX_3lvXIoJ8TT6gTM5aPaoe47DeQcxpM5EDRH0EwItCcp1ZoMNQPUD4InJqelVBQsLo8rA08vM4lFT33E6H6wnMZOhRx29kVfk=w1920-h1080"
+   
+- name: "power socket 2"
+  category: "assembly"
+  img-url: "https://lh3.googleusercontent.com/Mt9j2GrM82HlldbX4xh2pAL9x1lX-0ojPdmvcL6dmGaaXtlZq97rKXvTdbEj52W6NvhzcHt1Ev-oflL3vkPAEXfZ6k8nYlStpPbGdzTUSeLJPWsWuI-Ry8_GZJfbhbGJYEOF3jpvi4Q=w1920-h1080"
+   
+- name: "test cut"
+  category: "result"
+  img-url: "https://lh3.googleusercontent.com/sIM7S8ARsUg4_FrxGxh7E4b_l6Yzuvu-6icry9tr1nwi59xC_ozxfnJGzJpmgTFPh5JXlNScpZ9Fe6KUNX59L58ZxEx_dHwQmUAbm_7K79wy83fEsMdwOWXrcGd3SMyXIqIGkhQJiPw=w1920-h1080"

@@ -1,0 +1,131 @@
+- name: "speaker parts"
+  category: "parts"
+  img-url: "https://lh3.googleusercontent.com/xIx02_PQS8uWRsTXfxL6UvOP8YO1oGC_YfVfJYKaLrccyLC2lLNQqkVZquItmmsSQqBjS-8ac3KYSSEdBi1_55jx0Z2PyQ0frdHZdUCC4TybUDdK0gpM2f8wn4oxp67OoKzvnWTEVN4=w1920-h1080" 
+   
+- name: "laser pipe disconnected"
+  category: "assembly-laser"
+  img-url: "https://lh3.googleusercontent.com/1yfbYwxtMUmKJrhpqG-IsXruWUKxI-xynON65vV8IDPa1U2iKkWp6WqczgPeP5PncfMQlfsNXQh5Awm9bEk8bVBmYjrm3ieValpnxg78PKyjclzSD_GdeLjm4LLgMOJFrdpCpF2Bg8o=w1920-h1080" 
+   
+- name: "laser pipe"
+  category: "assembly-laser"
+  img-url: "https://lh3.googleusercontent.com/aH8-pJ46QR11Qsq03rlkmoTrNufxWZsL4iVNUjLuDqiOsyoqrJzWbE1d4WdWX9Ouy2wW8FsENhURmOqx5oVuI2TK-7jZAdTZGEGSF3bgmEC4ewO2xGGHNMvAJYZsPX9_2qbhH2E4gZY=w1920-h1080" 
+   
+- name: "speaker side"
+  category: "result"
+  img-url: "https://lh3.googleusercontent.com/_E2FZSLpKjJmvMCDojOffBCWPbDYc-JRl8J66Gq5A8lfmWqnyTz_X1HhBXWbx04gTatRSZuUlgmQja2_Z5e-DLuuTCY0fRchJwsAjPrKef6zzC-tC2krvdfYxzvyHP_SBtjCldVyMIw=w1920-h1080" 
+   
+- name: "speaker laser on mirror"
+  category: "assembly-laser"
+  img-url: "https://lh3.googleusercontent.com/sk37QYOWZJ_eFUr-qckqwX1BvdQ01cSFoPLblFi2xuicv-x0LFYhZRgKFphwFTuXUpFC-mw47xnQR5G5u4cQwaptCA3tAX499oczo3F-SsdnJXW20Y3YvU7Pcvk4qnWaZd02iD2jq5Y=w1920-h1080" 
+   
+- name: "speaker stand"
+  category: "result"
+  img-url: "https://lh3.googleusercontent.com/2-RmEt_j4zkhug2N-bxRPhKKx6Tlf4KgEilRy3DYijles3WLzJ1zhdowXqLRSp7LgaNo8z9kpKeaJMFm3vPdLkez0zEGeMb8ACvu2vRrHgcEY6eAtZGukF3r2Lt5yUD1yn5dvKW-4B0=w1920-h1080" 
+     
+- name: "speaker stand back"
+  category: "result"
+  img-url: "https://lh3.googleusercontent.com/hQ6K5-WlrtcqHwTowLEIDaZ2Q8SSoUHX6BVvEMbb44Qv8ntt8qu0dZoO14zzfFtK1nvfRLmeKcK9cq7T8zRPYeaUhhZlXuVuNlKwwDLARzJYhTqpn3TkK6xTiOM0cYECkOfWoLZ9uWg=w1920-h1080" 
+   
+- name: "speaker stand front"
+  category: "result"
+  img-url: "https://lh3.googleusercontent.com/bxBrVyFfCDfu1Hcem7Ta222rPrwDua3DW96rqZKfriLUN1SLSg2WD53jQpHBXxHqOeO0UA7yhYIluuQfxbf4dc1VtVJfqLQZCa_kGcRvOGSlv-nbtGF78_bbBk3TqUKIEGRGewcprng=w1920-h1080" 
+   
+- name: "speaker stand back 2"
+  category: "result"
+  img-url: "https://lh3.googleusercontent.com/PX-r7QZDalVFVS09PMcGCER8dfziXELBRT5MkP3XitXisDJ1-GtCi-s9fgqHHcwQpJk5QS-kgYUYxo9r4KpajIMGqv-Vu7JM-B84P-PboCzpMvW1ambaq0mrepbXxto9C7KK2H4Jf1g=w1920-h1080" 
+   
+- name: "speaker collapsed"
+  category: "result"
+  img-url: "https://lh3.googleusercontent.com/ic4u4UsahRupi-jU35YbysHnvloSp9RNxveKZCucPUMFApxJGk90up6AphwwBv24P28O0STCvobDvCv6NZUcZvpY3ygFcmee3Pro4pcgRxSN5NuA6fBaVf9241mZgt_tIm4l1pqVu64=w1920-h1080" 
+   
+- name: "speaker collapsed 2"
+  category: "result"
+  img-url: "https://lh3.googleusercontent.com/pLTCtppB2f8MLQ94DVBi4Wbu2ZS3AvTHxkQiNM5gNb846GLnLSdWvbupYkSOrdJMtdOCWWVbq0k1SALSxKqa6baGYNvtOGEN1dPsL7OQxbly8Ir8dB4jf1ThOI3pKlk9RQaeYx_bFKE=w1920-h1080" 
+   
+- name: "speaker inserted"
+  category: "assembly-case"
+  img-url: "https://lh3.googleusercontent.com/Q3WxF-f5fypmIfEn6vwxYwxiero3A31exXwsvcRb7FtAXk-xVOYdYgH8jhJFx6sWKTkN_m4izAXF3cDNHsk8CfkYXqXVuajwd2IX2bJg6G1zPC7vxJ8zk8plYtBEzQhyC26ALZrXllo=w1920-h1080" 
+   
+- name: "screw clamp insert"
+  category: "assembly-case"
+  img-url: "https://lh3.googleusercontent.com/R69PRXjGx4suSm94z5rx-taTMHfou11chosWyDnsmdn8U4bj6fVElKhIjfXOC-ElnBf2sX_mcNN0r1dqHzHNtuGMHX7-0TKSPYEm8jAAR72V55YUKtUw11I_hEWe8Actt9S7kb2WgsE=w1920-h1080" 
+   
+- name: "speaker driver"
+  category: "assembly-case"
+  img-url: "https://lh3.googleusercontent.com/3E2ysDOPtD11NvSuqpDN4HwYO_P-XQXsBhkRIJ9yOJPAtkb4Jhxjn6dMdNsP2_8GWDCrB-XDbKusPD79d6nTZRma46TouUxbw8NZHDCs1wugJ6miQlwwGaQpx2dx3Xjh5XE69t1-Fcg=w1920-h1080" 
+   
+- name: "power supply"
+  category: "electronics"
+  img-url: "https://lh3.googleusercontent.com/ROXiL0aay5i-JFI2EN1WrN73-TEItuVyhYHi0NL7Joz2Y2-NHgWPWTbLw2lI6ZqUEMHw8WGzKHYaSiG4akvdThcmNutzp8_e7Y5tHKG0UojQH0ZupYKK1AhOktxadjDmi-f5Svr5DxY=w1920-h1080" 
+   
+- name: "audio jack"
+  category: "electronics"
+  img-url: "https://lh3.googleusercontent.com/bISIBz1yOh4TVzxx5t6FClOUy-fP0NudpF0n70mPPSDQMYtOzz-scrRGjVgkaGDmqAz7WSXeKqTHVhkT23eDwVCF4Z-bUo-6Ptn5jHrlhM43rD1bPYbZIMkaqEUXM6soEIbhGTaq-Yw=w1920-h1080" 
+   
+- name: "wiring"
+  category: "wires"
+  img-url: "https://lh3.googleusercontent.com/39rGt3CLeAfIn-BowYIbt_0oafyah0YP_S8NxBzZUmrrQG77h9IOyEiXCMXeicDc5KcI_hntddZusrMpeK4IcEI2mE1XArNHe73o-QZuuXHpMndp-IGPXl5Mx4b2SNrcbnD2sx_aPiA=w1920-h1080" 
+   
+- name: "wiring 2"
+  category: "wires"
+  img-url: "https://lh3.googleusercontent.com/Jj3o4b-esSbXeKXSjKTYI45SqkqXUEitxbmBTEs-ptGu671bbl2ra59plb0ZP18KBNCRuSHpKkMbQJwTY898BOEQe6BVSwZiqk50SMgSfP15VwhWlqGUyHeIdHVe62XTBfBodhJMrxA=w1920-h1080" 
+   
+- name: "wiring 3"
+  category: "wires"
+  img-url: "https://lh3.googleusercontent.com/2Hc-ieAZW6TpGU6CGKI9fdzOHmmI1msBNuJuBILTBMOEakKec2OIp-U9r5mrZsQY2mUXDE2P1rTbvSiSql2WOV8wOiXPDMKZFoR8ZP7wKdxsPK2jIesQXf25GoVoeMrB4XA2fL5ZV_Y=w1920-h1080" 
+   
+- name: "wiring 4"
+  category: "wires"
+  img-url: "https://lh3.googleusercontent.com/1i9lYoUI3N4qVQkxfdqQqNx1NmiR1N1uVbDjSzKgbRpxPbmIrM_8dmnl-X3yLaoKi4A2MRVzQnTRuHPzi51CDTyub9N2uDNFOQwvh2nwyv2WZkMQOUhRIL4K3cBwKMgFlkCAneVhh_o=w1920-h1080" 
+   
+- name: "wiring 5"
+  category: "wires"
+  img-url: "https://lh3.googleusercontent.com/gwxU-6WxP0Y6HTnyLUhJAzbsVF5BUU_6fZG0-Q9pHMfehPPLBMSSMmkyBMlg9x4kiScCV1xuF8Ic4ARVkp2pMhez9v0fokHf2KSpQNef2peJ0nXgUYIeINAthTP1fHh5Kh_plOU1fHM=w1920-h1080" 
+   
+- name: "wiring 6"
+  category: "wires"
+  img-url: "https://lh3.googleusercontent.com/C-oilfHxrKZjVcxKVmnBDitdv4q4KkkVAqA6T-I9VIRn-HjwVazr_LGtjS4mYV4PTsTn2iDi76-NhehMX4nkgdPw7qKi3DBD02OnPParTXdNefbrfYKGAIzPXpWMyAH1wa-xZQ25Do4=w1920-h1080" 
+   
+- name: "wiring 7"
+  category: "wires"
+  img-url: "https://lh3.googleusercontent.com/CeBVDyfJLfA4PJi6tfJDfwz6Suvrsl1z-G49AyYtN-2DpzC99HXspb1RsJErmwMJ6IqHvPoGN4lKo5dLU8dq7901a25RZby-AcG59rNgtUJrc89pIHa-5QF6dZW8UVtYQ3pKEqqFIDE=w1920-h1080" 
+   
+- name: "wiring 8"
+  category: "wires"
+  img-url: "https://lh3.googleusercontent.com/th5Lr9T9UFtt_I2RNfkxYy-01bbqOLK7ga6fpNVQ1wtpe9c4quCd7-Cpb3YfJmAt1G94rCklih6Di6CQgpIbIjPHSjTnCNDNqAoTtzPUvKnP6eGCpDxg4M27zMGMTzBepzvMYskolGo=w1920-h1080" 
+   
+- name: "wiring 9"
+  category: "wires"
+  img-url: "https://lh3.googleusercontent.com/Nfr-c5zEL_ez6xWr2dcXBR-xdydYONkU3YaEK8uk2dXEV4BW2k5xxVM6r2VLXCkO8GpgJBGaG6NkREds6qdXsPxJMlQhKkBQSi7zj8QzsvQljHOEEuReHGXdk7vsgAiZ-vzMgW3F1a8=w1920-h1080" 
+   
+- name: "insert pin"
+  category: "assembly"
+  img-url: "https://lh3.googleusercontent.com/nWmxTC1sJhDqjRhVChE959tR7KvyS9f_aoSJOxIVfsdWFuDwjnOf4AQdiiShDRUyHGOarbZQChJfC12yZGhgwK1wPhquEvY2V_s00UbZh2wAP_TFxpxmCcJL18eqd2z3CHb7Z9OEoNo=w1920-h1080" 
+   
+- name: "wiring 10"
+  category: "assembly"
+  img-url: "https://lh3.googleusercontent.com/Y0Gq2hG76_xuCM2A_XexsFgUWl0ZRMFUguwQkq2q89E0srozFyEKtmjP8Yhl4Jm_5ixO98LLp6z11p0WsbiZG-XdBwML6NKvR2kRMZZIzoxZNiq-cpPNrv1s-ndUG2BvTkKY1Nj3VQ8=w1920-h1080" 
+   
+- name: "fiting case"
+  category: "assembly"
+  img-url: "https://lh3.googleusercontent.com/l-vapsDLDUlw7oLPy6DOUGk7pOckoUkBTKIEcJwlpTNbJkVu2NXZ9ZPMlJMytRDmkHj2X2XKSKZmFPFw1ygzcdNuaD4tTaWrsUzrSPM1-mtdoroJQJqB-kbmJ-y_Lv8xt_-NAoonLTk=w1920-h1080" 
+   
+- name: "knob"
+  category: "assembly"
+  img-url: "https://lh3.googleusercontent.com/PkwNWKAa_gqcj17ZedqKty7rm8zxdhv1k-5bfpwlhklNc29k8qQJhiQj8X3sm8HflyY742zzzlNXmE7HK3T-f4mnpF25-xm-7eXp2ATxl2uncEYyywlNJAP-wHapOwtDp_Ro1_YopU8=w1920-h1080" 
+   
+- name: "knob glue"
+  category: "assembly"
+  img-url: "https://lh3.googleusercontent.com/i3dRZKP8mGWE6lKgaL_bHxLZRU52D_ZV4YjtdHYzSWw3AWofpE1APda5ziSNOhtq3nOx-al3_N4xSAn0C_MGUVew89YFCTFjIF7YS2JaUIuThh9sP7bNDzfxBf6mmEh38sWbIpJt40g=w1920-h1080" 
+   
+- name: "assembled electronics"
+  category: "assembly"
+  img-url: "https://lh3.googleusercontent.com/-dn2xmKUvEOmOW4fHjHVCn1tbr3PWqVH8HL_v_ly6HInpQtn44fC-aBGAh6u1soMGKe4uEcB4iWI5TT2o3UEq2tHzIUTMnmarMEFB1FP2pNIGjEpp2uMBpVPJPQBU-Zo5Iq6tdMHUV8=w1920-h1080" 
+   
+- name: "usb power"
+  category: "assembly-laser"
+  img-url: "https://lh3.googleusercontent.com/h76C6xNJX3kPlZcn6YJBGWBmP3mLc3uoV-UnOC-3rdV9buf_5BSAgX52oSaKc8t2gthQtD9nDb2w27d_EprTBqZP9k4GRJ0XtTgLHENPsbK9iB-W0do3iRU91ymD-8LnfdOSWCt3cRU=w1920-h1080" 
+   
+- name: "sound wave"
+  category: "wave"
+  img-url: "https://lh3.googleusercontent.com/dD39OuLNkfw44-MPRHCy8YpMgYNHzgJWWRzvnk6WJCkmFkPnjz3w9QErJ23SaK-I1js9Zy5gOcUuAS7SY2exIzO5kv_4TzIXwO_o0I8RzdBf--QB-hZlOwvIM6soehOhAjmm2o0IzZA=w1920-h1080" 

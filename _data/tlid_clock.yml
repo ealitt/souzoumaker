@@ -1,0 +1,123 @@
+- name: "clock parts"
+  category: "parts"
+  img-url: "https://lh3.googleusercontent.com/Z8J9wrLLn8Vt4r0zdjY8wG-d2Q2weKP6t4pml7qmE33MS2OYQkzHWDoR2cZSrLzNc9kt8RS3LInBbXWQzQ7zvhxU38fgB_vAytZV2uJAL_5hOPtCgT_EvZ8PgGBrOlyP5ngH7mn4OFE=w1920-h1080"
+   
+- name: "clock base and face"
+  category: "assembly-result"
+  img-url: "https://lh3.googleusercontent.com/5WbHT6nToz99rAScWndyPpHxVsy7ROrXn9pcOVmKiYL0yNNSTrBpQlb4f_28KHUqkXzmX5oKVGepMAU7ej2sfp9Li3vX1DjgEC729QrC-WE9_30Ry5II59_amsePtdSwjl5hY-dm1kw=w1920-h1080"
+   
+- name: "clocks side"
+  category: "result"
+  img-url: "https://lh3.googleusercontent.com/CyvxTcUU2Kf2J575_-QqZAly8G-8-3wHLgcJ-6M7gaywC7W8O4W3spEGuAYrA8jemmkcqE8WIFx7ipkKAB-T7Kb7V92i7bV0EGa_XUDfnwraj1h278QIjEn-6tH6wGmRlIik3iBynIU=w1920-h1080"
+   
+- name: "clock start of day"
+  category: "result"
+  img-url: "https://lh3.googleusercontent.com/GZO3ZzbIatUSKO7N3EAqWqO5CtBy_IymHQoFbVZCSnR_GmupTCxNA28knLnrbPbu6lul3XY1OkSiI_GLHSkWRpIF0BaMpUfJ3wJaAo26yrKbgxmEKe3D4lEKo3oA2-uLMAiistXpdMI=w1920-h1080"
+   
+- name: "clock side"
+  category: "result"
+  img-url: "https://lh3.googleusercontent.com/O7Q0viReVATraIF6GKRoc1MTZi3y7Ya76SWjx8g9Llv-IHga-xOSHCQOhdv0pfifJMmF_DeLNgs4s1Ev5iMD54xiDliW7ZA9Gk_pfJPp1kL06nzK0Z-3jPOqdLyf1OnvYE8Gq1eJ2xE=w1920-h1080"
+   
+- name: "clock back"
+  category: "result"
+  img-url: "https://lh3.googleusercontent.com/2Ghmh5r1swJ3JEYlFrS-qvdO2x7nNlIyF-5yhGvBc0EYXPttpduW_089esn1R4tyDHMnxeDa9odQKSIxoUkNgUnDMkQBy2b33xgXkpTvgQwj8KeoG4DeXAVs53apkNO82waWf1VR8xE=w1920-h1080"
+   
+- name: "clock face two parts"
+  category: "assembly"
+  img-url: "https://lh3.googleusercontent.com/avk2Bfu3sDbm8uaVLXzAZlzwuJBlJ0dAixXsSKCH7nLSJ4wzvQotFL187NohkUmjiyKPQfudabCPbJUqyP0PX0f_iwNNhpdtbwv47ue_3yM8D9-sFYsZ-uMIE3d6IxlJFaherfrz2N8=w1920-h1080"
+   
+- name: "connecting clock face"
+  category: "assembly"
+  img-url: "https://lh3.googleusercontent.com/FUY9OqCdp26XdwkqdrZS5ltLvlJL_qui_ml9GJQI6JOmtplP3WhAyHedR5maZDZ_SWokBtKqZAQsvGCa680MRlezV_W6EnJiT29OVNpa7xgG_sBYg7lKutj2JGjJP3M6SmPyPXf6NG8=w1920-h1080"
+   
+- name: "stepper motor assembly"
+  category: "assembly"
+  img-url: "https://lh3.googleusercontent.com/8E316TmDDxnKtm4rrdCj4BKf295z3L7foxxA6uVwc6mCIDlpkIA2pdgTSQhAcqYD6X7h-QTidUzIdJsAVhkvpfwHUQpO17zMR1BkrGq3F18xhDcE_HEaFOTxhtjqvDoK84KH174oYZI=w1920-h1080"
+   
+- name: "pully wheel"
+  category: "assembly"
+  img-url: "https://lh3.googleusercontent.com/_8Gjg166yAWsvdoEvWVH1JRyIbRN17mNEaiRIQpm0uAoRDN1PNxwhiF6I53fwbexGGrK7hX0H4kUmkEViHyS9f0BD2dXg7IkJZb4r6bS0RwA0Sc0hAGJes39ziBvSCNMGj152ve9gTY=w1920-h1080"
+   
+- name: "magnet holder"
+  category: "assembly"
+  img-url: "https://lh3.googleusercontent.com/E-uYK2BDF-_s0i4MEAwGZJk5SaylNGSQT_gJI3Xd_WaGVN2gCHMFb6DYCruMzrwPvK1KUuXPyU_OySehZwjb6F0vBTefvtT-07ny3_YCkndtW1sBbrLDc2IagLbSiszTCwjD9fioo4o=w1920-h1080"
+   
+- name: "stepper controller"
+  category: "electronics"
+  img-url: "https://lh3.googleusercontent.com/L51-7VP4oIpoj_mzjFK6RmSbt2ol8gtoyPOOxDym_alnkq52YDsQY1jDc7NyZdDjPQvCqVNT21uPdGZufn6j0tw1yHLlz3S4A08kR-pj7u7Z_zNs4kr2jL1-UVDPdlR-gblU2kJog3w=w1920-h1080"
+   
+- name: "stepper controller desolder"
+  category: "electronics"
+  img-url: "https://lh3.googleusercontent.com/6NNDwDxFPPt1d6p_hoYOb2vnysTQ6jku-KeMq7DTPdVPTO-Tjuf4RljaHctx2SiU0JghqgVV7OmyBAQv9ovAZIjxooRTuQgfT6q6h8sxMueLN2Eh1i6PkH8M68IcJkmRvQmIO0bS0_A=w1920-h1080"
+   
+- name: "stepper controller desolder 2"
+  category: "electronics"
+  img-url: "https://lh3.googleusercontent.com/Q_HxpYYBjxQoegLZPWvn_D6Stm8mXfYD8_QV5Kq6yRYaHSpAelurXni4GOV58rCHPmBkb_q6bTPNAYH0e-x99KDtS5eMhCfCuNlMZOW2BlvmW2epxWvTXrCYAxK5SJYPZSbJEMbSk90=w1920-h1080"
+   
+- name: "stepper controller desolder 3"
+  category: "electronics"
+  img-url: "https://lh3.googleusercontent.com/GcV1nG0r5xPcBQ6vt3IUgrxzRwsp3HUeazslYc53wWFLCMMa3nki0LaS7ZFmnXuvABNjl9FyFlaMx7hj4mPg7uY-jSkoGACzBHaizW94BCPP3Z2GlxV_h6ZYGSJ9Ef1_wiHniL3hwFQ=w1920-h1080"
+   
+- name: "stepper controller solder wire"
+  category: "electronics"
+  img-url: "https://lh3.googleusercontent.com/KwdSRJZmsx5AtaiKMqh8d9S5MULy2r8fTrNyxKmt3l8c93n0OKuyl-2vP3FonGZywx1fVGwsW0JsCIJ5Au3Gl0zP48ryauN0GaYFhKoldRB8XVYU965lCKENIliGcMsv2K9A0gZCQoo=w1920-h1080"
+   
+- name: "rtc desolder"
+  category: "electronics"
+  img-url: "https://lh3.googleusercontent.com/MhCgC9sE2jd7JVrjyYuNl6myrKeVqXOcuXEA6SqnTUSCkOFnQxCRcoJkAfiYl0Zi2CX4mgTgzbtZ975S6BzHfU7hMWK_iMaENWhIUCu1lAKcqThSlUYG4_MK0kov8Ateyv0vp0Sxslw=w1920-h1080"
+   
+- name: "rtc"
+  category: "electronics"
+  img-url: "https://lh3.googleusercontent.com/tPM2GGCSOeNq4uetJyI5YI8r1XFEC0Qsc_fT6XtF-uIQEnABiU1_tLpLLsKfx6Y0BBrd8Sa-F-y5EHCWVRCMEwJw43kuKTvI5fZb9VdNIH0NZKgfxgom6Yc9zIhz1xdgTATWiA7QPa0=w1920-h1080"
+   
+- name: "rtc solder wire"
+  category: "electronics"
+  img-url: "https://lh3.googleusercontent.com/aDRWum2l4fECEkOuYXCRSa7BzVA6aCiBOn6HkUGAcqhkw9UwLH287qopVrV_TYjBtdwyLfqPhitWKJRm_GBLBNiIsBqYnY28yRvWcV5IJubF8869P1iAf3S2mXgKWTST0RdL490cmw4=w1920-h1080"
+   
+- name: "micro usb connector"
+  category: "electronics"
+  img-url: "https://lh3.googleusercontent.com/gPjIP1IxQJDfQLLbd-eMI5KiTSBfHRW9Yw9asncQmmDS1MM0Vz6Trdp7scKfvKLKmFOOx_astqzTgP8hfwziwyr278C0hLkCo667qezd1-T05cT4rIW5VUEJw8S8QP609PNy5iGW3yY=w1920-h1080"
+   
+- name: "wiring diagram"
+  category: "wiring-diagram"
+  img-url: "https://lh3.googleusercontent.com/HWiRLmgyRtXAfL1sx0ydjktcpcd0pGXd1CoeoPTffaSMpXj1GJ3RNU9YmwsUtvUNPL__eu3dHw57iAmonquhJ9xCbfK8F6_YvtpFQVXMx7FlGJc8I8sbrxP7_8712mIoKnnymZyqSPU=w1920-h1080"
+   
+- name: "solder iron"
+  category: "belt-assembly"
+  img-url: "https://lh3.googleusercontent.com/r4U2mroJ06WkXeHZLTMNw2ARWz5VuhiIyPOOCSu2Ygi69N0b69gNnSmnnQdDUQYejKCwv_Ja3SICPbhZ82JmkGFb3qV6cKcmgxeEGpnF7xbWZ21e_Mqh3YDbfS9f0IltpyfKiRIdo1s=w1920-h1080"
+   
+- name: "belt"
+  category: "belt-assembly"
+  img-url: "https://lh3.googleusercontent.com/F_q_c_ANVDw_1ogFPhYQuX_U5-bN9Lm6JvR5uq5uUS6j58WgFQoKGGnzmq1_FwSQyvK-1DULusq1ibvDXm2OoPIk0oXsjF8pO5Fbe74umwkU1o0bwRKunTcyUbu-6YI-xRpVk5jJYrU=w1920-h1080"
+   
+- name: "belt 2"
+  category: "belt-assembly"
+  img-url: "https://lh3.googleusercontent.com/EI9dOR2HTIhCJptIM2ekHE6HxW2oYRzmvzIbsoF_puS3N2rpzI4PlHXYFz9AwgqgVprz-faPTCRRHlMjMPFP7dgG-6jdSMYR21--p-ov1ZgwhnE5LBB7qDn8or6V1myZE-bTfIcpQK8=w1920-h1080"
+   
+- name: "belt 3"
+  category: "belt-assembly"
+  img-url: "https://lh3.googleusercontent.com/6h7-fn10u4b-2x3ZazSQh-KgUzAaX4X9DFfDXlxADgWKGANu1NeJ8btyCgQUXGjkyVHtx1AIzXL67WQ1a1qOVbR6CvhVN6NtXPPbPIEkwR0QhMavbENuuKNh1pZwNT0RIaMsJKJhZvQ=w1920-h1080"
+   
+- name: "belt 4"
+  category: "belt-assembly"
+  img-url: "https://lh3.googleusercontent.com/CyjWiobp5HpdEKAje-6gEPfwAYRDw33-hbcL_3wN1Aa3y1z8MyX_yX9vs2FgO5j5uXIAIEuUjo0opUiTeZiZaznhrCS3nsRk2oGpO3HaZmsnF1Juo1HTcgkMAumhUqfCl-omPVQ-dvY=w1920-h1080"
+   
+- name: "belt finished"
+  category: "belt-assembly"
+  img-url: "https://lh3.googleusercontent.com/ijwL32t0ERUh7Ca8Ma5P5nsjBRrweb5vx_bKSWdipIyYc3U2U_W5EqSYMNLG02yZo3tGj5csrlgc175JEEucsNOmrrxFZwI_5QpH_wKREYxX2lsHThkf4F4PtnREy3UHzc7uhZ9b-iU=w1920-h1080"
+   
+- name: "electronics assembly"
+  category: "electronics-assembly"
+  img-url: "https://lh3.googleusercontent.com/cRzvObOCamvZh2KxzRSUC62F8N5mYBI2rvLoHCbashIHjJ0tKxiDri0xwianA5UlZCIR_fw9Hy7vb8ntXwpBr1xtOfheINzIRuA_ZkuFMLoZSmhudL1eqeBeZZiSuQAXlV-YmaULaOU=w1920-h1080"
+   
+- name: "electronics assembly home"
+  category: "electronics-assembly"
+  img-url: "https://lh3.googleusercontent.com/fYcDAhn3ro1MmfLB1-pGoYGW49TSV6550GyDztly4iFTY73AxdJNxDKsB40n65sQUUAWnDuOX2HSl01Cuuxl1fJvuXgjffaApo6gniTm6wRy2526DhinQOJbfN_fkPjZAlFpuslzqpQ=w1920-h1080"
+   
+- name: "clock back"
+  category: "assembly-result"
+  img-url: "https://lh3.googleusercontent.com/I5Cn9Gu7sqwKS35IomXJp9XM7261tdkNei3KsVhf0sfq0QpAvcYBxFNggYDmQH0t6CVOKaOH4atFVlzUJFGsgdbH3HTxwuBTi6rg2TngBiq9YW7s-jqUvIpEH-G2pQi2kSC8H9puhns=w1920-h1080"
+   
+- name: "clock front angled"
+  category: "assembly-result"
+  img-url: "https://lh3.googleusercontent.com/Ybru4_yRFkhRw878cNoL-x1_SfPhSUJeBhScMK7xFMChb3rLh6oab_pUSmALsRBteShdysXWNXVzmMfkVAx1wbOQSIaUJaRWWBzH-RyxIh4bFZOnGz8ZuE92vnbtETgasFVuIujryQw=w1920-h1080"

@@ -1,0 +1,44 @@
+- name: "thumbnail"
+  category: "result"
+  img-url: "https://lh3.googleusercontent.com/nHeh1bgVxtlEW53LvirKR0gqrvOAECss3BBl8_Vn-q97MlH5bVFDLlUpRjEHPE_9vWodAmleO6CwB8CB6nOmyGsFhI35srOToOGL1qqU-tSJEf7AdvkDV4WRAEWdzkEX6Fil_kaAeBs=w1920-h1080"
+  
+- name: "quick card access"
+  category: "result"
+  img-url: "https://lh3.googleusercontent.com/_idNRlDtxOQTXeKnkpv5XKdtnBFSWiZZ-n7e7t_bTXJRCvVph_ROb2OjNi4XUQoAyPRpqHgiTjrPLg4JQxXOYt86Vkc2QDyKFCzznZh86b8P65SQcSa3CG9iywUZgF949ZgJCDiPRDw=w1920-h1080"
+   
+- name: "rubber"
+  category: "parts"
+  img-url: "https://lh3.googleusercontent.com/EeaLq8MiQriBWPOtblEk3tbpJrhD3cv7t6AV-1dnNKwqKH2RfwlPmhsYr8yXrOGB7HHPGxuQwjog4BstIA8trv1Pfpxy1_r67uDBvqyWn-EaH1aGxBp5v5dMnaNa_h5gJ0iNf-yANtk=w1920-h1080"
+   
+- name: "prints"
+  category: "parts"
+  img-url: "https://lh3.googleusercontent.com/2nwfDtPIOX3mLc8D6GV62zl5TrI66TTPx8WT_ZomBv592xzoxsYJaf_N6mpNke_62RhiyKPRZW0IVFXqmbRQ0Tnv-o2KV9BSL8jQ6jItxMeiMFIrRxzJxO8bDY8zDX8F174c4yqV00g=w1920-h1080"
+   
+- name: "rubber insert top"
+  category: "assembly"
+  img-url: "https://lh3.googleusercontent.com/i1PREHvmNdq3rfBdYoe7Edfllhe0qysQht1qtzejQyaFFoMLJUCODXfwOVh9qWnQxfiNEEYAJzsp2gzWOm6JydvPK3wKt_U1B7XJMXsIuR45T6K7SVOvrFkI2jLFzWmEt5hxUD9_248=w1920-h1080"
+   
+- name: "rubber insert glue"
+  category: "assembly"
+  img-url: "https://lh3.googleusercontent.com/PPjdxJ3-z55qS-_Miz-NQQ0jp7HyjxEi4IvJv_3ypwCq8SL0K3CH5MMm9RtnqQcQoaeZrLCWJAosn0evZLqcCkCF1pVi3_2oS7XpKXUvz4skgDZBueja8VQY0ne4Jg0E4MkGJsnXYUE=w1920-h1080"
+   
+- name: "rubber insert bottom"
+  category: "assembly"
+  img-url: "https://lh3.googleusercontent.com/ioYLrKO6kQekAE10uAQiweSwzuy3clEjc4jZDhZbaXwRB_bIysLT5fvTXeGaojwJr_cNRuK-SyeQCXkKRXOjKZfqCzOjeqhOYINq2ajUnFPQUGXyzM5rIvfXvuLGynSxZzm3fCdByic=w1920-h1080"
+   
+- name: "top cover"
+  category: "result"
+  img-url: "https://lh3.googleusercontent.com/d8AcT4gi9b0h7VgIf3qExemucj6vmo3f3dC2RVSqlRbgEImVMgOpjbvARi-NkgDaGDc2-r72Yr5-jLnzjNYr1Bqvf4YWAmXw0rMMHmFNqEnPrp_JuHoxVOWRkm7Y0lCQOW88xyQuwXg=w1920-h1080"
+   
+- name: "bottom case glue"
+  category: "assembly"
+  img-url: "https://lh3.googleusercontent.com/r_jCrLzwdIxBXSb7apv2UW4uGuwcgpi_2hYdL3e3evwfX1NuK1y_xx-H0Ie20q9tm4_3KnvWnL83HKWZ1KrJ7Livp-l68ITohSR2pWwqyKFeZTwy7DTenuZyim9CXznhawOOcPC32cQ=w1920-h1080"
+   
+- name: "card case vinyl sticker"
+  category: "prototype"
+  img-url: "https://lh3.googleusercontent.com/yJbS1rN3CXQCY9Oxe5d-Yzj8bTr6VWUHLPsJ25z7TlcA724b6F8HsaxvIAL0XG9TBWM7wh0AwkR_zNCG8ya9m9uuFcMsVIXbbnRdtnZtM-gnnQHDdtr0-fC9lGLKAOOhj7xxKL_gcPE=w1920-h1080"
+   
+- name: "ink dipping"
+  category: "prototype"
+  img-url: "https://lh3.googleusercontent.com/epMWyMHMiQf3WCjlDZw46LOS6VS7f6GJntwAXntbJKpAfdpL61VrWAk_6Q4ZT51-Xd1UVZekmsNzeytGfrQ6zxqmjm9b2-y1gpTfJzIpY4Q6jMrCrbrQjSy_0av2K6Hxjl47FPMszO4=w1920-h1080"
+

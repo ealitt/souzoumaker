@@ -1,0 +1,92 @@
+- name: "fastener on printbed"
+  category: "print"
+  img-url: "https://lh3.googleusercontent.com/PybjwGf3kGkRHkEB43tmY6nWzFdOyjhDys237RPebBYZsiUw0ujamw8FTLyjO9xlFNw1ik-vt6b5Bmd93kgRBTDGlHA9BazeGS_68_uvV4QRmbeZQDVrFKzclsCRHTqz11OjjqPhmws=w1920-h1080"
+   
+- name: "inserted filament"
+  category: "assembly"
+  img-url: "https://lh3.googleusercontent.com/7FMrrgYRdKw_XS_NVfRoz8NkXNfzNgXLGJdoWhITdd6eWmIR9afZfuvQ4INpcFJGitvmwoytusmomYc--rG0PP8ElybZY7vtkYrBcNrUJKe-OhoS_i84J-c0eyCAyKtuvRhSNPhNxDU=w1920-h1080"
+   
+- name: "both sides inserted filament"
+  category: "assembly"
+  img-url: "https://lh3.googleusercontent.com/M_jvDd2YANX5glrdXnCywGyzsG-04ZpVOHKvXyQwjhP0fkkhADLlKvr4UYpndXKIrGAxLGd_ygQTLynIeu_o75nzkBzJs7PC9jWFTvMmZaPxnDd9sXfgCuJt_nXysWF6LepqeD77DgM=w1920-h1080"
+   
+- name: "knot filament"
+  category: "assembly"
+  img-url: "https://lh3.googleusercontent.com/RwUaweQE36D-svgW3kbKJDy4IlyWLVc2vlW00Bo0BpHZgOGFzcu_OREAfEZtS7Qwovi3OhrgFp1DzJA6Phx9p2jgckMAH1bVx_1OU1hJ6LqpH1syK5AMJBinb358maGUt65a9di2a3I=w1920-h1080"
+   
+- name: "tighten knot"
+  category: "assembly"
+  img-url: "https://lh3.googleusercontent.com/OBgJyDO_F0BDIlvgXDWpcKcuoFG9gV2vLn2BJomZlpvS7a-v9zVtXCVVs11amPhj8yRSp-zNcIZTcJpAycyaLJTDmy6fHN06qANGerXir60d_4JnoIw50OKGD-8MlcX0yHkB1MAj5OE=w1920-h1080"
+   
+- name: "untrimmed knot"
+  category: "assembly"
+  img-url: "https://lh3.googleusercontent.com/Ep_M1C8mrI05L6VDL833DjAutUJKYGinJnJQJN9Kv20YN3U1qSD4LT_PuH6CZ54TIfdezEwb-axT2f66BWzRi909Fnn1O-Al_hXpUlPMZLdThQSpT6N8dtgvVy4qo7BZ4s8GCBp9Byo=w1920-h1080"
+   
+- name: "finished fastener"
+  category: "result"
+  img-url: "https://lh3.googleusercontent.com/SJKx_2wH2xSS3585x-AA1Qw0WOFazAnQIqkAzhYLy9I0TzCWYh9EYmZ81FFSQzmivyVMxYyzzeJhZcSdf1ZkYtJlnEAJbIVs0EAaAteCmxiXn-XYtvy0Y0lEohDxm-w5wN-PpqKbp8g=w1920-h1080"
+   
+- name: "bread bag tie"
+  category: "fastener-uses"
+  img-url: "https://lh3.googleusercontent.com/-f1pcrPaTTinNut1FrZHWfquovtckzsY2YthNa7e5WX9hfZHl8ANElnYBGgj0vDIef-HC9i0XugjR5XORTqAr1jZKoyJcn_mwp0kO3FlSXE1zhg5D2sc-gwG-5EwXW8VfvncB_fdhfU=w1920-h1080"
+   
+- name: "fastener shapes"
+  category: "customize"
+  img-url: "https://lh3.googleusercontent.com/R5jvlILOCX-tp8GX4J2zeWIBo2fFOjQAIquBh-YUYcsSmbfBBYRbIh8kudcEyQ94tozryRSij345xnytFkPB4mrHBq4-DaQGJuC_5ND4_GvgCo8xD1kAJyaWCE7ksLN9OzGjvDSDC3M=w1920-h1080"
+   
+- name: "sheep fastener front"
+  category: "customize"
+  img-url: "https://lh3.googleusercontent.com/1foaQfO0Gs3__hs9bsjoZIsgIx-GdpXj9oc8zj4ACgHaH-CnltGbD3Vy9t2pE2a238meQAkIDd-pefYsZIUhK2XvlB7E8XqmvSt1v3KvwsuhQvvS-QnZY7lCw0JlGRw5nn7uh1ScPmk=w1920-h1080"
+   
+- name: "sheep fastener back"
+  category: "customize"
+  img-url: "https://lh3.googleusercontent.com/LGnB7WDuP5FPdgEthhBVe-jVjFHP8a_d74pIPBg1EYNNvyMwmRNlLwvCotZb7NW3QmsWL_ZC99JowHcvkinuM1fKLO313_6zrfs9S9VkFv4MoHIhFiRpNtGglb2COCm_SWy-N8wh_Vc=w1920-h1080"
+   
+- name: "95A rubber test"
+  category: "prototype"
+  img-url: "https://lh3.googleusercontent.com/4-N_VgFsf1Yvni1o5HJ0cWpm8N9KHueBI6yde7Z306BiQB8jUiHVZF86mu2i4ZKhIuw9qywADnB3DahQJOHMAkDt08VGdYJKTHwg1n6lDy67rFXeHWhGXgdvfy7y_3WT7vpj1sipBC8=w1920-h1080"
+   
+- name: "wire fastener"
+  category: "fastener-uses"
+  img-url: "https://lh3.googleusercontent.com/d7vUMgKBHeAQhVDGj_yFSWSVlMWAXsHF-MtptVt42P0Vi3DWXJCEkoACF9Q57MZhdOl2AEB0nvlto7WQPGXI82_1cHdu8DOH-E_eFOGSv5SkhJ-b3MeFyPsbif4-t7JV_XwIGu_zl8M=w1920-h1080"
+   
+- name: "fastener parts"
+  category: "parts"
+  img-url: "https://lh3.googleusercontent.com/6SeIVKMs25Ui_O0fuLWZnPjKPK-HIy9fQjeVf0Tb0Y5aNubJefktgKDetiwYT4OZymugbOlVFUeiKbT5pesNwKQnfqWPhSPzwEGsnrRBhVyGfw55nkhqSTF83RlgHYtzAmqLs7L_y_U=w1920-h1080"
+   
+- name: "fusion 1"
+  category: "fusion"
+  img-url: "https://lh3.googleusercontent.com/jS5Z0P5yAaPyG7ll1mklHg_m2nBQlrBZlfCy9IGEnhcudHY5hoIFXJAcVvVH7lQ3iJmjoAoP2BTF6u3SaOonoVqehKBjtjp8XlOhhyoRfVSdDmLvNpnXFb-GmsY7UbxySNk1H1V5XZc=w1920-h1080"
+
+- name: "fusion 2"
+  category: "fusion"
+  img-url: "https://lh3.googleusercontent.com/5EjPHC9lDrUmU19nlJLYErT5jKSUabwdLoFrZHvIIZfb1j_YxQnA9VducnTCgipQnN9H68904UVoO2KLZrm-VdRdHwIGVkJvjDUL4-Cd4IVx2vsayiBtFqZw-ovn3KQUCiFNDaz49OY=w1920-h1080"
+
+- name: "fusion 3"
+  category: "fusion"
+  img-url: "https://lh3.googleusercontent.com/TlFLSbNQihrwlCt1BVq6OAgdvEII6Zl1sjhWlDE7zobADm835gjI-pmgSKnbtH0NUg3359-iujf5ulh1z90z6e22qnp5jU2EVOp0qVpBXjP0toHsDvYCybM3tWMiB-0r_xvv9bn0upQ=w1920-h1080"
+
+- name: "fusion 4"
+  category: "fusion"
+  img-url: "https://lh3.googleusercontent.com/cC8uKt4pABFgW15_9NyG22Eg-6WIdZEaa1sonzYvWpTL67YmiXcfvZBjNQFZz1ZqI1B6KtGrOiAbNW_dDNcqIeNAi15__PA_VvIDSCXULnMVBo-_5J4d7kATArLvPoYc_TzdOuMCq1Q=w1920-h1080"
+
+- name: "fusion 5"
+  category: "fusion"
+  img-url: "https://lh3.googleusercontent.com/X0tBgsEX7oqXQ-hRU-gIj7YAkGOFrVmeOzMdrXbUaaxrpD8P03ruWKaYpTSRgTb8N7IssN6Itwmsf8PacEbrE5gyCXncWkbP6-seh371YfSJQ3cWEUjdtkTxhGkf0C8bLq2PGlZfv7g=w1920-h1080"
+
+- name: "fusion 6"
+  category: "fusion"
+  img-url: "https://lh3.googleusercontent.com/jc0sRwT7tn973uRCmTOblH9Pa568F8NSqcn3tOVvmI4xGtnH7RmwT1gViBT1G7T58lBw7yW1GJDi3pE1k1Vl2dhatWb5vqYqRm55mnnnTynhL3ngaxkcVtNn9v2lyQdDNyJ7x_JEfCs=w1920-h1080"
+
+- name: "fusion 7"
+  category: "fusion"
+  img-url: "https://lh3.googleusercontent.com/_svqzRPqvwwu5hjPZN4feCiqPMWorZDCYHTx_wJf1T1w6RbzTOSpuD4oSLwvT2kZa8Jvdl33LhdZQZ_4mpVMeTzBw1-ClqON642OhxnzL-VVcEbyyGmqJQk3-po_B6gekFCfPjzibJw=w1920-h1080"
+      
+- name: "tinkercad"
+  category: "tinkercad"
+  img-url: "https://lh3.googleusercontent.com/KII-0GPISdSOig0AgVAEqAI1Hm0NwPCmBfZulFAJZXWbn2vHv0hTm9JUYq6_SbJS-GD9Y5XSV3z6too0UG4d9cq026EPu1TFmZBZoGmcIWQfa6AiN-YbDYtqW2LtQBRgHAQ5t7a-KH0=w1920-h1080"
+   
+- name: "slicer"
+  category: "print"
+  img-url: "https://lh3.googleusercontent.com/TKy5Tp3-48jxxZopDUKEzYrJYW4oaYWqQKPpOmlUIPsWY-KcBXcwUBbJhOF7sQzLL40iG-1TKlILN60vCtFS1llqFspaxygojFdaCZ_b5sXHONWNEvCkJ4GA3usMvzb8nJg6ppFQQZk=w1920-h1080"
+

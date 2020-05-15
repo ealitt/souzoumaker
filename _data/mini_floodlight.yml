@@ -1,0 +1,55 @@
+- name: "floodlight back"
+  category: "result"
+  img-url: "https://lh3.googleusercontent.com/nyrnuHqszv8uqKid8WLdjApwIRoEnSsqKeSlxiEYzz0PVO3F_l66R7pcxZRKQBTYe4OpxKTw2XlYlG-lw8Ifs5P84HpXfFweg5nIPcs7mBe0HMF1taalDJ1jbdfUtqrmGI6yjuFsOX8=w1920-h1080"
+   
+- name: "floodlight side"
+  category: "result"
+  img-url: "https://lh3.googleusercontent.com/SAmqI4hTwCtzeQIxn8xdR6PMQdfF_2TQTYmgtOXsoEoa5nVJSUbFSUhuFVEmeTkgFvZRb1LRoxV2UOC7byBvpFuJ48w5vAxCXvAnKvTZw21e0fyGIkCiDAkC9SfQod37djLxMAyAvvM=w1920-h1080"
+   
+- name: "floodlight on"
+  category: "result"
+  img-url: "https://lh3.googleusercontent.com/Kfxl6R01cB-ShJYCZUao4r0fyCZ-nsxf_oq2zYPzo4kKWrWZj6Z61qJPeAfxSz_fp9aDtS5dRXeLzaUMai_eafqDqgKo7LknPprg4r1HZt_E9yztPZCyqCO1wbz-fkoWwMJouW63Wvw=w1920-h1080"
+   
+- name: "led solder"
+  category: "assembly"
+  img-url: "https://lh3.googleusercontent.com/sULevPYPcUoJRFj5A76MezrdNHy6MPNAa3mawIqhynpChqysYoKtG4yadT9C8tgbc6xW9CCJ-vt3pBP9QQFEULKHg66PGQqAEOpFklF8sOuGdEHL7dzrpVcXl3PQxu3y1Y9FpNvqJeo=w1920-h1080"
+   
+- name: "brightness knob"
+  category: "assembly"
+  img-url: "https://lh3.googleusercontent.com/lK9LCJxtIy3kTVx2jDqNQMPrdkuL0Y9ZwrxG1PdvTRyhxyjn9uHB1mYFhABgM1LViE2SyJTyqznLcgH5f8bmNfA5-KfWUyBcLAiqko185X046l9Qo9krJWD5ZK-jDUGhAwRNTpTZHho=w1920-h1080"
+   
+- name: "power plug"
+  category: "assembly"
+  img-url: "https://lh3.googleusercontent.com/mNL1fmZy_fUCZyo2vOVKNow_TkbwdR52vzManMaeMuus37r_GUGQQI_HgWX6mFwP5IiW4Nvdk2g0ZCTO-53duHycytwhW9b2fReg48os-LFB7E_spWFzyxT-jfj6I-n-p_fDMbqofqQ=w1920-h1080"
+   
+- name: "switch and power"
+  category: "assembly"
+  img-url: "https://lh3.googleusercontent.com/UqTJf7JBvZ3kOOSZYsCMPJYbvDzpRb36erHMhHRyXRdtp18I81UtpJ8dM8JR5ma6RLQKly_Z5Ja10PGtuzi_eU803P0ilDSytxJD_UPlcglZTV3OgOmiJdXGhQsnxtDPKAThoOeBz8Q=w1920-h1080"
+   
+- name: "floodlight on tripod"
+  category: "result"
+  img-url: "https://lh3.googleusercontent.com/DAEFgBxfN90LSRDiuyk5FBI2VlEwZ624LN8PNVGgQpL20LtcEpBLfJGs5BFE771sVCH3S7bgSr5lUXuGgoT_3jVOYkcWgY-Y3v-_c953riOEiqBxk3HT9bmQ5cSCQ6gm4g7-pyQxdvs=w1920-h1080"
+   
+- name: "tripod adapter"
+  category: "result"
+  img-url: "https://lh3.googleusercontent.com/njhXUOxqRvAEyL8-VYZxQ9bm-9KlWJxbDiw9OuVFwg01szctV05-sY2Yqww3IkVx-jGcOf7_U73wK0EC-KGRcUAsyP2YxAdtEl5jzhYrCay0V2-EUq91O0S47QpSn2DSUKn_y1vQIfI=w1920-h1080"
+   
+- name: "power draw"
+  category: "testing"
+  img-url: "https://lh3.googleusercontent.com/8n4VhmGBo0WpQV1lGRQKUMzoo8707NleLmCYsPfp7V14CY_eQlwEoW0n593spk2pXRg15K1WTbiBxrz9lmGv2WBXQrUCcrAxvDn-TF1NJCdhxWo_V0PVRya9ZpsRR09A7VnmqKaKvas=w1920-h1080"
+   
+- name: "tripod adapter base"
+  category: "result"
+  img-url: "https://lh3.googleusercontent.com/nUXFjHkZ7TAIJCYAtxPUKiDwtdeB_ZzSRY9zNRDzTgfAQFhuHQS-mLS6PWAuYcc8DvWYfIWVq6KRe0rHpWtGBOYRq9LW2aX_wKsouMAdGH3pQf5KC4XK1rqKnZx9JRrURmk80JToMEQ=w1920-h1080"
+   
+- name: "power draw 2"
+  category: "testing"
+  img-url: "https://lh3.googleusercontent.com/CDNr5KsaAZdCDQkD3vUD3Ock25HXIGNf4Y6K6yY7GktR0fshEZehAddyHXECzxJJrnw70DZLjwmFopuo95JjA8Q5lpS3Bsp5S08oD4VRjRxH9a0411WiIzvJbdHz4qsWd6YYsJy3CDU=w1920-h1080"
+   
+- name: "power draw 3"
+  category: "testing"
+  img-url: "https://lh3.googleusercontent.com/mWvwyLUTenlvIuS9mUGap4QG95ObYAtZdZ1Z3BVjzyaD7x4RFLg7srFIDUNKHtjLiLVG7YC4QLE4l37P_5H7wkFDytMGPIKLMmyGeAjs43L_CooqJ9NVxk0L81dz4XtzD9a9PmmOMNk=w1920-h1080"
+   
+- name: "wiring"
+  category: "wiring"
+  img-url: "https://lh3.googleusercontent.com/M82UJxoSje-5Xw19bdQCFIrJ_2ApkwjuG3M1TaO9WhsFQBABZwRwgL00hf-wlGIyVk7V4D9us0G9FG0qVsxkn3bIxKiaQbc8EphZuhFg_eguhrVIT0BveedYhX1QW3QzfSxGlgoKE1I=w1920-h1080"

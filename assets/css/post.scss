@@ -1,0 +1,146 @@
+---
+---
+
+.post-content {
+    display: block;
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.full-thumb {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    img {
+        flex: 0.65;
+        height: 100%;
+        width: auto;
+    }
+
+}
+
+.title {
+    padding-top: 2em;
+
+    h3 {
+        color: #0e0e0e;
+    }
+}
+
+.meta {
+    padding: 0.5em 0;
+
+    time {
+        color: #a9a9a9;
+    }
+}
+
+.details {
+    line-height: 2em;
+    font-family: Montserrat;
+    a {
+        text-decoration: underline;
+        color: #9f9f9f;
+
+        &:hover {
+            color: #373737;
+        }
+    }
+    p {
+        font-family: Montserrat;
+        color: #808080;
+    }
+    hr {
+        color: #ececec;
+    }
+    li {
+        color: #808080;
+    }
+}
+
+main {
+    ol {
+        padding-top: 1em;
+    }
+    h4 {
+        padding-bottom: 1em;
+    }
+    h5 {
+        font-weight: normal;
+        color: #a6a6a6;
+    }
+    hr {
+        margin: 1.5em 0;
+    }
+}
+
+.slide-gallery {
+    width: 50%;
+    margin: 0 auto;
+
+    img {
+        height: 40%;
+        width: auto;
+        margin: 0 auto;
+    }
+
+    .slides {
+        display: none;
+
+        &.show {
+            display: block;
+        }
+    }
+    .controls {
+        width: 100%;
+        height: 20px;
+        padding-top: 0.5em;
+        padding-left: 0px;
+        padding-bottom: 1.5em;
+        margin: auto auto;
+    }
+    .slide-bubble {
+        float: left;
+        fill: #4141414a;
+        stroke: #ffffff;
+        stroke-width: 1px;
+        width: 20px;
+        cursor: pointer;
+        padding: 0.1em;
+        list-style-type: none;
+
+        &.highlight {
+            fill: #323232bd; 
+        }
+        &:hover {
+            fill: #323232bd;
+        }
+        svg {
+            height: 20px;
+            width: 20px;
+        }
+        svg circle {
+            cx: 10px;
+            cy: 10px;
+            r: 10px;
+        }
+    }  
+    .hide {
+        display: none;
+    } 
+}
+
+.viewer {
+    width: 65%;
+    height: 45%;
+    margin: 1.5em auto;
+}
+
+.youtube-video {
+    width: 50%;
+    height: 35%;
+    margin: 1.5em auto;
+}
+

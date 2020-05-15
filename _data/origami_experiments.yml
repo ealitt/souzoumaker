@@ -1,0 +1,15 @@
+- name: "hexagon"
+  category: "result"
+  img-url: "https://lh3.googleusercontent.com/m02v5xF3H4srEEf4eKQHv2knD4QNyIEmZGEFrmrVTlLSD-tVR6bhIYUUhYN0Kxh6fT1D_NjVMhXBsZiO7ssHVK5b3GKV5fAgSeScvjU49Kp1NJoollgpXqbdJSXIhDVekCiEpR3sm7g=w1920-h1080"
+   
+- name: "hexagon folded"
+  category: "result"
+  img-url: "https://lh3.googleusercontent.com/DxOTD4II42fJH7h2TIZxaMChDbtv_pNHoWBHEB7pFV06bmgTFmskbU-yTF-_VkO32FqAbHMOUjL9NUypvLfnQNBqvy2wbr2wmidJMDWLAuqroMjmra8Zr6thj7DslcL2Fwr2iqDdpBw=w1920-h1080"
+   
+- name: "hexagon semi-folded"
+  category: "result"
+  img-url: "https://lh3.googleusercontent.com/h6SuQvhg7wRqcnCBBemo1b245y_s4EC2zObW4-LnKEGj386Qzv-L3jvEKEk96AU7it__wUodT5E3tAEuB1dNgFi0PxgdTf4ZPoGphoGQfdp6BGnYjZ52F8H6j_UNFOob2NvLChuPWL0=w1920-h1080"
+   
+- name: "broken hexagon"
+  category: "result"
+  img-url: "https://lh3.googleusercontent.com/KrftHU6VioCvBgKS98LZ_0wqC9BTNN5_PiD9Q_Hd8jnVnVyiiLIt0gjSLCLcEU_NONmZkj_M7RfngmobFCqH7e4B5cxqx4YHpxB7Zktu5u97Pd_Eis_c9ch2lkMw6ca9gxWLox4jhSc=w1920-h1080"
