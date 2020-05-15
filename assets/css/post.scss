@@ -150,3 +150,21 @@ main {
     }
 }
 
+#about {
+    display: flex;
+    font-family: Montserrat;
+    line-height: 2em;
+
+    #profile {
+        flex: 1;
+        padding: 0 1em;
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }    
+    #info {
+        flex: 1.5;
+    }
+}
