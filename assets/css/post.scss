@@ -77,12 +77,12 @@ main {
 }
 
 .slide-gallery {
-    // width: 50%;
     margin: 0 auto;
 
     img {
-        height: 40%;
-        width: auto;
+        width: 80%;
+        height: auto;
+        // width: auto;
         margin: 0 auto;
     }
 
@@ -143,5 +143,11 @@ main {
     width: 50%;
     height: 35%;
     margin: 1.5em auto;
+
+    @media screen and (max-width: 800px) {
+        width: 80%;
+        height: 40%;
+        margin: 1.5em auto;
+    }
 }
 
