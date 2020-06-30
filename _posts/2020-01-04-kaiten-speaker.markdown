@@ -125,13 +125,13 @@ thumbnail:
     </div>
     <ol>
         <li>
-            Take both speakers and solder 15 cm (6 inches) of wire to each of the terminals (pictured: + yellow, - green). I used four M2.5 screws to fasten the speakers to each speaker cover. 
+            Take both speakers and solder 15 cm (6 inches) of wire to each of the terminals (pictured: + yellow, - green). I used four M2.5 screws to fasten the speakers to each speaker's cover.
         </li>
         <li>
             Pass the pin lock through the wire first, then the pin next. Both facing away from the speaker as pictured.
         </li>
         <li>
-            Fit the pin in the speaker sphere case as shown. Make sure to leave some slack for the wire. Then fit the pin lock against the pin. You can glue the pin lock to the pin in this step to make them permanent, however it is no required.
+            Fit the pin in the speaker sphere case as shown. Make sure to leave some slack for the wire. Then fit the pin lock against the pin. You can glue the pin lock to the pin in this step to make them permanent, however, it is not required.
         </li>
         <li>
             Screw the cover onto the sphere case.
