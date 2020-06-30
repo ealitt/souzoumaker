@@ -149,7 +149,7 @@ thumbnail:
             Repeat with the other side, but make sure to use a far longer piece of wire depending on how you plan to space the speaker.
         </li>
         <li>
-            Once you pull the wire through the bearing, attach the wire spool and fix in place with hot glue if necessary.
+            Once you pull the wire through the bearing, attach the wire spool and fix it in place with hot glue if necessary.
         </li>
         <li>
             Pass the long wire through the hole in the side of the spool and wrap around. Then pass the wire through the small hole on the side of the base and into the small hole on the side of the electronics base.
