@@ -96,7 +96,7 @@ thumbnail:
             Pin lock x2
         </li>
         <li>
-            Volumne Dial
+            Volume Dial
         </li>
         <li>
             Electronics base
