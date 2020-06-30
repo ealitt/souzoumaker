@@ -173,7 +173,7 @@ thumbnail:
             </ul>
         </li>
         <li>
-            Adudio amplifier
+            Audio amplifier
             <ul>
                 <li>
                     <a href="https://rover.ebay.com/rover/1/711-53200-19255-0/1?campid=5338172662&mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FOEP30Wx2-Audio-Module-Class-D-Digital-Power-Amplifier-Board-Replace-TDA8932%2F222240688640%3Fepid%3D593221892%26hash%3Ditem33be93ca00%3Ag%3APWIAAOSwGtRXzMZ0&toolid=20008" target="_blank">eBay</a>
