@@ -1,0 +1,52 @@
+---
+import BaseLayout from './BaseLayout.astro';
+import type { CollectionEntry } from 'astro:content';
+
+interface Props {
+  post: CollectionEntry<'blog'>;
+}
+
+const { post } = Astro.props;
+const { title, date, thumbnail } = post.data;
+
+const formattedDate = new Date(date).toLocaleDateString('en-US', {
+  year: 'numeric',
+  month: 'long',
+  day: 'numeric'
+});
+---
+
+<BaseLayout title={`${title} - Souzou Maker`}>
+  <article class="prose">
+    <header>
+      <h1>{title}</h1>
+      <time datetime={date.toISOString()}>{formattedDate}</time>
+    </header>
+
+    {thumbnail && (
+      <img
+        src={thumbnail.url}
+        alt={title}
+        width={thumbnail.dimensions?.[0]}
+        height={thumbnail.dimensions?.[1]}
+      />
+    )}
+
+    <slot />
+  </article>
+</BaseLayout>
+
+<style>
+  article header {
+    margin-bottom: 2rem;
+  }
+
+  article h1 {
+    margin-bottom: 0.5rem;
+  }
+
+  time {
+    color: var(--color-muted);
+    font-size: 0.9rem;
+  }
+</style>

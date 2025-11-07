@@ -1,0 +1,160 @@
+---
+interface Props {
+  images: Array<{
+    url: string;
+    alt?: string;
+  }>;
+}
+
+const { images } = Astro.props;
+---
+
+<div class="gallery" data-gallery>
+  <div class="gallery-main">
+    <img
+      src={images[0].url}
+      alt={images[0].alt || ''}
+      data-main-image
+      loading="lazy"
+    />
+  </div>
+
+  {images.length > 1 && (
+    <div class="gallery-controls">
+      <button data-prev aria-label="Previous image">←</button>
+      <div class="gallery-dots">
+        {images.map((_, index) => (
+          <button
+            class={index === 0 ? 'active' : ''}
+            data-dot={index}
+            aria-label={`Go to image ${index + 1}`}
+          />
+        ))}
+      </div>
+      <button data-next aria-label="Next image">→</button>
+    </div>
+  )}
+</div>
+
+<script>
+  class ImageGallery {
+    private container: HTMLElement;
+    private mainImage: HTMLImageElement;
+    private dots: NodeListOf<HTMLButtonElement>;
+    private images: Array<{ url: string; alt?: string }>;
+    private currentIndex = 0;
+
+    constructor(container: HTMLElement) {
+      this.container = container;
+      this.mainImage = container.querySelector('[data-main-image]')!;
+      this.dots = container.querySelectorAll('[data-dot]');
+
+      // Parse images from data attribute
+      const imagesJson = this.container.dataset.images || '[]';
+      this.images = JSON.parse(imagesJson);
+
+      this.init();
+    }
+
+    init() {
+      const prevBtn = this.container.querySelector('[data-prev]');
+      const nextBtn = this.container.querySelector('[data-next]');
+
+      prevBtn?.addEventListener('click', () => this.navigate(-1));
+      nextBtn?.addEventListener('click', () => this.navigate(1));
+
+      this.dots.forEach((dot, index) => {
+        dot.addEventListener('click', () => this.goTo(index));
+      });
+    }
+
+    navigate(direction: number) {
+      this.currentIndex += direction;
+      if (this.currentIndex < 0) this.currentIndex = this.images.length - 1;
+      if (this.currentIndex >= this.images.length) this.currentIndex = 0;
+      this.updateImage();
+    }
+
+    goTo(index: number) {
+      this.currentIndex = index;
+      this.updateImage();
+    }
+
+    updateImage() {
+      const image = this.images[this.currentIndex];
+      this.mainImage.src = image.url;
+      this.mainImage.alt = image.alt || '';
+
+      this.dots.forEach((dot, index) => {
+        dot.classList.toggle('active', index === this.currentIndex);
+      });
+    }
+  }
+
+  // Initialize all galleries on the page
+  document.addEventListener('DOMContentLoaded', () => {
+    document.querySelectorAll<HTMLElement>('[data-gallery]').forEach(el => {
+      new ImageGallery(el);
+    });
+  });
+</script>
+
+<style>
+  .gallery {
+    margin: 2rem 0;
+  }
+
+  .gallery-main {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 16/9;
+    background: var(--color-border);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+
+  .gallery-main img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .gallery-controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+
+  button {
+    background: var(--color-border);
+    border: none;
+    border-radius: 4px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    color: var(--color-text);
+    transition: background 0.2s;
+  }
+
+  button:hover {
+    background: var(--color-accent);
+    color: white;
+  }
+
+  .gallery-dots {
+    display: flex;
+    gap: 0.5rem;
+  }
+
+  [data-dot] {
+    width: 10px;
+    height: 10px;
+    padding: 0;
+    border-radius: 50%;
+  }
+
+  [data-dot].active {
+    background: var(--color-accent);
+  }
+</style>

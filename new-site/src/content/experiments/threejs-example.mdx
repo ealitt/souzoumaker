@@ -1,0 +1,51 @@
+---
+title: "Three.js Spinning Cube"
+date: 2024-01-20
+description: "A simple Three.js experiment demonstrating interactive 3D graphics"
+interactive: true
+technologies: ["Three.js", "WebGL", "JavaScript"]
+draft: true
+---
+
+import ThreeScene from '../../components/ThreeScene.jsx';
+
+This is an example Three.js experiment. The cube below is fully interactive and rendered client-side.
+
+<div class="interactive-container">
+  <ThreeScene client:visible />
+</div>
+
+## How It Works
+
+The scene is built using Three.js and only loads when the component enters the viewport (`client:visible` directive). This keeps your page fast!
+
+Key features:
+- **Lazy loading**: JavaScript only loads when needed
+- **Interactive**: Rotates automatically
+- **Responsive**: Adapts to container size
+
+## The Code
+
+```javascript
+import * as THREE from 'three';
+
+const scene = new THREE.Scene();
+const camera = new THREE.PerspectiveCamera(75, width / height, 0.1, 1000);
+const renderer = new THREE.WebGLRenderer();
+
+// Add a cube
+const geometry = new THREE.BoxGeometry();
+const material = new THREE.MeshBasicMaterial({ color: 0x00ff00 });
+const cube = new THREE.Mesh(geometry, material);
+scene.add(cube);
+
+// Animation loop
+function animate() {
+  requestAnimationFrame(animate);
+  cube.rotation.x += 0.01;
+  cube.rotation.y += 0.01;
+  renderer.render(scene, camera);
+}
+```
+
+This architecture allows you to mix static content (this text) with fully interactive experiments!

@@ -1,0 +1,117 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+
+const researchPosts = await getCollection('research', ({ data }) => {
+  return data.draft !== true;
+});
+
+const sortedPosts = researchPosts.sort((a, b) =>
+  new Date(b.data.date).getTime() - new Date(a.data.date).getTime()
+);
+---
+
+<BaseLayout title="Research - Souzou Maker">
+  <section class="page-header">
+    <h1>Research</h1>
+    <p>Technical explorations, analyses, and long-form writing</p>
+  </section>
+
+  <div class="research-list">
+    {sortedPosts.length === 0 ? (
+      <p class="empty-state">No research posts yet. Check back soon!</p>
+    ) : (
+      sortedPosts.map((post) => (
+        <article class="research-card">
+          <a href={`/research/${post.slug}`}>
+            <h2>{post.data.title}</h2>
+            {post.data.description && (
+              <p class="description">{post.data.description}</p>
+            )}
+            <div class="meta">
+              <time datetime={post.data.date.toISOString()}>
+                {new Date(post.data.date).toLocaleDateString('en-US', {
+                  year: 'numeric',
+                  month: 'long',
+                  day: 'numeric'
+                })}
+              </time>
+              {post.data.tags.length > 0 && (
+                <div class="tags">
+                  {post.data.tags.map((tag) => (
+                    <span class="tag">{tag}</span>
+                  ))}
+                </div>
+              )}
+            </div>
+          </a>
+        </article>
+      ))
+    )}
+  </div>
+</BaseLayout>
+
+<style>
+  .page-header {
+    text-align: center;
+    margin: 3rem 0;
+  }
+
+  .page-header p {
+    color: var(--color-muted);
+    font-size: 1.1rem;
+  }
+
+  .research-list {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .empty-state {
+    text-align: center;
+    color: var(--color-muted);
+    padding: 3rem;
+  }
+
+  .research-card {
+    border: 1px solid var(--color-border);
+    border-radius: 8px;
+    padding: 2rem;
+    margin-bottom: 1.5rem;
+    transition: border-color 0.2s;
+  }
+
+  .research-card:hover {
+    border-color: var(--color-accent);
+  }
+
+  .research-card h2 {
+    margin-bottom: 0.5rem;
+  }
+
+  .description {
+    color: var(--color-muted);
+    margin-bottom: 1rem;
+  }
+
+  .meta {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 0.9rem;
+    color: var(--color-muted);
+  }
+
+  .tags {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+  }
+
+  .tag {
+    background: var(--color-border);
+    padding: 0.2rem 0.6rem;
+    border-radius: 1rem;
+    font-size: 0.85rem;
+  }
+</style>

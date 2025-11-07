@@ -1,0 +1,95 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout title="About - Souzou Maker">
+  <div class="about-container">
+    <div class="about-content">
+      <h1>About</h1>
+
+      <div class="profile-section">
+        <div class="profile-image">
+          <!-- Profile image will go here - can be stored in public/assets or R2 -->
+          <div class="placeholder"></div>
+        </div>
+
+        <div class="bio">
+          <p>
+            Hi, I'm Eammon Littler. I'm a graduate of Dartmouth College with a Master's in Computer Science.
+            I currently work at Quel Imaging as a software developer, doing research in the world of
+            fluorescence-guided surgery. While I grew up in warm and sunny Southern California, I now reside
+            in White River Junction, Vermont.
+          </p>
+
+          <p>
+            I've always been a maker, creating marble towers as a kid and playing with 3D printers as an adult.
+            As a maker, the open-source community is very important to me. It's where I've learned a lot of the
+            skills I have today. To give back to the community, I've worked towards creating clear guides for
+            every project I post. Currently, my site is filled with 3D printing content. However, I have begun
+            exploring ways to create interactive/useful webpage tools. Figma is my favorite website prototyper
+            and GitHub pages help run my sites easily.
+          </p>
+
+          <p>
+            My current interests include 3D design, electronics, cooking, and photography. I'm into fermentation
+            and usually keep a jar of sprouting greens nearby. My sprouts seem healthy, but I'm not as confident
+            about my water kefir...
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</BaseLayout>
+
+<style>
+  .about-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 3rem 1rem;
+  }
+
+  .about-content h1 {
+    margin-bottom: 2rem;
+  }
+
+  .profile-section {
+    display: grid;
+    grid-template-columns: 250px 1fr;
+    gap: 3rem;
+    margin-top: 2rem;
+  }
+
+  .profile-image {
+    position: sticky;
+    top: 2rem;
+  }
+
+  .placeholder {
+    width: 250px;
+    height: 250px;
+    background: var(--color-border);
+    border-radius: 8px;
+  }
+
+  .bio p {
+    margin-bottom: 1.5rem;
+    line-height: 1.8;
+  }
+
+  @media (max-width: 768px) {
+    .profile-section {
+      grid-template-columns: 1fr;
+      gap: 2rem;
+    }
+
+    .profile-image {
+      position: static;
+    }
+
+    .placeholder {
+      width: 100%;
+      max-width: 250px;
+      margin: 0 auto;
+    }
+  }
+</style>

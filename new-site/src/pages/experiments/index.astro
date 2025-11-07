@@ -1,0 +1,106 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+
+const experiments = await getCollection('experiments', ({ data }) => {
+  return data.draft !== true;
+});
+
+const sortedExperiments = experiments.sort((a, b) =>
+  new Date(b.data.date).getTime() - new Date(a.data.date).getTime()
+);
+---
+
+<BaseLayout title="Experiments - Souzou Maker">
+  <section class="page-header">
+    <h1>Experiments</h1>
+    <p>Interactive demos, Three.js projects, and web-based tools</p>
+  </section>
+
+  <div class="experiments-grid">
+    {sortedExperiments.length === 0 ? (
+      <p class="empty-state">No experiments yet. Check back soon for interactive demos and visualizations!</p>
+    ) : (
+      sortedExperiments.map((experiment) => (
+        <article class="experiment-card">
+          <a href={`/experiments/${experiment.slug}`}>
+            <div class="card-content">
+              <h2>{experiment.data.title}</h2>
+              <p class="description">{experiment.data.description}</p>
+              <div class="technologies">
+                {experiment.data.technologies.map((tech) => (
+                  <span class="tech-badge">{tech}</span>
+                ))}
+              </div>
+            </div>
+          </a>
+        </article>
+      ))
+    )}
+  </div>
+</BaseLayout>
+
+<style>
+  .page-header {
+    text-align: center;
+    margin: 3rem 0;
+  }
+
+  .page-header p {
+    color: var(--color-muted);
+    font-size: 1.1rem;
+  }
+
+  .empty-state {
+    text-align: center;
+    color: var(--color-muted);
+    padding: 3rem;
+    grid-column: 1 / -1;
+  }
+
+  .experiments-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 2rem;
+    margin: 2rem 0;
+  }
+
+  .experiment-card {
+    border: 1px solid var(--color-border);
+    border-radius: 8px;
+    padding: 2rem;
+    transition: all 0.2s;
+    background: var(--color-bg);
+  }
+
+  .experiment-card:hover {
+    border-color: var(--color-accent);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+
+  .card-content h2 {
+    margin-bottom: 0.75rem;
+    font-size: 1.3rem;
+  }
+
+  .description {
+    color: var(--color-muted);
+    margin-bottom: 1rem;
+    line-height: 1.5;
+  }
+
+  .technologies {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+
+  .tech-badge {
+    background: var(--color-border);
+    padding: 0.25rem 0.75rem;
+    border-radius: 1rem;
+    font-size: 0.85rem;
+    color: var(--color-text);
+  }
+</style>

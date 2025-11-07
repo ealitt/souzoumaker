@@ -1,0 +1,92 @@
+---
+import BaseLayout from './BaseLayout.astro';
+import type { CollectionEntry } from 'astro:content';
+
+interface Props {
+  experiment: CollectionEntry<'experiments'>;
+}
+
+const { experiment } = Astro.props;
+const { title, date, description, technologies } = experiment.data;
+
+const formattedDate = new Date(date).toLocaleDateString('en-US', {
+  year: 'numeric',
+  month: 'long',
+  day: 'numeric'
+});
+---
+
+<BaseLayout title={`${title} - Experiments`}>
+  <article>
+    <header class="experiment-header">
+      <h1>{title}</h1>
+      <p class="description">{description}</p>
+      <div class="meta">
+        <time datetime={date.toISOString()}>{formattedDate}</time>
+        {technologies.length > 0 && (
+          <div class="tech-tags">
+            {technologies.map((tech) => (
+              <span class="tag">{tech}</span>
+            ))}
+          </div>
+        )}
+      </div>
+    </header>
+
+    <div class="experiment-content">
+      <slot />
+    </div>
+  </article>
+</BaseLayout>
+
+<style>
+  .experiment-header {
+    text-align: center;
+    margin: 3rem 0;
+  }
+
+  .description {
+    font-size: 1.2rem;
+    color: var(--color-muted);
+    margin: 1rem 0;
+  }
+
+  .meta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 1rem;
+  }
+
+  time {
+    color: var(--color-muted);
+    font-size: 0.9rem;
+  }
+
+  .tech-tags {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+  }
+
+  .tag {
+    background: var(--color-border);
+    padding: 0.25rem 0.75rem;
+    border-radius: 1rem;
+    font-size: 0.85rem;
+    color: var(--color-text);
+  }
+
+  .experiment-content {
+    max-width: 100%;
+    margin: 2rem auto;
+  }
+
+  /* Allow full-width interactive content */
+  .experiment-content :global(.interactive-container) {
+    width: 100%;
+    min-height: 500px;
+    margin: 2rem 0;
+  }
+</style>

@@ -1,0 +1,123 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+export async function getStaticPaths() {
+  const photoCollections = await getCollection('photography');
+  return photoCollections.map((collection) => ({
+    params: { slug: collection.slug },
+    props: { collection },
+  }));
+}
+
+const { collection } = Astro.props;
+const { Content } = await collection.render();
+const { title, date, description, location, images } = collection.data;
+
+const formattedDate = new Date(date).toLocaleDateString('en-US', {
+  year: 'numeric',
+  month: 'long',
+  day: 'numeric'
+});
+---
+
+<BaseLayout title={`${title} - Photography`}>
+  <article>
+    <header class="photo-header">
+      <h1>{title}</h1>
+      <div class="meta">
+        <time datetime={date.toISOString()}>{formattedDate}</time>
+        {location && <span class="location">{location}</span>}
+      </div>
+      {description && <p class="description">{description}</p>}
+    </header>
+
+    <div class="photo-gallery">
+      {images.map((image) => (
+        <div class="photo-item">
+          <img
+            src={image.url}
+            alt={image.alt || title}
+            width={image.width}
+            height={image.height}
+            loading="lazy"
+          />
+        </div>
+      ))}
+    </div>
+
+    {Content && (
+      <div class="prose">
+        <Content />
+      </div>
+    )}
+  </article>
+</BaseLayout>
+
+<style>
+  .photo-header {
+    text-align: center;
+    margin: 3rem 0;
+  }
+
+  .photo-header h1 {
+    margin-bottom: 1rem;
+  }
+
+  .meta {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    font-size: 0.9rem;
+    color: var(--color-muted);
+    margin-bottom: 1rem;
+  }
+
+  .location::before {
+    content: '📍 ';
+  }
+
+  .description {
+    font-size: 1.1rem;
+    color: var(--color-muted);
+    max-width: 70ch;
+    margin: 0 auto;
+  }
+
+  .photo-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+    margin: 3rem 0;
+  }
+
+  .photo-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    background: var(--color-border);
+  }
+
+  .photo-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    aspect-ratio: 4/3;
+    transition: transform 0.3s;
+  }
+
+  .photo-item:hover img {
+    transform: scale(1.05);
+  }
+
+  .prose {
+    max-width: 70ch;
+    margin: 3rem auto;
+  }
+
+  @media (max-width: 768px) {
+    .photo-gallery {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

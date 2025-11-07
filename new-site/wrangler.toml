@@ -1,0 +1,10 @@
+# Cloudflare Pages configuration
+# This file is optional for Pages, but useful for Workers/R2 integration
+
+name = "souzoumaker"
+compatibility_date = "2024-01-01"
+
+# Uncomment if you need R2 bindings for server-side access
+# [[r2_buckets]]
+# binding = "PHOTOS"
+# bucket_name = "souzoumaker-photos"

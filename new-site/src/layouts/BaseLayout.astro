@@ -1,0 +1,66 @@
+---
+import '../styles/global.css';
+
+interface Props {
+  title?: string;
+  description?: string;
+}
+
+const {
+  title = 'Souzou Maker',
+  description = 'Portfolio, blog, and experiments by Eammon Littler - maker, developer, and photographer'
+} = Astro.props;
+
+const currentPath = Astro.url.pathname;
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content={description}>
+    <title>{title}</title>
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <nav>
+          <a href="/" class="logo">
+            <h2>Souzou Maker</h2>
+          </a>
+          <ul>
+            <li><a href="/" class:list={[{ active: currentPath === '/' }]}>Projects</a></li>
+            <li><a href="/research" class:list={[{ active: currentPath.startsWith('/research') }]}>Research</a></li>
+            <li><a href="/experiments" class:list={[{ active: currentPath.startsWith('/experiments') }]}>Experiments</a></li>
+            <li><a href="/photography" class:list={[{ active: currentPath.startsWith('/photography') }]}>Photography</a></li>
+            <li><a href="/about" class:list={[{ active: currentPath === '/about' }]}>About</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <slot />
+    </main>
+
+    <footer>
+      <div class="container">
+        <p>&copy; {new Date().getFullYear()} Eammon Littler. Built with Astro & Cloudflare Pages.</p>
+      </div>
+    </footer>
+  </body>
+</html>
+
+<style>
+  .logo h2 {
+    margin: 0;
+    color: var(--color-text);
+  }
+
+  nav ul li a.active {
+    color: var(--color-accent);
+    font-weight: 600;
+  }
+</style>
