@@ -70,7 +70,7 @@ In less than an hour of 3D modeling and printing, you will have yourself a simpl
 When my school got a 3D printer I was tempted to print a bunch of stuff I found online, but found that 3D modeling something myself was a lot more satisfying. It's hard to get started and new interfaces are always daunting. I put this tutorial together to get any person familiar with 3D modeling and making something useful.
 Here are two uses I have for the fasteners. They make for great bread tie replacements and cable organizers. It stays on pretty tight and holds well too. This past fall in college, I had a chip bag that I kept closed with a fastener, threw it under my bed and forgot about it for a month. To my surprise the chips were still really crunchy! I was pretty impressed by how well this little print held up.
 ---
-#### Modeling in Fusion 360
+**Modeling in Fusion 360**
 Autodesk Fusion 360 is my 3D modeling software of choice. Don't fret about costs since the software is [free for students and educators](https://www.autodesk.com/products/fusion-360/students-teachers-educators).
 Every 3D model follows the same process; create a 2D sketch and turn it 3D.
 - The first step is to select the plane where you want to create the 3D model. There are three origin planes created by default going in the X, Y, and Z axes (red, green, and blue). For simplicity I will refer to them by color. We will choose the red and green plane so the 3D model will lay flat. If you are ever confused by the orientation of the object, look at the cube in the top right corner and it will tell you which side you are looking at.
@@ -81,13 +81,13 @@ Every 3D model follows the same process; create a 2D sketch and turn it 3D.
 - (Optional) Hit "f" on the keyboard for the "Fillet" tool. Fillets allow for rounding sharp edges. It also makes 3D models feel more polished. Select the perimeter of the slot on the top and bottom and enter "1 mm".
 - Right-click on the name of the file at the upper left of the screen and "Save As STL" for 3D printing.
 ---
-#### 3D Modeling in TinkerCAD
+**3D Modeling in TinkerCAD**
 The process for making models in Tinkercad are a bit more arbitrary than I'd like it to be, but then again I'm not the most familiar with its layout. Tinkercad lets you work with 3D models from the get-go allowing you to drag and drop pre-made 3D shapes. I made the fastener with one rectangle and two cylinder pieces with two "hole" rectangles that cut out the sections in the middle. The only thing that's important are the two rectangles in the middle at 2.5 mm width and 4 mm length for the rubber filament to go through. Otherwise the shape can be anything! A triangle, star, or something more complex. After you are done, export the model as an stl for printing.
 ---
-#### 3D Print
+**3D Print**
 I printed at the fastest setting on my Prusa i3 MK3 printer called "Draft" with a 0.3 mm layer height. It will print in roughly 11 minutes.
 ---
-#### Assembly
+**Assembly**
 You only need three things; the print, [2.85 mm ninjaflex filament](https://amzn.to/2xfgefH), and some pliers. Two really, but I strongly recommend having pliers. Also, don't use regular TPU filament since it is too slippery a material to tie a knot. It is possible to create the fastener with TPU filament ([much cheaper too](https://amzn.to/2X7zqva)), but I could only make it work by melting the ends with a soldering iron. The last picture shows my result. If you find a better way let me know!
 - Cut a 40 cm piece of flexible filament.
 - Push one end of the filament through one of the rectangle holes. Repeat with the other end.
@@ -95,7 +95,7 @@ You only need three things; the print, [2.85 mm ninjaflex filament](https://amzn
 - Take the pliers and pull very tightly until the knot stays in place. The filament might stretch a bit but that's okay.
 - Done!
 ---
-#### Customize!
+**Customize!**
 The best part of this design is its simplicity. As long as you have the two hole cutouts, a fastener can be made in any shape. Here are a few of the designs I've made. Credits go to my mom for sketching the sheep and cat. I used a picture of my dog for the last one. I will upload 3D models for all of these fasteners soon and add links here when I do.
 - [Regular fastener](https://www.thingiverse.com/thing:3715863)
 - [Sheep fastener](https://www.thingiverse.com/thing:3715873)

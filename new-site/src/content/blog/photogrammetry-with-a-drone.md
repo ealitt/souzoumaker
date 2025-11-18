@@ -56,6 +56,6 @@ The following are interactive viewers for the two versions of the chapel I made;
 <iframe src="https://myhub.autodesk360.com/ue29eb019/shares/public/SH919a0QTf3c32634dcf053a994df82cd826?mode=embed" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" width="100%" height="100%" frameborder="0"></iframe>
 <iframe allowfullscreen="true" mozallowfullscreen="true" src="https://myhub.autodesk360.com/ue29eb019/shares/public/SHabee1QT1a327cf2b7a020d73803ce6467c?mode=embed&amp;wmode=opaque" data-embed="true" webkitallowfullscreen="true" width="100%" height="100%" frameborder="0"></iframe>
 ---
-#### Results
+**Results**
 My job was now done. I handed the model off to the art professor to let him make the physical model. He opted to use the 5 axis cnc mill we have here, but the smaller parts of the chapel made it impossible to carve. Option two was to 3D print it and make a mold and cast it using what I believe is bronze. A filler of some sort was used to pad the fragile parts of the print for added support.
 The results were fantastic!

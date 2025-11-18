@@ -93,18 +93,18 @@ galleries:
 
 A bottle cutter is a tool for cutting plastic bottles into tough rope-like material. Over a year ago, I found [this](https://www.youtube.com/watch?v=JMbT4DOi21U) video and decided to make a 3d printed version of it. If you would like to support the original creators, here is a link to their site where you can buy the original tool (update: the original creator's website seems to be down at the moment).
 ---
-#### List of parts
+**List of parts**
 - 3d printed parts ([link](https://www.thingiverse.com/thing:2477697))
 - Aluminum strip - from soda can (be careful when cutting)
 - Threaded Knob 11/64" diameter, any thread, and length of 2/3" or less  - from hardware store
 - Snap-off cutter 9 mm - from hardware store
 ---
-#### Tools
+**Tools**
 - Scissors
 - Super-glue
 - Pliers
 ---
-#### Assembly
+**Assembly**
 - Wrap your aluminum piece around the slot of one of the cutter guide arms. Bend into a U-shape and cut off any excess. Make two of these U-shaped pieces.
 - Add a dab of super-glue to the crevice of the slot in the guide pieces. Carefully slide the U-shaped aluminum piece. Use scissors or pliers and flatten the aluminum against the plastic until flat. If the aluminum seems loose, add a drop of super-glue to each end of the slot on the guide.
 - Repeat the same process for the base of the guide, on both slots.
@@ -114,7 +114,7 @@ A bottle cutter is a tool for cutting plastic bottles into tough rope-like mater
 - Use pliers to carefully break off a piece of the cutter into a length of 3 pieces as shown above. Slide the cutter into the green handle with the blade facing the threaded knob.
 - Unscrew the threaded knob, slide in the blue guide, and screw the knob back in. Moving the blue guide down adjusts the thickness of the rope. I found that markers printed directly into the handle didn't show up well, so I decided to mark the handle with a sharpie as a reference. To do this, unscrew the knob until the guide is loose, slide the guide up and mark as shown above.
 ---
-#### Making Bottle Rope
+**Making Bottle Rope**
 Making the rope takes some practice, so be patient. You will probably end up with a bunch of short unusable strands.
 - First, get a plastic bottle and remove the cover and adhesive.
 - Use a gas stove, or candle in my case, and heat the bottle to smooth out any bumps. This process will also thicken and strengthen the rope. *Make sure to leave the cap of the bottle on. You want the pressure on the inside to uniformly smooth the bottle.

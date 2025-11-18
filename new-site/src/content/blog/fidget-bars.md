@@ -29,7 +29,7 @@ galleries:
 
 The new fidget spinner! I have tons of bearings left over from when they were popular. I was designing a hinge for a desk light when I had a two rigid pendulums with bearings in them. I stuck them in wood dowels laying around when coming up with a hinge mechanism. After playing with them around for a while, I tried spinning them in opposite directions and came up with this fidget toy. This is what I came up with after refining the design.
 ---
-#### Parts
+**Parts**
 - [ Bearings x4](https://amzn.to/2L5vt4q)
 - [5/16" wood dowel 20 cm](https://amzn.to/2Nr8ptm)
 - [3D printed parts](https://www.thingiverse.com/thing:3010203)
@@ -38,7 +38,7 @@ The new fidget spinner! I have tons of bearings left over from when they were po
 - end cap x2
 - spacer x1
 ---
-#### Assembly
+**Assembly**
 <iframe width="100%" height="100%" src="https://www.youtube.com/embed/i_txi3Ra9pg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 - Use a mallet to get the bearings into the bars.
 - Slot 3D printed pieces and bearings into the wood dowel in the order end cap - bearing - spacer - bearing - end cap. Super glue or hot glue the end cap to keep in place.
@@ -47,5 +47,5 @@ The new fidget spinner! I have tons of bearings left over from when they were po
 ---
 <iframe width="100%" height="100%" src="https://www.youtube.com/embed/FGs6xg7C-Hk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 ---
-#### Conclusion
+**Conclusion**
 I'd like this to catch on as much as fidget spinners did. We'll see what happens. It took me no time at all to make and it came as a result of me playing with things I had laying around. Hopefully I'll have my desk light done soon. Maybe I'll advertise it as "The light that inspired the fidget bar!".

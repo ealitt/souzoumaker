@@ -63,7 +63,7 @@ Being curious, I wondered if it were possible to create a webpage that can gener
 This website uses github pages, a platform where I can upload code and automatically have the website change with it. When visiting the Origami Generator,  images uploaded will not be sent somewhere. Every process is done locally on your computer. It is compatible with every major browser.
 For those curious about the innards of the program, head over to my [github page](https://github.com/ealitt/origami-printing).
 ---
-#### Using the Website
+**Using the Website**
 There are three steps to generating the origami 3d file. The image, program tracing of the image (svg), and the 3d model. Anything you see in white is the non-folded section, which is what you want to be printed. The program creates a trace of anything colored/dark in the image. Then a 3d model is created based on the tracing. I will explain in detail my recommended steps and other tools below.
 The default image is a bistable origami fold found by [Cornell Researchers](http://cohengroup.lassp.cornell.edu/projects/bistable-origami-and-hidden-degrees-freedom). You can upload an image by clicking “Choose File”.  When uploaded, the main image will update to show the new one. Below the image are several basic image editing tools. Brightness, contrast, make black and white, invert colors, and revert changes.
 I recommend selecting “Black and White” first, then “Invert”, and then change the brightness and contrast if necessary. Click on the green button to the right “To svg” to generate the tracing from the image. “Download Image” will download the edited image.
@@ -74,19 +74,19 @@ My recommendation is printing at 0.15 mm height. This is just a single layer of 
 As for print settings, I use the following: Standard A4 printer paper cut down to size, 60 degrees Celsius for the build plate, 200 degrees Celsius for the nozzle, and standard PLA.
 My recommendation would be to use glue stick glue on the side of the printer paper that the nozzle will print on. This will help the plastic stick to the paper better. Another tip would be to lower the nozzle closer to the build plate so the plastic is pressed against the paper when printing.
 ---
-#### Video
+**Video**
 <iframe width="100%" height="100%" src="https://www.youtube.com/embed/jEq7PHQhwnI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 Here’s a more visual walkthrough for using the website. The other half of the video is a timelapse of me making the [Origami Lantern](https://souzoumaker.com/blog-1/2019/1/14/origami-lantern).
 ---
-#### Washi
+**Washi**
 Results using washi paper above. Washi is a soft fibrous paper that originates from Japan. My dad has been using it for his artwork and so he gave me some of the thinner washi sandwiched between the larger pieces of washi. Due to it's soft flexible nature, I knew this would be perfect to work with. And that’s what I used for my [Origami Lantern](https://souzoumaker.com/blog-1/2019/1/14/origami-lantern). My dad buys his washi from [Hiromi Paper](https://hiromipaper.com/) in LA.
 ---
-#### Patterns
+**Patterns**
 Above are some of the patterns I designed myself. Feel free to use it in anyway you want. If posting online please credit me and this post.
 I will list pre-made 3d files below on my thingiverse page. The list will grow as I upload more.
 - [Miura Fold](https://www.thingiverse.com/thing:3361181)
 ---
-#### Conclusion
+**Conclusion**
 It was a fun project and I’m happy to finally release my work. I have plans to improve the origami generator website, but that also depends heavily on the popularity of the tool. Let me know if you like my programming based projects. I might make more online tools relating to photogrammetry and timelapse making.
 For experimenting with more folds, check out [Amanda Ghassaei's website](http://apps.amandaghassaei.com/OrigamiSimulator/). She has developed a fantastic origami fold simulator and has a very nice library of different origami folds. Clicking on the pattern tab will take you to the fold pattern. Do not try to use an svg as the input for the origami generator, it only takes images (png and jpg). I have not yet implemented svg as an inputable filetype. For now take a screenshot of the pattern and go from there.
 I recently setup a [paypal.me](https://paypal.me/souzoumaker?locale.x=en_US) link where anyone can help fund my projects directly. It will help me cover the costs of parts I use and test. I tend to go through several iterations before making the final product, meaning I break electronic components pretty frequently. By helping me financially, I can invest in better electronics and experiment more to bring you even more of my creations (released for free for anyone to use).

@@ -37,13 +37,13 @@ galleries:
 
 One night this summer, I was looking through thingiverse and remembered a project I wanted to do three years prior to owning a 3d printer. Build a functioning Rubik's Cube! I stayed up from midnight 'till 4 in the morning working on a design in Fusion 360 (the 3d modeling software of my choice). While I don't recommend printing this design, the files will be out on [thingiverse](https://www.thingiverse.com/thing:2477561).
 ---
-#### Attempt One
+**Attempt One**
 Using my own Rubik's cube as reference, I created the three main pieces, center, side, and corner cubes. In my first attempt, I went about creating the inner mechanism, leaving the outer cube section for last. This resulted in odd looking rectangles rather than cubes.
 ---
-#### Attempt Two
+**Attempt Two**
 I decided to create from the outside in this time, making the cube properly shaped. Since I scrapped my first design, I hadn't tested the turning mechanism to see if it worked, which I found to be the hardest problem in this project. In the third image to the right, you can see that the turning mechanism is nothing more than two semi-spheres (only one pictured) with holes for each of the center cubes and a cylinder shaft held in place by a ring super-glued to the other end. I had several other simpler ideas in mind prior to trying this one, but my printer kept failing to make the 4 mm wide shaft. It always turned into a blob of molten plastic. Looking back now, I was probably sleep deprived and forgot to tune the printer to the plastic it was printing with. The material was cheap, and it began melting at 180 degrees Celsius rather than the 210 setting I normally used. I'll have another go at this project sometime soon.
 ---
-#### Assembly
+**Assembly**
 - Print out all the pieces.
 - Insert the shaft pieces through the sphere hole and glue the ring on the other end. For the center cubes that line the sides where there is no hole, glue on the rings first, elevate them, and carefully place the other half of the center sphere.
 - Holding the two semi-spheres, use super-glue to seal them together. While I don't recommend this, I used an old cheap soldering iron to melt the plastic halves together, which is why the sphere looks melted in the image below.

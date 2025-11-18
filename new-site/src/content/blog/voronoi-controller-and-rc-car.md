@@ -55,7 +55,7 @@ galleries:
 At long last, I made an RC car and controller! It's been about 3-4 years since I came back to this project.  For a long time, I've wanted a basic controller and car that acts as a platform for other Arduino or Raspberry Pi projects. Stuff like a wireless camera add-on for real-time video feedback, servo mounted laser pointer or even something like this. There are plenty of upgrades I've thought of for improving the RC car so I'm glad to have a modular design made (skip to "Modularity" section). This project is a long one so be prepared.
 *The code for both controller and RC car will be at the bottom of the page.
 ---
-#### Parts
+**Parts**
 - [Arduino Pro Mini x2](http://amzn.to/2DpUqm9) (also [FTDI module](http://amzn.to/2Dq0JpX) for programming the Arduino)
 - [nrf24l01 transceiver x2](http://amzn.to/2BavJVZ)
 - [Joystick module x2](http://amzn.to/2ESW5hr)
@@ -78,45 +78,45 @@ At long last, I made an RC car and controller! It's been about 3-4 years since I
 - [RC Car](https://www.thingiverse.com/thing:2760766)
 - [Pin Generator](https://www.thingiverse.com/thing:2760766)
 ---
-#### Controller (wiring schematic)
+**Controller (wiring schematic)**
 The schematic to the right should be self-explanatory, but there are a few things to note. Fritzing didn't have some of the parts I used, so there are a few substitutions I made (the wiring layout is the exact same though). The voltage regulator to the right is actually the 5v DC-DC voltage booster. The voltage regulator to the left is the 3.3v regulator. Make sure the nrf24l01 transceiver is powered by 3.3v and not 5. The switch is wired so that the lipo cannot power the Arduino at the same time it is being charged, or else the battery will be damaged. I'm not a fan of boosting voltage and lowering it multiple times, but the Arduino and the joysticks run on 5v while the transceiver runs on 3.3v.
 ---
-#### Controller (3d printed parts and assembly)
+**Controller (3d printed parts and assembly)**
 You may have noticed the unique Voronoi design of the controller. Usually, it's hard to make this pattern (some use Autodesk's Meshmixer), but I found a nice generator called the [Voronator](http://www.voronator.com/) I recommend you check out. Unfortunately, the voronator completely covered the screw holes I originally placed, but it ended up working out. I used M 2.5 machine screws that fit perfectly through the holes and screwed them in until the arms of the controllers caught. For the joystick, align them as best you can and place nuts on the opposite side to secure them.
 When wiring the controller, I used really thin wires from an old ethernet cable so they can pass through the holes of the Voronoi base.
 I just poked two wires into my battery since I didn't have any jst connectors (it might actually be a micro losi connector). The battery charger is just glued to the back.
 And here it is finished! I originally intended on having a cover for the top of the joysticks, but this look grew on me, so I decided to leave it. It lets the Voronoi stand out more.
 * If anyone wants the solid version (non-Voronoi), the comment down below and I'll put it up on Thingiverse. There're just a few adjustments I'll have to make.
 ---
-#### Controller (past designs)
+**Controller (past designs)**
 Here's the evolution of my controllers. Starting with the top right going clockwise are versions 1-3 that I made 3-4 years ago.
 - The first design had room for an lcd screen and AAA batteries on the back.
 - The second design was a simplified flat controller that was very uncomfortable to hold.
 - The third design is based off a ps2 dualshock controller. with a mess of wires inside.
 ---
-#### RC Car (wiring schematics)
+**RC Car (wiring schematics)**
 Luckily, I didn't have to do as many replacements like the controller. The only things to note here are the battery connector shown replaces the XT-90 connector. I also added the screw terminals between the motors and motor driver so I can swap out motors in future upgrades. Make sure to wire the transceiver and motor driver to the Arduino exactly as shown or else the code won't work. Don't be like me and make the same mistake multiple times.
 ---
-#### RC Car (3d printed parts and assembly)
+**RC Car (3d printed parts and assembly)**
 The pcb prototype board is a 5cm x 7cm board that should slide right into the top of the 3d printed base. I would normally have a switch, but my engineering teacher back in high school would always say "The only sure way to know it's off is to unplug it", so it's been a habit of mine to keep large robots and RC stuff completely unplugged.
 The 4 slots are for velcro straps to keep the battery in place. Three bearings are used for the back wheel. One bearing is fit into the 3d printed holder, held in place by the two pins in the back of the base. The three-way pin attaches the two wheel bearings to the swivel bearing.
 ---
-#### Modularity
+**Modularity**
 I'm a fan of modular designs. Reducing waste (and more importantly printing time) and improving on the basics. That's why my RC car uses so many pins to hold it together. Don't be fooled, it's a lot sturdier than it looks. I need pliers to push them out sometimes. The pins hold the motor mount and back swivel wheel in place. One thing you might've noticed in the video is the slow response of the motors. An upgrade I need to fix this is a gearbox. I'm planning to mount the motor on top with the electronics and battery and have a gearbox on the opposite side attached to the wheels.
 All I need are a few new pieces and longer pins. I love using pins, but they're a pain to design, so I finally decided to learn OpenSCAD to make the pins parametric. Head over to Thingiverse to customize your own and please expand on my ideas. It's always a ton of fun to see people come up with new ideas and additions to mine.
 ---
-#### Wheels
+**Wheels**
 These were also a lot of fun to make. When I first got my 3d printer I was immediately attracted to the idea of printing in rubber (who isn't?), but that never really happened... I jokingly made wheels that incorporate rubber filament so I can say that I used the filament (without actually printing it). I ended up really liking the result.
 The wheels make use of different weaves making them completely customizable. Here are a few I came up with (the small wheel was an older swivel wheel design I discarded). When assembling the wheel, push the wheel into the hexagonal axel first before inserting into the motor shaft. The hole at the end of the hex shaft is for keeping excess rubber filament in place.
 * I'm using 2.85mm diameter ninjaflex filament
 * I take requests since I like interacting with the diy community. Let me know if you want any wheels with more holes, or a larger diameter, etc. If I get enough requests I might make another OpenSCAD model.
 ---
-#### Controller (code)
+**Controller (code)**
 This took some time since I couldn't tell if the code wasn't working, my soldering was bad, pins were in the wrong place, a component was broken, etc. If you'd like to know more on nrf24l01 transceivers, I recommend this website for more info.
 <iframe src="https://create.arduino.cc/editor/ealitt/1556c9a2-3835-4732-b52b-ab5e86d96f2e/preview?embed" style="height:510px;width:100%;margin:10px 0" frameborder="0"></iframe>
 ---
-#### RC Car (code)
+**RC Car (code)**
 <iframe src="https://create.arduino.cc/editor/ealitt/fcd9b55d-9849-4a8c-8649-aaae88298b65/preview?embed" style="height:510px;width:100%;margin:10px 0" frameborder="0"></iframe>
 ---
-#### Conclusion
+**Conclusion**
 I really enjoyed this project a lot more than my usual ones. I've been wanting to do a project that combines 3d printing, electronics, and programming. When I attempted this project last time, I barely knew how to code and my soldering skills were pretty subpar. Now I'm pretty capable (you can be the judge of that), so there's plenty more I can do. I'm excited for my plans to improve the car and other projects I have in mind. Come back again sometime in the future.

@@ -121,13 +121,13 @@ function convertContent(content) {
 
   // Convert HTML to Markdown
 
-  // Convert headings (h1-h6)
+  // Convert headings - h1 stays as markdown header, h2-h6 become bold text
   converted = converted.replace(/<h1>(.*?)<\/h1>/g, '# $1');
-  converted = converted.replace(/<h2>(.*?)<\/h2>/g, '## $1');
-  converted = converted.replace(/<h3>(.*?)<\/h3>/g, '### $1');
-  converted = converted.replace(/<h4>(.*?)<\/h4>/g, '#### $1');
-  converted = converted.replace(/<h5>(.*?)<\/h5>/g, '##### $1');
-  converted = converted.replace(/<h6>(.*?)<\/h6>/g, '###### $1');
+  converted = converted.replace(/<h2>(.*?)<\/h2>/g, '\n**$1**\n');
+  converted = converted.replace(/<h3>(.*?)<\/h3>/g, '\n**$1**\n');
+  converted = converted.replace(/<h4>(.*?)<\/h4>/g, '\n**$1**\n');
+  converted = converted.replace(/<h5>(.*?)<\/h5>/g, '\n**$1**\n');
+  converted = converted.replace(/<h6>(.*?)<\/h6>/g, '\n**$1**\n');
 
   // Convert horizontal rules
   converted = converted.replace(/<hr\s*\/?>/g, '\n---\n');

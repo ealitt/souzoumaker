@@ -32,13 +32,13 @@ Earlier this year I got into growing sprouts. While living in my dorm room at co
 Sprouts are wonderful. They require little care, grow fast, and are very nutritious. I've grown three varieties so far; mung beans, broccoli, and alfalfa. Mung beans are crisp and crunchy. Broccoli taste and smell strongly of broccoli (a lot stronger than you might expect). Alfalfa is delicate and mild. Sprouts go great in salads, sandwiches, stir -fry (mung bean sprouts), and top off most foods well. I just had mung bean sprouts on some mashed potatoes.
 [3D Files](https://www.prusaprinters.org/prints/26325-sprout-growing-mason-jar-strainer)
 ---
-#### Printing Instructions
+**Printing Instructions**
 These strainer lids take advantage of the infill settings in PrusaSlicer. You don't want seeds to fall out while straining, so the mesh size is important to keep your sprouts in the jar. Using a modifier cylinder, I took out the top and bottom layers and vary the mesh size by infill. Feel free to play around with the settings using the 3mf file, or just print and go with the gcode files. Adjust and vary for whatever seed type you use, and let me know what settings for different seeds you use down below. Here are the lid types I use for each sprout.
 - Mung bean: 15% infill
 - Broccoli: 30% infill
 - Alfalfa: 30% infill
 ---
-#### Growing Guide
+**Growing Guide**
 I always grow sprouts using one liter-sized wide mouth mason jar. Sprouts are deceiving and a few seeds can quickly fill up an entire jar. Below are how many seeds I grow at once for one mason jar.
 - Take your seeds and toss them in a mason jar. Submerge in water, screw the strainer lid on, and let steep overnight or about 12 hours.
 - Leaving the strainer lid on (until your sprouts mature), strain the water out.
@@ -47,13 +47,13 @@ I always grow sprouts using one liter-sized wide mouth mason jar. Sprouts are de
 - Repeat the above two steps, rinsing seeds/sprouts twice a day (morning and night), and place in bowl and let grow.
 After maturing, I wash my sprouts one last time and leave the jar as is in the fridge. The sprouts stop growing in the cold, they are fresh and last for a good week or more.
 ---
-#### Sprouting
+**Sprouting**
 Sprouts mature fast and you can eat them immediately. I usually eat the hulls of the seeds as is, but you can get rid of them easily. Just submerge your sprouts in a bowl and rustle them so the hulls float to the top. Here's a [good guide for de-hulling](https://sproutpeople.org/growing-sprouts/sprouting-basics/de-hulling/). Below are the times it takes for each sprout to mature, including steeping.
 - Mung bean: 3-4 days
 - Broccoli: ~10 days
 - Alfalfa: 4-5 days
 ---
-#### Sprouting seeds I use
+**Sprouting seeds I use**
 If possible, I'd stick to beans found in the local supermarket. I was able to find a one-pound bag of mung beans at an Asian supermarket for around $12. I know other sprouts are hard to find, so here are links to some that I've used.
 - [Mung bean (two pounds)](https://amzn.to/2Wy15nJ)
 - [Broccoli (one pound)](https://amzn.to/3dkd5PD)
@@ -61,5 +61,5 @@ If possible, I'd stick to beans found in the local supermarket. I was able to fi
 - [Alfalfa seeds (one pound)](https://amzn.to/2vC73su)
 Unfortunately, seed prices are changing since I last bought them and many are out of stock. Buy at your discretion. By my calculations, growing 3 tablespoons of broccoli/alfalfa seeds at a time (45 grams), a one-pound bag would grow you roughly ten full liter mason jars worth.
 ---
-#### Safety with sprouts
+**Safety with sprouts**
 PLA is technically food safe however, the layer lines can pose space for bacterial growth, as with any print. Because this growing technique requires no soil, there is very little room for bacterial growth. Mold would grow before your sprouts do if your jar isn't sanitized. The seeds I get are sterile and I haven't had issues yet, but just to be safe I wash my strainer lids by hand before growing another batch. If possible, I recommend printing in PETG to further minimize potential bacterial growth.   I do find this much safer than strainers found on amazon since they use the metal rings that come with mason jars. Flipping the jars upside down while growing keeps a greenhouse effect going to aerate the sprouts and maintain humidity. Water will drip down eventually and cause the metal to rust. I'd hate growing things around rust, don't you? Keeping the lid 100% plastic rids of this problem.  I do this as a hobby and love sharing with the community. With my campus job gone, I would greatly appreciate any help I can get to continue creating projects and sharing with the world.

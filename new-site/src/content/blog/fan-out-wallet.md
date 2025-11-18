@@ -38,20 +38,20 @@ galleries:
 
 I've been working on this one since a year ago on and off. Ever since I saw this wallet, I wanted one that fans my cards out, but without the hefty price tag. The original version I made had a lever mechanism, but I found after using it for a while that I prefer manually fanning out the cards. My final version is a stripped down minimal hard case that holds 6 cards comfortably.
 ---
-#### Parts
+**Parts**
 - [3D printed parts](https://www.thingiverse.com/thing:3018022)
 - Rubber strip cut from bicycle inner tube
 - Super glue
 ---
-#### Assembly
+**Assembly**
 The most difficult part of this project was making a lip at the top that hung onto the cards when fanned out. Making this from plastic alone didn't work, so I turned to rubber. I was lucky enough to have the inner tube from a bike that went flat laying around. It's soft enough that it deforms just right when pulling out a card while being durable enough to last. I've used one version of the wallet for the past year with the rubber still in good condition. Just for reference, my inner tube is 0.75 mm thick.
 - Cut two strips of rubber; one ~10.5 mm by 6 mm and one ~32 mm by 6 mm.
 - Dab a little super glue on one side of the smaller strip. Slot it into the semicircle on the upper part of the wallet base. I like to hold the rubber against the slot as it dries with some scissors.
 - Repeat with the longer strip on the lower end of the wallet base.
 - Line the perimeter with of the base with super glue and carefully place the cover on top and let dry.
 ---
-#### Earlier Iterations
+**Earlier Iterations**
 These are some of my earlier versions with some experimental designs that I tested out to much difficulty. Some involved hydro dipping using [printer transfer paper](https://www.youtube.com/watch?v=attjgI3_rxU) ([here's a good tutorial](https://www.youtube.com/watch?v=attjgI3_rxU)). Whenever I tried this technique, the ink never dried properly and turned out splotchy. So I ditched the idea and put some vinyl carbon fiber tape over the wallet; which didn't last long... I simplified and just printed with nicer filament.
 ---
-#### Conclusion
+**Conclusion**
 I'm glad I finally came up with a version worth posting after a good year. My hope was to throw this on the website earlier, but it never felt right until the current version. If requested, I'll post the style with the lever and maybe the one that can be assembled with screws instead of super glue. Maybe even a money clip. It really is nice to make something that I use on a daily basis. I hope others will find it a practical part of their lives.

@@ -13,7 +13,7 @@ thumbnail:
 I decided to begin this blog to showcase my projects that I have been working on for the past two years, and any more to come. At the moment, I have five projects I would like to share, three of which are already up. Even while typing this post, I have tons of ideas buzzing in my head on projects to work on, so there's plenty of material to fill this blog. The projects page will have all of my completed work uploaded and detailed in a neat tutorial/story like way. All of my stl files (3d model files) will be uploaded to my thingiverse page (link) since I like the non-commercial creative commons license they apply to your models. The blog, on the other hand, will be where I post ideas I have or progress updates on projects I'll be working on.
 I will allow comments on my blog, however, please be respectful of others. I welcome criticisms of my work, opinions on how I can improve, and discussions in general. Any unrelated or disrespectful comments will be removed. Just remember this is my first time making a blog, and that I have only two years of experience in 3d modeling and a week in the tutorial making.
 Staying true to the Japanese name souzou, I will also document my projects in Japanese for my Japanese audience.
-##### Projects For The Future
+**Projects For The Future**
 I'll be back in college soon, so don't expect regular posting. Some will require permission from my college, others aren't completely thought-out, so I don't know if I'll do them, but we'll see! (not in any particular order)
 - Logo for the website
 - Food-cam for the dorm (similar to the food-cam at the MIT media lab). This idea inspired by a video by Vox on the subject of food waste (link).

@@ -41,7 +41,7 @@ galleries:
 
 Ever since I used my parents' Chemex, I've been obsessed with brewing coffee. Experimenting with different methods for making coffee has become a hobby of mine. I have a miniature french press and a [hand grinder](https://amzn.to/2Jwhb76), but while at college I missed the deep flavor and low acidic taste of pour over coffee. Having a Chemex would've been great if it weren't for transporting a large glass container back and forth between semesters. This became my final project for the industrial design class I took. The goal is to have a small portable pour over coffee stand. As you can see above, I store the stand funnel side down with the legs closed. It was mistaken for a oil essence diffuser, almost penalizing me during room inspection. The filter I use is a [#2 size reusable cotton filter](https://amzn.to/2zPaVry).
 ---
-#### Parts
+**Parts**
 []()
 - [5/16" wood dowel](https://amzn.to/2utDTYZ) - cut into three 25 cm pieces - can be found cheap at hardware stores
 - [100 mm diameter x 100 mm stem glass funnel](https://amzn.to/2mpRWdm)
@@ -49,7 +49,7 @@ Ever since I used my parents' Chemex, I've been obsessed with brewing coffee. Ex
 - super glue/hot glue (optional)
 - [3D printed parts](https://www.thingiverse.com/thing:30082493D)
 ---
-#### Assembly
+**Assembly**
 - Cut the wood dowel into three 25 cm pieces. (optional) I used a dark wood stain to match the color of the filament.
 - Dab some super glue into the magnet hole in one of the foot pieces. I recommend placing a pair of magnets together, then fitting another foot pieces with super glue in it so the magnets face the right direction. Let the glue dry or else they may pop out when fitting adjacent magnets in.
 - Make a triangle with the finished feet pieces and fit the wooden dowels in.
@@ -57,7 +57,7 @@ Ever since I used my parents' Chemex, I've been obsessed with brewing coffee. Ex
 - I like to fit the wood dowel in the hinge piece to make the next part easier. Angle the hinge piece while fitting the nub into the base piece. Repeat for the other legs.
 - Place a magnet on the outside of the base. Make sure the hinge attracts to the outside magnet. And with that, you're done!
 ---
-#### Conclusion
+**Conclusion**
 While at college, I use this daily (or when I wake up early enough before classes in the morning). It works really well, and the coffee flavor is fantastic! I like experimenting with different grind sizes and comparing it with the french press coffee. Besides hot coffee, I like making cold brew. Since it can be stored for longer periods of time, I make them in big batches.
 My recipe is a 1:14 coffee to water ratio. Throw the two into a mason jar and steep for ~12 hours. I take a second mason jar and place it under the pour over stand and slowly pour the steeped coffee into the filter. The result is a really clear deep flavor with no acidity. I drink this black or with a little bit of milk. It tastes like UCC coffee with milk (canned milk coffee drink from Japan).
 I only recently found out how ignorant I was about cold brew coffee making. My parents gave me a slow drip coffee maker for my birthday. Water drips out one drop at a time from the top chamber into the coffee grounds and down to the base chamber. This produces the most aromatic coffee I've ever tasted. My next post will be about additions to this coffee brewer.
