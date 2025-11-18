@@ -142,7 +142,7 @@ a:hover {
 }
 
 .prose h1 { font-size: 2rem; }
-.prose h2 { font-size: 1.75rem; }
+.prose h2 { font-size: 1rem; font-weight: 600; }
 .prose h3 { font-size: 1.5rem; }
 .prose h4 { font-size: 1.25rem; }
 .prose h5 { font-size: 1.1rem; }
@@ -258,9 +258,13 @@ a:hover {
 }
 
 .prose iframe {
-  max-width: 100%;
+  width: 100%;
+  min-height: 400px;
+  height: 56.25vw; /* 16:9 aspect ratio based on viewport width */
+  max-height: 600px;
   margin: 2rem 0;
   border-radius: 8px;
+  border: none;
 }
 
 /* YouTube video embed styling */
