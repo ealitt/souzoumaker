@@ -1,0 +1,60 @@
+---
+title: "Origami Generator"
+date: 2019-01-16
+description: "Web-based tool to generate 3D printable origami patterns from images. Upload any pattern, trace it to SVG, and export as STL for 3D printing on paper."
+interactive: true
+externalUrl: "https://ealitt.github.io/origami-printing/"
+technologies: ["JavaScript", "HTML5 Canvas", "SVG", "Three.js", "WebGL", "STL Generation"]
+draft: false
+---
+
+The **Origami Generator** is a browser-based tool that converts 2D origami fold patterns into 3D-printable models for hybrid paper-plastic origami.
+
+## Try It Live
+
+Visit the [Origami Generator](https://ealitt.github.io/origami-printing/) to start creating your own printable origami patterns.
+
+## How It Works
+
+The tool processes images through three stages:
+
+1. **Image Processing** - Upload a fold pattern image and adjust brightness/contrast to isolate the fold lines
+2. **SVG Tracing** - Automatically trace the pattern to create vector outlines
+3. **3D Model Generation** - Convert the traced pattern to an STL file optimized for printing on paper
+
+## Key Features
+
+- **Fully Client-Side** - All processing happens in your browser, no server uploads
+- **Real-time Preview** - See the 3D model before downloading
+- **Customizable** - Adjust line thickness and model parameters
+- **Export Ready** - Download STL files ready for slicing
+
+## Technical Implementation
+
+The generator uses:
+- HTML5 Canvas for image manipulation
+- Custom SVG tracing algorithm for pattern detection
+- Three.js for 3D model visualization
+- Binary STL export for 3D printing
+
+## Printing Process
+
+The generated STL files are designed to print directly onto paper at 0.15mm layer height (single layer). This creates a rigid plastic pattern that bonds to the paper, with flexible paper sections for folding.
+
+**Recommended Materials:**
+- Standard printer paper or Japanese washi paper
+- PLA filament
+- Build plate at 60°C, nozzle at 200°C
+
+## Use Cases
+
+- Rapid origami prototyping
+- Custom tessellation designs
+- Educational demonstrations
+- Art and sculpture projects
+
+The project combines computational geometry, computer graphics, and digital fabrication to bridge traditional origami with modern 3D printing technology.
+
+---
+
+**GitHub Repository:** [ealitt/origami-printing](https://github.com/ealitt/origami-printing)

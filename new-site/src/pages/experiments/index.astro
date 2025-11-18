@@ -23,9 +23,22 @@ const sortedExperiments = experiments.sort((a, b) =>
     ) : (
       sortedExperiments.map((experiment) => (
         <article class="experiment-card">
-          <a href={`/experiments/${experiment.slug}`}>
+          <a
+            href={experiment.data.externalUrl || `/experiments/${experiment.slug}`}
+            target={experiment.data.externalUrl ? "_blank" : undefined}
+            rel={experiment.data.externalUrl ? "noopener noreferrer" : undefined}
+          >
             <div class="card-content">
-              <h2>{experiment.data.title}</h2>
+              <div class="card-header">
+                <h2>{experiment.data.title}</h2>
+                {experiment.data.externalUrl && (
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                    <polyline points="15 3 21 3 21 9"></polyline>
+                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                  </svg>
+                )}
+              </div>
               <p class="description">{experiment.data.description}</p>
               <div class="technologies">
                 {experiment.data.technologies.map((tech) => (
@@ -79,8 +92,20 @@ const sortedExperiments = experiments.sort((a, b) =>
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   }
 
-  .card-content h2 {
+  .card-header {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
     margin-bottom: 0.75rem;
+  }
+
+  .card-header svg {
+    color: var(--color-accent);
+    flex-shrink: 0;
+  }
+
+  .card-content h2 {
+    margin: 0;
     font-size: 1.3rem;
   }
 

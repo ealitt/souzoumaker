@@ -42,6 +42,7 @@ const experiments = defineCollection({
     date: z.coerce.date(),
     description: z.string(),
     interactive: z.boolean().default(true),
+    externalUrl: z.string().optional(),
     technologies: z.array(z.string()).default([]),
     draft: z.boolean().default(false),
   }),
