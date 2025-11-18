@@ -1,9 +1,9 @@
 ---
 title: "Fluorescence Reference Target Quantitative Analysis Library"
 date: 2025-04-01
-authors: ["Littler, E.", "Mannoh, E.", "LaRochelle, E."]
+authors: ["Eammon Littler", "Emmanuel Mannoh", "Ethan LaRochelle"]
 firstAuthor: true
-venue: "Article"
+venue: "Journal of Medical Imaging"
 year: 2025
 tags: ["fluorescence-imaging", "analysis-library", "quantitative-analysis", "software"]
 draft: false

@@ -1,8 +1,9 @@
 ---
 title: "Automated Filament Inking for Multi-color FFF 3D Printing"
 date: 2022-10-01
-authors: ["Littler, E.", "Zhu, B.", "Jarosz, W."]
+authors: ["Eammon Littler", "Bo Zhu", "Wojciech Jarosz"]
 firstAuthor: true
+venue: "ACM Symposium on Computational Fabrication"
 year: 2022
 tags: ["3d-printing", "multi-color", "automation", "fabrication"]
 draft: false
