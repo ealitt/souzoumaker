@@ -2,6 +2,10 @@
 title: "Astro vs Traditional SSGs"
 date: 2024-01-12
 description: "Comparing modern static site generators for portfolio sites"
+authors: ["Example Author"]
+firstAuthor: false
+venue: "Example Venue"
+year: 2024
 tags: ["web-development", "performance", "astro"]
 draft: true
 ---
