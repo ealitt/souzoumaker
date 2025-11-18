@@ -12,6 +12,10 @@ const blog = defineCollection({
     }).optional(),
     categories: z.array(z.string()).default(['project']),
     draft: z.boolean().default(false),
+    galleries: z.record(z.array(z.object({
+      url: z.string(),
+      alt: z.string().optional(),
+    }))).optional(),
   }),
 });
 
