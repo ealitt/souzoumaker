@@ -15,9 +15,8 @@ const { Content } = await post.render();
 const { title, date, description, tags, authors, venue, year, pdfUrl, firstAuthor } = post.data;
 
 const formattedDate = new Date(date).toLocaleDateString('en-US', {
-  year: 'numeric',
   month: 'long',
-  day: 'numeric'
+  year: 'numeric'
 });
 ---
 
@@ -38,8 +37,8 @@ const formattedDate = new Date(date).toLocaleDateString('en-US', {
       )}
 
       <div class="publication-info">
+        <div class="publication-date">{formattedDate}</div>
         {venue && <div class="venue"><em>{venue}</em></div>}
-        {year && <div class="year">{year}</div>}
       </div>
 
       {pdfUrl && (
@@ -126,23 +125,25 @@ const formattedDate = new Date(date).toLocaleDateString('en-US', {
     flex-wrap: wrap;
   }
 
+  .publication-date {
+    color: var(--color-muted);
+    font-size: 1rem;
+    font-weight: 600;
+  }
+
   .venue {
     color: var(--color-muted);
     font-size: 1rem;
+    font-weight: 400;
   }
 
-  .year {
-    color: var(--color-muted);
-    font-size: 1rem;
-  }
-
-  .venue::after {
+  .publication-date::after {
     content: "•";
     margin-left: 1rem;
     color: var(--color-border);
   }
 
-  .publication-info .year:last-child::after {
+  .publication-info .venue:last-child::after {
     content: none;
   }
 

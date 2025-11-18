@@ -1,7 +1,7 @@
 ---
 title: "3D-Printed Tumor Phantoms for Assessment of In Vivo Fluorescence Imaging Analysis Methods"
 date: 2022-10-01
-authors: ["Ethan LaRochelle", "Samuel S. Streeter", "Eammon Littler", "Alberto Ruiz"]
+authors: ["Ethan LaRochelle", "Samuel S. Streeter", "Eammon Littler", "[...]", "Alberto Ruiz"]
 firstAuthor: false
 venue: "Proceedings of SPIE Medical Imaging"
 year: 2022

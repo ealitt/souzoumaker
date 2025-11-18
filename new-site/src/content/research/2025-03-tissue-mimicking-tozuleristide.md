@@ -1,7 +1,7 @@
 ---
 title: "Development of a tissue-mimicking target for the translation of tozuleristide"
 date: 2025-03-01
-authors: ["Ethan LaRochelle", "Kendra Hebert", "Eammon Littler", "Claudia Jochheim"]
+authors: ["Ethan LaRochelle", "Kendra Hebert", "Eammon Littler", "[...]", "Claudia Jochheim"]
 firstAuthor: false
 venue: "Biomedical Optics Express"
 year: 2025

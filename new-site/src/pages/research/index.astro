@@ -9,6 +9,14 @@ const researchPosts = await getCollection('research', ({ data }) => {
 const sortedPosts = researchPosts.sort((a, b) =>
   new Date(b.data.date).getTime() - new Date(a.data.date).getTime()
 );
+
+// Helper function to format date as "Month Year"
+function formatDate(date: Date): string {
+  return date.toLocaleDateString('en-US', {
+    month: 'long',
+    year: 'numeric'
+  });
+}
 ---
 
 <BaseLayout title="Research - Souzou Maker">
@@ -33,14 +41,17 @@ const sortedPosts = researchPosts.sort((a, b) =>
           </div>
 
           {post.data.authors && post.data.authors.length > 0 && (
-            <p class="authors">{post.data.authors.join(', ')}</p>
+            <div class="authors">{post.data.authors.join(', ')}</div>
           )}
 
+          <div class="publication-date">
+            {formatDate(new Date(post.data.date))}
+          </div>
+
           {post.data.venue && (
-            <p class="venue">
+            <div class="venue">
               <em>{post.data.venue}</em>
-              {post.data.year && ` (${post.data.year})`}
-            </p>
+            </div>
           )}
 
           {post.data.description && (
@@ -144,17 +155,24 @@ const sortedPosts = researchPosts.sort((a, b) =>
 
   .authors {
     color: var(--color-text);
-    margin-bottom: 0.75rem;
-    font-size: 1rem;
-    line-height: 1.5;
+    margin-bottom: 0.5rem;
+    font-size: 1.05rem;
+    line-height: 1.6;
     font-weight: 400;
+  }
+
+  .publication-date {
+    color: var(--color-muted);
+    margin-bottom: 0.5rem;
+    font-size: 0.95rem;
+    font-weight: 600;
   }
 
   .venue {
     color: var(--color-muted);
     margin-bottom: 1rem;
     font-size: 0.95rem;
-    font-weight: 500;
+    font-weight: 400;
   }
 
   .description {
