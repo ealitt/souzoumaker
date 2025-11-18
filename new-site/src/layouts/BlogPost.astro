@@ -83,6 +83,16 @@ const formattedDate = new Date(date).toLocaleDateString('en-US', {
   .prose {
     max-width: 70ch;
     margin: 0 auto;
+    background: transparent;
+  }
+
+  /* Override any default Astro/Shiki code block styles */
+  .prose :global(pre) {
+    background: var(--color-border) !important;
+  }
+
+  .prose :global(pre code) {
+    background: transparent !important;
   }
 
   .gallery-section {
