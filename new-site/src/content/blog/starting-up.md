@@ -9,8 +9,7 @@ thumbnail:
   dimensions: [2500, 1667]
 ---
 
-<img class="slides" src="https://lh3.googleusercontent.com/JpghAkz8Te9fM5aIApYRna-qevSReU4i9weUHkQTgs10EvSCD0poXYsAc21bO0AZqoe_Wl7x8BbBbAI-WrD910TWoOEpSry5t3yOiNlbZwAzACh5DnAALSNudKg4gzkzMge2F7s3aYg=w1920-h1080">
-    </div>
+</div>
     <hr>
     <p>
         I decided to begin this blog to showcase my projects that I have been working on for the past two years, and any more to come. At the moment, I have five projects I would like to share, three of which are already up. Even while typing this post, I have tons of ideas buzzing in my head on projects to work on, so there's plenty of material to fill this blog. The projects page will have all of my completed work uploaded and detailed in a neat tutorial/story like way. All of my stl files (3d model files) will be uploaded to my thingiverse page (link) since I like the non-commercial creative commons license they apply to your models. The blog, on the other hand, will be where I post ideas I have or progress updates on projects I'll be working on. 

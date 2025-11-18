@@ -96,16 +96,32 @@ function loadImageData(slug) {
 
 function convertContent(content) {
   let converted = content;
+
+  // Remove Jekyll liquid gallery loops
   converted = converted.replace(/{%\s*for\s+img\s+in\s+site\.data\.\w+\s*%}[\s\S]*?{%\s*endfor\s*%}/g, '');
+
+  // Remove other Jekyll liquid tags
   converted = converted.replace(/{%\s*assign\s+.*?%}/g, '');
   converted = converted.replace(/{{\s*.*?\s*}}/g, '');
+
+  // Remove slide-gallery divs and controls
   converted = converted.replace(/<div[^>]*class="slide-gallery"[^>]*>/g, '');
   converted = converted.replace(/<div[^>]*id="[^"]*"[^>]*class="slide-gallery"[^>]*>/g, '');
   converted = converted.replace(/<ul[^>]*class="controls"[^>]*>[\s\S]*?<\/ul>/g, '');
+
+  // Remove standalone gallery img tags (these are now in frontmatter)
+  converted = converted.replace(/<img[^>]*class="slides"[^>]*>/g, '');
+
+  // Remove empty divs
   converted = converted.replace(/<div>\s*<\/div>/g, '');
+
+  // Remove main tags
   converted = converted.replace(/<main>/g, '');
   converted = converted.replace(/<\/main>/g, '');
+
+  // Clean up excessive whitespace
   converted = converted.replace(/\n\s*\n\s*\n+/g, '\n\n');
+
   return converted.trim();
 }
 

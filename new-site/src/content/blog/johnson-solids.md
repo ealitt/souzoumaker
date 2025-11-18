@@ -13,12 +13,7 @@ galleries:
       alt: "Slicer"
 ---
 
-<div>
-        
-            <img class="slides" src="https://lh3.googleusercontent.com/KCqF2heCqgh4VpKeKDLopGt3GSB4jdJgiMENLh5FUzLxQ5jHHgJy66Ixt08Tjaqd-TQTZqQajLDXa0zB_kPqCU4_SjX1sqecoZ4Zqpg99abKH5HcAKFhvuq1ZxaWi5jVqBJSow4TREw=w1920-h1080">
-            
-        </div>
-    </div>
+</div>
     <p>
         Early on in the semester, my roommate Mathew (with one T) and I were asked by Professor Mark LeBlanc about 3d printing all 92 Johnson Solids. Wanting to do any project we can get involved with, we accepted.
     </p>

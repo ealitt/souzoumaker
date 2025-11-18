@@ -19,12 +19,7 @@ galleries:
       alt: "broken hexagon"
 ---
 
-<div>
-        
-            <img class="slides" src="https://lh3.googleusercontent.com/dCObVphQbU6gL-BjfEwU1-2a6j3sMocza_lbtHRg9jtKq81XVOe9QtNQMaudeB7NEDdm5jDFrPvvnypWv67FGAd88ZgvCEm_PHrWCsNrnxEA0MgphiUws7B5k-quZh1zVO9xLLZBcBY=w1920-h1080">
-            
-        </div>
-    </div>
+</div>
     <p>
         Hiking along Minou river in Japan
     </p>

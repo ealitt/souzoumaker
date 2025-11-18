@@ -27,12 +27,7 @@ galleries:
       alt: "power socket 2"
 ---
 
-<div>
-        
-            <img class="slides" src="https://lh3.googleusercontent.com/6nmCF8pRIrPkQbB0D6Ci9X4QZ0wXkLprvUDJqbe4ynqnQMv38olS2ONofp2dBhfsv4CPMNDHbRtWAvBB3gxgKzRedlXlZne0ZiR26K1-gGvgC6hg0xBjNaPuIRPqJwCqRMSf-yf_d-s=w1920-h1080">
-            
-        </div>
-    </div>
+</div>
     <p>
         For a while I used a small handheld file with exchangeable parts to clean my 3d prints, but I found that to take too much time. Instead, I wanted something that was faster and easier to use, which ended up being a DIY rotary tool. I decided to make it after coincidentally finding a 12v motor with drill chuck, key, and drill bits. It's really simple, and only takes a few minutes to assemble (assuming you know how to solder).
     </p>
