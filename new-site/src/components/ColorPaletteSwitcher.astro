@@ -14,9 +14,35 @@
 
 <div id="palette-menu" class="palette-menu" style="display: none;">
   <div class="palette-header">
-    <h3>Color Palette</h3>
+    <h3>Appearance</h3>
     <button id="palette-close" class="close-button" aria-label="Close palette menu">×</button>
   </div>
+
+  <!-- Theme Toggle -->
+  <div class="theme-toggle-container">
+    <button id="theme-light" class="theme-toggle active" data-theme="light" aria-label="Light mode">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <circle cx="12" cy="12" r="5"></circle>
+        <line x1="12" y1="1" x2="12" y2="3"></line>
+        <line x1="12" y1="21" x2="12" y2="23"></line>
+        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+        <line x1="1" y1="12" x2="3" y2="12"></line>
+        <line x1="21" y1="12" x2="23" y2="12"></line>
+        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+      </svg>
+      <span>Light</span>
+    </button>
+    <button id="theme-dark" class="theme-toggle" data-theme="dark" aria-label="Dark mode">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+      </svg>
+      <span>Dark</span>
+    </button>
+  </div>
+
+  <div class="section-divider"></div>
 
   <div class="palette-options">
     <button class="palette-option" data-palette="sage">
@@ -190,6 +216,50 @@
     font-weight: 500;
   }
 
+  .theme-toggle-container {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .theme-toggle {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 0.6rem;
+    background: transparent;
+    border: 1px solid var(--color-border);
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.2s;
+    color: var(--color-muted);
+    font-size: 0.85rem;
+    font-weight: 500;
+  }
+
+  .theme-toggle:hover {
+    background: var(--color-border);
+    color: var(--color-text);
+  }
+
+  .theme-toggle.active {
+    background: var(--color-accent);
+    border-color: var(--color-accent);
+    color: white;
+  }
+
+  .theme-toggle svg {
+    flex-shrink: 0;
+  }
+
+  .section-divider {
+    height: 1px;
+    background: var(--color-border);
+    margin-bottom: 0.75rem;
+  }
+
   @media (max-width: 768px) {
     .palette-button {
       bottom: 1.5rem;
@@ -303,12 +373,17 @@
   };
 
   function getCurrentTheme() {
+    // Check for manual theme preference first, otherwise use system preference
+    const savedTheme = localStorage.getItem('color-theme');
+    if (savedTheme) {
+      return savedTheme;
+    }
     return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
   }
 
-  function applyPalette(paletteName: string) {
-    const theme = getCurrentTheme();
-    const colors = palettes[paletteName]?.[theme];
+  function applyPalette(paletteName: string, theme?: string) {
+    const currentTheme = theme || getCurrentTheme();
+    const colors = palettes[paletteName]?.[currentTheme];
 
     if (!colors) return;
 
@@ -317,13 +392,27 @@
       root.style.setProperty(property, value);
     });
 
-    // Store selection
+    // Store palette selection
     localStorage.setItem('color-palette', paletteName);
 
-    // Update active state
+    // Update active state for palette options
     document.querySelectorAll('.palette-option').forEach(option => {
       option.classList.toggle('active', option.getAttribute('data-palette') === paletteName);
     });
+  }
+
+  function setTheme(theme: string) {
+    // Store theme preference
+    localStorage.setItem('color-theme', theme);
+
+    // Update theme toggle buttons
+    document.querySelectorAll('.theme-toggle').forEach(button => {
+      button.classList.toggle('active', button.getAttribute('data-theme') === theme);
+    });
+
+    // Re-apply current palette with new theme
+    const currentPalette = localStorage.getItem('color-palette') || 'sage';
+    applyPalette(currentPalette, theme);
   }
 
   function initPaletteSwitcher() {
@@ -331,10 +420,29 @@
     const menu = document.getElementById('palette-menu');
     const closeButton = document.getElementById('palette-close');
     const options = document.querySelectorAll('.palette-option');
+    const themeButtons = document.querySelectorAll('.theme-toggle');
 
-    // Load saved palette or default to sage
+    // Load saved theme and palette, or default to light theme and sage palette
+    const savedTheme = getCurrentTheme();
     const savedPalette = localStorage.getItem('color-palette') || 'sage';
-    applyPalette(savedPalette);
+
+    // Set initial theme toggle state
+    themeButtons.forEach(button => {
+      button.classList.toggle('active', button.getAttribute('data-theme') === savedTheme);
+    });
+
+    // Apply saved palette with saved theme
+    applyPalette(savedPalette, savedTheme);
+
+    // Theme toggle handlers
+    themeButtons.forEach(button => {
+      button.addEventListener('click', () => {
+        const theme = button.getAttribute('data-theme');
+        if (theme) {
+          setTheme(theme);
+        }
+      });
+    });
 
     // Toggle menu
     toggleButton?.addEventListener('click', () => {
@@ -369,17 +477,18 @@
         const palette = option.getAttribute('data-palette');
         if (palette) {
           applyPalette(palette);
-          if (menu) {
-            menu.style.display = 'none';
-          }
         }
       });
     });
 
-    // Listen for system theme changes
+    // Listen for system theme changes (only if user hasn't manually set theme)
     window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => {
-      const currentPalette = localStorage.getItem('color-palette') || 'sage';
-      applyPalette(currentPalette);
+      const manualTheme = localStorage.getItem('color-theme');
+      if (!manualTheme) {
+        // Only auto-switch if user hasn't set a preference
+        const currentPalette = localStorage.getItem('color-palette') || 'sage';
+        applyPalette(currentPalette);
+      }
     });
   }
 
