@@ -1,0 +1,392 @@
+---
+// Color Palette Switcher Component
+---
+
+<button id="palette-toggle" class="palette-button" aria-label="Change color palette">
+  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+    <circle cx="13.5" cy="6.5" r=".5" fill="currentColor"></circle>
+    <circle cx="17.5" cy="10.5" r=".5" fill="currentColor"></circle>
+    <circle cx="8.5" cy="7.5" r=".5" fill="currentColor"></circle>
+    <circle cx="6.5" cy="12.5" r=".5" fill="currentColor"></circle>
+    <path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10c.926 0 1.648-.746 1.648-1.688 0-.437-.18-.835-.437-1.125-.29-.289-.438-.652-.438-1.125a1.64 1.64 0 0 1 1.668-1.668h1.996c3.051 0 5.555-2.503 5.555-5.554C21.965 6.012 17.461 2 12 2z"></path>
+  </svg>
+</button>
+
+<div id="palette-menu" class="palette-menu" style="display: none;">
+  <div class="palette-header">
+    <h3>Color Palette</h3>
+    <button id="palette-close" class="close-button" aria-label="Close palette menu">×</button>
+  </div>
+
+  <div class="palette-options">
+    <button class="palette-option" data-palette="sage">
+      <div class="palette-preview">
+        <span style="background: #faf9f7"></span>
+        <span style="background: #6b8e6f"></span>
+        <span style="background: #3d3935"></span>
+      </div>
+      <span class="palette-name">Sage (Default)</span>
+    </button>
+
+    <button class="palette-option" data-palette="slate">
+      <div class="palette-preview">
+        <span style="background: #f8f9fa"></span>
+        <span style="background: #64748b"></span>
+        <span style="background: #334155"></span>
+      </div>
+      <span class="palette-name">Slate</span>
+    </button>
+
+    <button class="palette-option" data-palette="neutral">
+      <div class="palette-preview">
+        <span style="background: #fafaf9"></span>
+        <span style="background: #78716c"></span>
+        <span style="background: #292524"></span>
+      </div>
+      <span class="palette-name">Neutral</span>
+    </button>
+
+    <button class="palette-option" data-palette="stone">
+      <div class="palette-preview">
+        <span style="background: #faf8f5"></span>
+        <span style="background: #92867d"></span>
+        <span style="background: #3a3330"></span>
+      </div>
+      <span class="palette-name">Stone</span>
+    </button>
+
+    <button class="palette-option" data-palette="zinc">
+      <div class="palette-preview">
+        <span style="background: #fafafa"></span>
+        <span style="background: #71717a"></span>
+        <span style="background: #27272a"></span>
+      </div>
+      <span class="palette-name">Zinc</span>
+    </button>
+  </div>
+</div>
+
+<style>
+  .palette-button {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    background: var(--color-accent);
+    color: white;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    transition: all 0.2s;
+    z-index: 1000;
+  }
+
+  .palette-button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+  }
+
+  .palette-menu {
+    position: fixed;
+    bottom: 6rem;
+    right: 2rem;
+    background: var(--color-bg);
+    border: 1px solid var(--color-border);
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+    padding: 1rem;
+    min-width: 250px;
+    z-index: 1001;
+  }
+
+  .palette-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 1px solid var(--color-border);
+  }
+
+  .palette-header h3 {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--color-text);
+  }
+
+  .close-button {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    color: var(--color-muted);
+    cursor: pointer;
+    padding: 0;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    transition: all 0.2s;
+  }
+
+  .close-button:hover {
+    background: var(--color-border);
+    color: var(--color-text);
+  }
+
+  .palette-options {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .palette-option {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.75rem;
+    background: transparent;
+    border: 1px solid var(--color-border);
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.2s;
+    width: 100%;
+  }
+
+  .palette-option:hover {
+    background: var(--color-border);
+    border-color: var(--color-accent);
+  }
+
+  .palette-option.active {
+    background: var(--color-border);
+    border-color: var(--color-accent);
+    border-width: 2px;
+  }
+
+  .palette-preview {
+    display: flex;
+    gap: 4px;
+    flex-shrink: 0;
+  }
+
+  .palette-preview span {
+    width: 20px;
+    height: 20px;
+    border-radius: 4px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+  .palette-name {
+    font-size: 0.9rem;
+    color: var(--color-text);
+    font-weight: 500;
+  }
+
+  @media (max-width: 768px) {
+    .palette-button {
+      bottom: 1.5rem;
+      right: 1.5rem;
+      width: 2.5rem;
+      height: 2.5rem;
+    }
+
+    .palette-menu {
+      bottom: 5rem;
+      right: 1.5rem;
+      left: 1.5rem;
+      min-width: unset;
+    }
+  }
+</style>
+
+<script>
+  // Color palette definitions
+  const palettes = {
+    sage: {
+      light: {
+        '--color-bg': '#faf9f7',
+        '--color-text': '#3d3935',
+        '--color-accent': '#6b8e6f',
+        '--color-link': '#736b63',
+        '--color-muted': '#8c857d',
+        '--color-border': '#e8e5e1'
+      },
+      dark: {
+        '--color-bg': '#2a2622',
+        '--color-text': '#f5f1ed',
+        '--color-accent': '#7fa084',
+        '--color-link': '#b5aea6',
+        '--color-muted': '#9c958d',
+        '--color-border': '#3d3935'
+      }
+    },
+    slate: {
+      light: {
+        '--color-bg': '#f8f9fa',
+        '--color-text': '#334155',
+        '--color-accent': '#64748b',
+        '--color-link': '#475569',
+        '--color-muted': '#94a3b8',
+        '--color-border': '#e2e8f0'
+      },
+      dark: {
+        '--color-bg': '#1e293b',
+        '--color-text': '#f1f5f9',
+        '--color-accent': '#94a3b8',
+        '--color-link': '#cbd5e1',
+        '--color-muted': '#94a3b8',
+        '--color-border': '#334155'
+      }
+    },
+    neutral: {
+      light: {
+        '--color-bg': '#fafaf9',
+        '--color-text': '#292524',
+        '--color-accent': '#78716c',
+        '--color-link': '#57534e',
+        '--color-muted': '#a8a29e',
+        '--color-border': '#e7e5e4'
+      },
+      dark: {
+        '--color-bg': '#292524',
+        '--color-text': '#fafaf9',
+        '--color-accent': '#a8a29e',
+        '--color-link': '#d6d3d1',
+        '--color-muted': '#a8a29e',
+        '--color-border': '#44403c'
+      }
+    },
+    stone: {
+      light: {
+        '--color-bg': '#faf8f5',
+        '--color-text': '#3a3330',
+        '--color-accent': '#92867d',
+        '--color-link': '#6b635c',
+        '--color-muted': '#a59a91',
+        '--color-border': '#e8e3dd'
+      },
+      dark: {
+        '--color-bg': '#2b2725',
+        '--color-text': '#f5f2ee',
+        '--color-accent': '#a59a91',
+        '--color-link': '#c4b9b0',
+        '--color-muted': '#a59a91',
+        '--color-border': '#3a3330'
+      }
+    },
+    zinc: {
+      light: {
+        '--color-bg': '#fafafa',
+        '--color-text': '#27272a',
+        '--color-accent': '#71717a',
+        '--color-link': '#52525b',
+        '--color-muted': '#a1a1aa',
+        '--color-border': '#e4e4e7'
+      },
+      dark: {
+        '--color-bg': '#27272a',
+        '--color-text': '#fafafa',
+        '--color-accent': '#a1a1aa',
+        '--color-link': '#d4d4d8',
+        '--color-muted': '#a1a1aa',
+        '--color-border': '#3f3f46'
+      }
+    }
+  };
+
+  function getCurrentTheme() {
+    return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+  }
+
+  function applyPalette(paletteName: string) {
+    const theme = getCurrentTheme();
+    const colors = palettes[paletteName]?.[theme];
+
+    if (!colors) return;
+
+    const root = document.documentElement;
+    Object.entries(colors).forEach(([property, value]) => {
+      root.style.setProperty(property, value);
+    });
+
+    // Store selection
+    localStorage.setItem('color-palette', paletteName);
+
+    // Update active state
+    document.querySelectorAll('.palette-option').forEach(option => {
+      option.classList.toggle('active', option.getAttribute('data-palette') === paletteName);
+    });
+  }
+
+  function initPaletteSwitcher() {
+    const toggleButton = document.getElementById('palette-toggle');
+    const menu = document.getElementById('palette-menu');
+    const closeButton = document.getElementById('palette-close');
+    const options = document.querySelectorAll('.palette-option');
+
+    // Load saved palette or default to sage
+    const savedPalette = localStorage.getItem('color-palette') || 'sage';
+    applyPalette(savedPalette);
+
+    // Toggle menu
+    toggleButton?.addEventListener('click', () => {
+      const isHidden = menu?.style.display === 'none';
+      if (menu) {
+        menu.style.display = isHidden ? 'block' : 'none';
+      }
+    });
+
+    // Close menu
+    closeButton?.addEventListener('click', () => {
+      if (menu) {
+        menu.style.display = 'none';
+      }
+    });
+
+    // Close menu when clicking outside
+    document.addEventListener('click', (e) => {
+      if (
+        menu &&
+        toggleButton &&
+        !menu.contains(e.target as Node) &&
+        !toggleButton.contains(e.target as Node)
+      ) {
+        menu.style.display = 'none';
+      }
+    });
+
+    // Handle palette selection
+    options.forEach(option => {
+      option.addEventListener('click', () => {
+        const palette = option.getAttribute('data-palette');
+        if (palette) {
+          applyPalette(palette);
+          if (menu) {
+            menu.style.display = 'none';
+          }
+        }
+      });
+    });
+
+    // Listen for system theme changes
+    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => {
+      const currentPalette = localStorage.getItem('color-palette') || 'sage';
+      applyPalette(currentPalette);
+    });
+  }
+
+  // Initialize on page load
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initPaletteSwitcher);
+  } else {
+    initPaletteSwitcher();
+  }
+</script>
