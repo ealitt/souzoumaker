@@ -1,6 +1,29 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
-import ProjectGrid from '../components/ProjectGrid.astro';
+import { getCollection } from 'astro:content';
+
+// Get all content types
+const allBlog = await getCollection('blog', ({ data }) => data.draft !== true);
+const allResearch = await getCollection('research', ({ data }) => data.draft !== true);
+const allExperiments = await getCollection('experiments', ({ data }) => data.draft !== true);
+const allPhotography = await getCollection('photography', ({ data }) => data.draft !== true);
+
+// Sort and limit to recent items
+const recentBlog = allBlog
+  .sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime())
+  .slice(0, 3);
+
+const recentResearch = allResearch
+  .sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime())
+  .slice(0, 3);
+
+const recentExperiments = allExperiments
+  .sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime())
+  .slice(0, 3);
+
+const recentPhotography = allPhotography
+  .sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime())
+  .slice(0, 3);
 ---
 
 <BaseLayout>
@@ -11,7 +34,161 @@ import ProjectGrid from '../components/ProjectGrid.astro';
     </p>
   </section>
 
-  <ProjectGrid />
+  <!-- Recent Blog Posts -->
+  {recentBlog.length > 0 && (
+    <section class="content-section">
+      <div class="section-header">
+        <h2>Recent Projects</h2>
+        <a href="/blog" class="view-all">View all →</a>
+      </div>
+      <div class="grid">
+        {recentBlog.map((post) => (
+          <article class="card">
+            <a href={`/blog/${post.slug}`}>
+              {post.data.thumbnail && (
+                <div class="card-image">
+                  <img
+                    src={post.data.thumbnail.url}
+                    alt={post.data.title}
+                    width={post.data.thumbnail.dimensions?.[0] || 1920}
+                    height={post.data.thumbnail.dimensions?.[1] || 1080}
+                    loading="lazy"
+                    decoding="async"
+                  />
+                </div>
+              )}
+              <div class="card-content">
+                <h3>{post.data.title}</h3>
+                <time datetime={post.data.date.toISOString()}>
+                  {new Date(post.data.date).toLocaleDateString('en-US', {
+                    year: 'numeric',
+                    month: 'long'
+                  })}
+                </time>
+              </div>
+            </a>
+          </article>
+        ))}
+      </div>
+    </section>
+  )}
+
+  <!-- Recent Research -->
+  {recentResearch.length > 0 && (
+    <section class="content-section">
+      <div class="section-header">
+        <h2>Recent Research</h2>
+        <a href="/research" class="view-all">View all →</a>
+      </div>
+      <div class="research-list">
+        {recentResearch.map((paper) => (
+          <article class="research-item">
+            <a href={`/research/${paper.slug}`}>
+              {paper.data.firstAuthor && (
+                <span class="first-author-badge">First Author</span>
+              )}
+              <h3>{paper.data.title}</h3>
+              {paper.data.authors && paper.data.authors.length > 0 && (
+                <div class="authors">{paper.data.authors.join(', ')}</div>
+              )}
+              <div class="meta">
+                <time datetime={paper.data.date.toISOString()}>
+                  {new Date(paper.data.date).toLocaleDateString('en-US', {
+                    month: 'long',
+                    year: 'numeric'
+                  })}
+                </time>
+                {paper.data.venue && (
+                  <span class="venue"> • {paper.data.venue}</span>
+                )}
+              </div>
+            </a>
+          </article>
+        ))}
+      </div>
+    </section>
+  )}
+
+  <!-- Recent Experiments -->
+  {recentExperiments.length > 0 && (
+    <section class="content-section">
+      <div class="section-header">
+        <h2>Recent Experiments</h2>
+        <a href="/experiments" class="view-all">View all →</a>
+      </div>
+      <div class="grid">
+        {recentExperiments.map((experiment) => (
+          <article class="card experiment-card">
+            <a
+              href={experiment.data.externalUrl || `/experiments/${experiment.slug}`}
+              target={experiment.data.externalUrl ? "_blank" : undefined}
+              rel={experiment.data.externalUrl ? "noopener noreferrer" : undefined}
+            >
+              <div class="card-content">
+                <div class="experiment-header">
+                  <h3>{experiment.data.title}</h3>
+                  {experiment.data.externalUrl && (
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                      <polyline points="15 3 21 3 21 9"></polyline>
+                      <line x1="10" y1="14" x2="21" y2="3"></line>
+                    </svg>
+                  )}
+                </div>
+                <p class="description">{experiment.data.description}</p>
+                {experiment.data.technologies && experiment.data.technologies.length > 0 && (
+                  <div class="technologies">
+                    {experiment.data.technologies.slice(0, 3).map((tech) => (
+                      <span class="tech-badge">{tech}</span>
+                    ))}
+                  </div>
+                )}
+              </div>
+            </a>
+          </article>
+        ))}
+      </div>
+    </section>
+  )}
+
+  <!-- Recent Photography -->
+  {recentPhotography.length > 0 && (
+    <section class="content-section">
+      <div class="section-header">
+        <h2>Recent Photography</h2>
+        <a href="/photography" class="view-all">View all →</a>
+      </div>
+      <div class="grid">
+        {recentPhotography.map((collection) => (
+          <article class="card">
+            <a href={`/photography/${collection.slug}`}>
+              {collection.data.images[0] && (
+                <div class="card-image photo-preview">
+                  <img
+                    src={collection.data.images[0].url}
+                    alt={collection.data.images[0].alt || collection.data.title}
+                    width={collection.data.images[0].width || 1600}
+                    height={collection.data.images[0].height || 1200}
+                    loading="lazy"
+                    decoding="async"
+                  />
+                </div>
+              )}
+              <div class="card-content">
+                <h3>{collection.data.title}</h3>
+                <div class="photo-meta">
+                  {collection.data.location && (
+                    <span class="location">{collection.data.location}</span>
+                  )}
+                  <span class="count">{collection.data.images.length} photos</span>
+                </div>
+              </div>
+            </a>
+          </article>
+        ))}
+      </div>
+    </section>
+  )}
 </BaseLayout>
 
 <style>
@@ -30,6 +207,213 @@ import ProjectGrid from '../components/ProjectGrid.astro';
     color: var(--color-muted);
   }
 
+  .content-section {
+    margin: 4rem 0;
+  }
+
+  .section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 2px solid var(--color-border);
+  }
+
+  .section-header h2 {
+    font-size: 1.75rem;
+    margin: 0;
+  }
+
+  .view-all {
+    color: var(--color-accent);
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s;
+  }
+
+  .view-all:hover {
+    color: #1d4ed8;
+  }
+
+  /* Grid Layout */
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 2rem;
+  }
+
+  .card {
+    border: 1px solid var(--color-border);
+    border-radius: 8px;
+    overflow: hidden;
+    transition: all 0.2s;
+    background: var(--color-bg);
+  }
+
+  .card:hover {
+    border-color: var(--color-accent);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+
+  .card a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+  }
+
+  .card-image {
+    aspect-ratio: 16/9;
+    overflow: hidden;
+    background: var(--color-border);
+  }
+
+  .card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s;
+  }
+
+  .card:hover .card-image img {
+    transform: scale(1.05);
+  }
+
+  .card-content {
+    padding: 1.5rem;
+  }
+
+  .card-content h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    color: var(--color-text);
+  }
+
+  .card-content time {
+    display: block;
+    color: var(--color-muted);
+    font-size: 0.9rem;
+  }
+
+  /* Research List */
+  .research-list {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .research-item {
+    padding: 1.5rem;
+    border: 1px solid var(--color-border);
+    border-radius: 8px;
+    transition: all 0.2s;
+  }
+
+  .research-item:hover {
+    border-color: var(--color-accent);
+    transform: translateX(4px);
+  }
+
+  .research-item a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .first-author-badge {
+    display: inline-block;
+    background: var(--color-accent);
+    color: white;
+    padding: 0.3rem 0.6rem;
+    border-radius: 4px;
+    font-size: 0.7rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 0.75rem;
+  }
+
+  .research-item h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    color: var(--color-text);
+  }
+
+  .authors {
+    color: var(--color-text);
+    margin-bottom: 0.5rem;
+    font-size: 0.95rem;
+  }
+
+  .research-item .meta {
+    color: var(--color-muted);
+    font-size: 0.9rem;
+  }
+
+  .venue {
+    font-style: italic;
+  }
+
+  /* Experiments */
+  .experiment-card .card-content {
+    padding: 1.5rem;
+  }
+
+  .experiment-header {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .experiment-header h3 {
+    margin: 0;
+    font-size: 1.2rem;
+  }
+
+  .experiment-header svg {
+    color: var(--color-accent);
+    flex-shrink: 0;
+  }
+
+  .description {
+    color: var(--color-muted);
+    margin-bottom: 1rem;
+    line-height: 1.5;
+    font-size: 0.95rem;
+  }
+
+  .technologies {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+
+  .tech-badge {
+    background: var(--color-border);
+    padding: 0.25rem 0.6rem;
+    border-radius: 1rem;
+    font-size: 0.8rem;
+    color: var(--color-text);
+  }
+
+  /* Photography */
+  .photo-preview {
+    aspect-ratio: 4/3;
+  }
+
+  .photo-meta {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    font-size: 0.9rem;
+    color: var(--color-muted);
+  }
+
+  .location {
+    font-weight: 500;
+  }
+
   @media (max-width: 768px) {
     .hero h1 {
       font-size: 2rem;
@@ -37,6 +421,14 @@ import ProjectGrid from '../components/ProjectGrid.astro';
 
     .subtitle {
       font-size: 1rem;
+    }
+
+    .grid {
+      grid-template-columns: 1fr;
+    }
+
+    .section-header h2 {
+      font-size: 1.4rem;
     }
   }
 </style>

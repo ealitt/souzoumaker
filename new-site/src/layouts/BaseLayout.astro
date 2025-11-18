@@ -31,7 +31,8 @@ const currentPath = Astro.url.pathname;
             <h2>Souzou Maker</h2>
           </a>
           <ul>
-            <li><a href="/" class:list={[{ active: currentPath === '/' }]}>Projects</a></li>
+            <li><a href="/" class:list={[{ active: currentPath === '/' }]}>Home</a></li>
+            <li><a href="/blog" class:list={[{ active: currentPath.startsWith('/blog') }]}>Blog</a></li>
             <li><a href="/research" class:list={[{ active: currentPath.startsWith('/research') }]}>Research</a></li>
             <li><a href="/experiments" class:list={[{ active: currentPath.startsWith('/experiments') }]}>Experiments</a></li>
             <li><a href="/photography" class:list={[{ active: currentPath.startsWith('/photography') }]}>Photography</a></li>
