@@ -32,9 +32,5 @@ galleries:
       alt: "vert open full 2"
 ---
 
-<p>
-        SD cards aren’t something I have a ton of, but the very few I have constantly get lost, so I decided to make a case. Most cases out there make it difficult to pull out the card, take up a lot of room, or just don’t look sturdy. I decided to reuse ideas from the EarPods case to make this one. Like before, it’s a simple two part case with a paperclip for the hinge and magnets to keep it shut. I made two versions; one where the sd card slots in horizontally and the other vertically. They both work great so pick your favorite.
-    </p>
-    <p>
-        Follow the <a href="https://souzoumaker.com/blog-1/2020/1/5/earpods-earplug-case" target="_blank">earpods case</a> for assembly instructions, except this one requires four of the 5 mm diameter 1 mm thick <a href="https://amzn.to/39GaCgD" target="_blank">magnets</a>. If you are worried about magnets wiping data, don’t fret. That only applies to hard drives since magnets can disrupt it while spinning. Unless you have a super magnet, you wouldn’t be able to wipe an sd card. But if that were the case, you would have bigger problems to worry about...
-    </p>
+SD cards aren’t something I have a ton of, but the very few I have constantly get lost, so I decided to make a case. Most cases out there make it difficult to pull out the card, take up a lot of room, or just don’t look sturdy. I decided to reuse ideas from the EarPods case to make this one. Like before, it’s a simple two part case with a paperclip for the hinge and magnets to keep it shut. I made two versions; one where the sd card slots in horizontally and the other vertically. They both work great so pick your favorite.
+Follow the [earpods case](https://souzoumaker.com/blog-1/2020/1/5/earpods-earplug-case) for assembly instructions, except this one requires four of the 5 mm diameter 1 mm thick [magnets](https://amzn.to/39GaCgD). If you are worried about magnets wiping data, don’t fret. That only applies to hard drives since magnets can disrupt it while spinning. Unless you have a super magnet, you wouldn’t be able to wipe an sd card. But if that were the case, you would have bigger problems to worry about...

@@ -27,24 +27,10 @@ galleries:
       alt: "rubber insert"
 ---
 
-<p>
-        While working with photogrammetry, I was surprised by how much space the images took up. I eventually ran out of space on my regular external hard drive, so I decided to make a new one. A couple of years ago I disassembled an old laptop with this 2.5" hard drive (500 gb). Along with it I bought a <a href="https://amzn.to/2NR2U8w" target="_blank">SATA to usb adapter</a> to connect to my computer. Link to <a href="http://www.thingiverse.com/thing:3005307" target="_blank">3D parts</a>.
-    </p>
-    <hr>
-    
-    <p>
-        While it's simple enough to print out a plastic case, I wanted to have some grip on the bottom. Ninjaflex (flexible filament) is used here. If you don't have any laying around and are wary of printing with flexibles, smaller rolls are available on amazon for relatively cheap. 
-    </p>
-    
-    <p>
-        A small channel was designed to grab the filament well enough that no glue is needed to keep things in place. I found that a good channel can be made with a 3mm diameter cut with the center point 1.1mm away from the edge.
-    </p>
-    
-    <p>
-        Cut two 67mm and two 51mm strips of the filament and push in with a screwdriver. The hard drive can be slotted in at any time and secured with four M3 screws.
-    </p>
-    <hr>
-    
-    <p>
-        Here's the final result. The design on top was just an attempt at an abstract geometrical pattern for some flourish. I've seen too many box cases online with nothing special about them. My goal was to design something that's practical and presentable. Presentable in the sense that I can confidently use it in front of others without being thought it was something cobbled together.
-    </p>
+While working with photogrammetry, I was surprised by how much space the images took up. I eventually ran out of space on my regular external hard drive, so I decided to make a new one. A couple of years ago I disassembled an old laptop with this 2.5" hard drive (500 gb). Along with it I bought a [SATA to usb adapter](https://amzn.to/2NR2U8w) to connect to my computer. Link to [3D parts](http://www.thingiverse.com/thing:3005307).
+---
+While it's simple enough to print out a plastic case, I wanted to have some grip on the bottom. Ninjaflex (flexible filament) is used here. If you don't have any laying around and are wary of printing with flexibles, smaller rolls are available on amazon for relatively cheap.
+A small channel was designed to grab the filament well enough that no glue is needed to keep things in place. I found that a good channel can be made with a 3mm diameter cut with the center point 1.1mm away from the edge.
+Cut two 67mm and two 51mm strips of the filament and push in with a screwdriver. The hard drive can be slotted in at any time and secured with four M3 screws.
+---
+Here's the final result. The design on top was just an attempt at an abstract geometrical pattern for some flourish. I've seen too many box cases online with nothing special about them. My goal was to design something that's practical and presentable. Presentable in the sense that I can confidently use it in front of others without being thought it was something cobbled together.

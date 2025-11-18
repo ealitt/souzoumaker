@@ -42,40 +42,14 @@ galleries:
       alt: "eclipse from telescope"
 ---
 
-<div class="youtube-video">
-        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/1nUuXQIDXN8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
-    <p>
-        Although I wasn't in the path of totality, I was still able to capture some amazing shots and a timelapse of the solar eclipse. My coverage was around 60% (moon covering the sun). Using my mini telescope (from the lens adapter project), I was able to make a new mount for my phone in time for today's event. I know many of you are here for the photos, so here they are.
-    </p>
-
-    </div>
-    <p>
-        I was blown away that my little $35 telescope (35x magnification) was able to capture sunspots (the black dots you see above). My first thought was that my camera or telescope had some dust on it, but NASA confirmed that these were the real deal. 
-    </p>
-
-    </div>
-    <p>
-        It's a little hard to make out, but the leaves in the trees acted like numerous pin-holes, casting shadows of the covered sun. Looking closely at the bright spots, every one of them looks like a crescent moon. Pinholes work by reducing the incoming light, allowing for the light source to take shape. A fun experiment to try is using a piece of aluminum foil with a small hole (made with a thumbtack) as the pinhole to see the shape of the original light source (here's a good visual). If you think about it that's how pinhole cameras work since the object is reflecting light (it becomes the light source!).
-    </p>
-
-    </div>
-    <hr>
-    <p>
-        You could see my setup was nothing special. Just a large solar viewer, that didn't completely cover the telescope, stuck on one end with blue painter's tape, and my 3d printed adapter (files are on thingiverse) to hold my phone in place. After cracking my phone screen while using my old adapter, I made two little cuts (with my rotary tool) on top and slid rubber bands on to hold my phone with this version. The rubber bands were held in place by a dab of hot glue, one of which I lost in the grass.
-    </p>
-
-    </div>
-    <p>
-        While setting up, the neighbors and their children came by to see what I was doing. I enjoyed telling them about the eclipse and showing them how to use their pinhole viewers. While talking to them, I had this crazy idea to put a pin-hole over my solar viewer and further cut down on the light coming in. I thought I was onto something, but the spots that appeared on the image were just dust particles. 
-    </p>
-    <hr>
-    <p>
-        That's all I have for this eclipse. Luckily, the next eclipse going across part of the United States in 2024 will put me right in the path of totality (100% coverage!). I'm hoping I'll have even better picture taking equipment by then. Maybe I'll have an Arduino based star tracker built by then, so I won't have to manually track the sun. I bet my town will be heavily crowded with eclipse chasers.
-    </p>
-    <p>
-        As a side-note, I recently decided to give amazon affiliate links a try to help support me in running this website and bringing you more interesting projects. If you like my work, please think of supporting me by using this link (http://amzn.to/2vSCXyw) to do your amazon shopping. I get a little portion of whatever you buy at no extra cost to you. I also posted the affiliate link on my "about" section of this website.
-    </p>
-    <p>
-        I was also thinking about making a Patreon page for more direct support, but my following isn't that great yet, so it might be best to prioritize the growth of my audience instead of asking for support. What do guys think would be best? Should I buildup more content? Anybody thinking of supporting me now? Let me know in the comments.
-    </p>
+<iframe width="100%" height="100%" src="https://www.youtube.com/embed/1nUuXQIDXN8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+Although I wasn't in the path of totality, I was still able to capture some amazing shots and a timelapse of the solar eclipse. My coverage was around 60% (moon covering the sun). Using my mini telescope (from the lens adapter project), I was able to make a new mount for my phone in time for today's event. I know many of you are here for the photos, so here they are.
+I was blown away that my little $35 telescope (35x magnification) was able to capture sunspots (the black dots you see above). My first thought was that my camera or telescope had some dust on it, but NASA confirmed that these were the real deal.
+It's a little hard to make out, but the leaves in the trees acted like numerous pin-holes, casting shadows of the covered sun. Looking closely at the bright spots, every one of them looks like a crescent moon. Pinholes work by reducing the incoming light, allowing for the light source to take shape. A fun experiment to try is using a piece of aluminum foil with a small hole (made with a thumbtack) as the pinhole to see the shape of the original light source (here's a good visual). If you think about it that's how pinhole cameras work since the object is reflecting light (it becomes the light source!).
+---
+You could see my setup was nothing special. Just a large solar viewer, that didn't completely cover the telescope, stuck on one end with blue painter's tape, and my 3d printed adapter (files are on thingiverse) to hold my phone in place. After cracking my phone screen while using my old adapter, I made two little cuts (with my rotary tool) on top and slid rubber bands on to hold my phone with this version. The rubber bands were held in place by a dab of hot glue, one of which I lost in the grass.
+While setting up, the neighbors and their children came by to see what I was doing. I enjoyed telling them about the eclipse and showing them how to use their pinhole viewers. While talking to them, I had this crazy idea to put a pin-hole over my solar viewer and further cut down on the light coming in. I thought I was onto something, but the spots that appeared on the image were just dust particles.
+---
+That's all I have for this eclipse. Luckily, the next eclipse going across part of the United States in 2024 will put me right in the path of totality (100% coverage!). I'm hoping I'll have even better picture taking equipment by then. Maybe I'll have an Arduino based star tracker built by then, so I won't have to manually track the sun. I bet my town will be heavily crowded with eclipse chasers.
+As a side-note, I recently decided to give amazon affiliate links a try to help support me in running this website and bringing you more interesting projects. If you like my work, please think of supporting me by using this link (http://amzn.to/2vSCXyw) to do your amazon shopping. I get a little portion of whatever you buy at no extra cost to you. I also posted the affiliate link on my "about" section of this website.
+I was also thinking about making a Patreon page for more direct support, but my following isn't that great yet, so it might be best to prioritize the growth of my audience instead of asking for support. What do guys think would be best? Should I buildup more content? Anybody thinking of supporting me now? Let me know in the comments.

@@ -78,27 +78,12 @@ galleries:
       alt: "blender render 2"
 ---
 
-<p>
-        At the beginning of 2019 Professor Kelly Goff approached me with a project involving industrial drill bits and coral reefs. Kelly, growing up in Curaçao, was reminded of the coral reefs from home when coming across PDC drill bits. The industrial tools come in various shapes and sizes; rounded, sharp, trigonal, pentagonal, cylindrical with the center open, and some cone shaped. They resemble coral and the sea creatures that inhabit them, yet act as tools furthering their destruction by means of industrial pollution contributing to climate change. The final display captures drill bits gathered in colonies cast in white to mimic the bleaching of coral reefs.
-    </p>
-    
-    <hr>
-    <p>
-        The process started by searching for PDC drill bits models online. I came up with eight different kinds through GrabCad. We decided arbitrarily how large to 3D print them and quickly realized we weren’t able to print as large as we wanted. Not wanting to ditch 3D printing, I started slicing each model into sections and print the drill bits as large as our 3D printers could handle. Each print section took a minimum of 20 hours and quickly used up entire rolls of filament. Once printed we took the plastic drill bits into Kelly’s workshop.
-    </p>
-    
-    <hr>
-    <p>
-        The plan was to make silicon molds of the 3D prints and cast the final pieces out of Hydrocal plaster. Kelly prepped the prints by giving them a smooth outer coat using what I believe is acrylic, as well as filling any holes in the model with sculpting clay. After mixing the two parts of silicon rubber, I coated the models with several coats. Once set, batches of Hydrocal powder were mixed with water in gallons of buckets and poured into the molds. Being the first time I worked with plaster, I was surprised to see how fast it set and warm up due to the exothermic nature of the reaction. 
-    </p>
-    
-    <hr>
-    
-    <p>
-        I stepped away for most of the plaster casting and turned to laying out 3D dioramas for our PDC coral reef. No matter how creative I got, Kelly kept telling me to make the reef larger; "add more!” he would say. I underestimated the scale he imagined and finally settled on this.
-    </p>
-    
-    <hr>
-    <p>
-        Of course, the final display ended up packed with even more PDC reef critters than my virtual layout specified. It was an unique experience to work with an artist who is so passionate and motivated that I was continually surprised by the scale of the project and awesome outcome. 
-    </p>
+At the beginning of 2019 Professor Kelly Goff approached me with a project involving industrial drill bits and coral reefs. Kelly, growing up in Curaçao, was reminded of the coral reefs from home when coming across PDC drill bits. The industrial tools come in various shapes and sizes; rounded, sharp, trigonal, pentagonal, cylindrical with the center open, and some cone shaped. They resemble coral and the sea creatures that inhabit them, yet act as tools furthering their destruction by means of industrial pollution contributing to climate change. The final display captures drill bits gathered in colonies cast in white to mimic the bleaching of coral reefs.
+---
+The process started by searching for PDC drill bits models online. I came up with eight different kinds through GrabCad. We decided arbitrarily how large to 3D print them and quickly realized we weren’t able to print as large as we wanted. Not wanting to ditch 3D printing, I started slicing each model into sections and print the drill bits as large as our 3D printers could handle. Each print section took a minimum of 20 hours and quickly used up entire rolls of filament. Once printed we took the plastic drill bits into Kelly’s workshop.
+---
+The plan was to make silicon molds of the 3D prints and cast the final pieces out of Hydrocal plaster. Kelly prepped the prints by giving them a smooth outer coat using what I believe is acrylic, as well as filling any holes in the model with sculpting clay. After mixing the two parts of silicon rubber, I coated the models with several coats. Once set, batches of Hydrocal powder were mixed with water in gallons of buckets and poured into the molds. Being the first time I worked with plaster, I was surprised to see how fast it set and warm up due to the exothermic nature of the reaction.
+---
+I stepped away for most of the plaster casting and turned to laying out 3D dioramas for our PDC coral reef. No matter how creative I got, Kelly kept telling me to make the reef larger; "add more!” he would say. I underestimated the scale he imagined and finally settled on this.
+---
+Of course, the final display ended up packed with even more PDC reef critters than my virtual layout specified. It was an unique experience to work with an artist who is so passionate and motivated that I was continually surprised by the scale of the project and awesome outcome.

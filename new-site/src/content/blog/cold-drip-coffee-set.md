@@ -37,24 +37,13 @@ galleries:
       alt: "tamper and filter set 2"
 ---
 
-<p>
-        For my birthday, I got a <a href="https://amzn.to/2n4AHih" target="_blank">Brewki slow drip coffee maker</a>. With it, there were paper filters and felt pads to disperse the water on top. Not having a case to keep them in, I designed my own. The slow drip method is like cold brew coffee, but with stronger aroma. The drip speed can be adjusted by turning the water tank on top tighter or looser. It takes about 3-5 hours, depending on the drip speed, and makes really strong non acidic coffee. 
-    </p>
-    <hr>
-    <h4>Filter Container</h4>
-    
-    <p>
-        I can't say where the inspiration for the design came from, but I really like it. It's two simple prints where the top and bottom are connected by magnets (<a href="https://amzn.to/2vc5Y7u" target="_blank">6 x 3 mm</a>); four in total. The diameter of the filter and felt pads are roughly 6.4 cm (the same as aeropress filters). <a href="https://www.thingiverse.com/thing:3031945" target="_blank"> Link to 3d files</a>.
-    </p>
-    <hr>
-    <h4>Tamper</h4>
-    
-    <p>
-        The tamper is to press the coffee grounds into the basket, or else the grounds overflow and the felt pad sinks down. It's a 6.2 cm diameter tamper composed of two parts that screw together. Its interior is completely hollow for weight to be added, since normal tamps are metallic. I chose to put metal BB pellets, but something like sand will work too. <a href="https://www.thingiverse.com/thing:3031948" target="_blank">Link to 3d files</a>.
-    </p>
-    <hr>
-    <h4>Conclusion</h4>
-    
-    <p>
-        It's great to make something aesthetically pleasing. They've become a great addition to my coffee making kit. I hope to have more frequent mini projects up, so make sure to check back frequently for new posts.
-    </p>
+For my birthday, I got a [Brewki slow drip coffee maker](https://amzn.to/2n4AHih). With it, there were paper filters and felt pads to disperse the water on top. Not having a case to keep them in, I designed my own. The slow drip method is like cold brew coffee, but with stronger aroma. The drip speed can be adjusted by turning the water tank on top tighter or looser. It takes about 3-5 hours, depending on the drip speed, and makes really strong non acidic coffee.
+---
+#### Filter Container
+I can't say where the inspiration for the design came from, but I really like it. It's two simple prints where the top and bottom are connected by magnets ([6 x 3 mm](https://amzn.to/2vc5Y7u)); four in total. The diameter of the filter and felt pads are roughly 6.4 cm (the same as aeropress filters). [ Link to 3d files](https://www.thingiverse.com/thing:3031945).
+---
+#### Tamper
+The tamper is to press the coffee grounds into the basket, or else the grounds overflow and the felt pad sinks down. It's a 6.2 cm diameter tamper composed of two parts that screw together. Its interior is completely hollow for weight to be added, since normal tamps are metallic. I chose to put metal BB pellets, but something like sand will work too. [Link to 3d files](https://www.thingiverse.com/thing:3031948).
+---
+#### Conclusion
+It's great to make something aesthetically pleasing. They've become a great addition to my coffee making kit. I hope to have more frequent mini projects up, so make sure to check back frequently for new posts.

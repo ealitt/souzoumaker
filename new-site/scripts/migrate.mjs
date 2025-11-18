@@ -119,8 +119,52 @@ function convertContent(content) {
   converted = converted.replace(/<main>/g, '');
   converted = converted.replace(/<\/main>/g, '');
 
+  // Convert HTML to Markdown
+
+  // Convert headings (h1-h6)
+  converted = converted.replace(/<h1>(.*?)<\/h1>/g, '# $1');
+  converted = converted.replace(/<h2>(.*?)<\/h2>/g, '## $1');
+  converted = converted.replace(/<h3>(.*?)<\/h3>/g, '### $1');
+  converted = converted.replace(/<h4>(.*?)<\/h4>/g, '#### $1');
+  converted = converted.replace(/<h5>(.*?)<\/h5>/g, '##### $1');
+  converted = converted.replace(/<h6>(.*?)<\/h6>/g, '###### $1');
+
+  // Convert horizontal rules
+  converted = converted.replace(/<hr\s*\/?>/g, '\n---\n');
+
+  // Convert bold and italic
+  converted = converted.replace(/<strong>(.*?)<\/strong>/g, '**$1**');
+  converted = converted.replace(/<b>(.*?)<\/b>/g, '**$1**');
+  converted = converted.replace(/<em>(.*?)<\/em>/g, '*$1*');
+  converted = converted.replace(/<i>(.*?)<\/i>/g, '*$1*');
+
+  // Convert links - preserve target and other attributes
+  converted = converted.replace(/<a\s+href="([^"]*)"[^>]*>(.*?)<\/a>/g, '[$2]($1)');
+
+  // Convert unordered lists
+  converted = converted.replace(/<ul[^>]*>/g, '\n');
+  converted = converted.replace(/<\/ul>/g, '\n');
+  converted = converted.replace(/\s*<li>\s*/g, '\n- ');
+  converted = converted.replace(/\s*<\/li>\s*/g, '\n');
+
+  // Convert ordered lists
+  converted = converted.replace(/<ol[^>]*>/g, '\n');
+  converted = converted.replace(/<\/ol>/g, '\n');
+
+  // Convert paragraphs - just remove the tags, keep content
+  converted = converted.replace(/<p[^>]*>\s*/g, '\n');
+  converted = converted.replace(/\s*<\/p>/g, '\n');
+
+  // Convert line breaks
+  converted = converted.replace(/<br\s*\/?>/g, '\n');
+
+  // Remove any remaining div tags
+  converted = converted.replace(/<div[^>]*>/g, '');
+  converted = converted.replace(/<\/div>/g, '');
+
   // Clean up excessive whitespace
   converted = converted.replace(/\n\s*\n\s*\n+/g, '\n\n');
+  converted = converted.replace(/^\s+/gm, ''); // Remove leading whitespace from lines
 
   return converted.trim();
 }

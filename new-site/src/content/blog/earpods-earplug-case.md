@@ -36,49 +36,20 @@ galleries:
       alt: "thumbnail"
 ---
 
-<p>
-        In college, I would constantly sleep over in friends' rooms or find myself in a situation where I need earplugs. I've tried many earplugs, but <a href="https://amzn.to/2H0byRM" target="_blank">these</a> seem to be the only ones that work without making my ears sore. Since the earplugs come in a container, I would have to carry them around loosely somewhere before using them. That's when I came up with this idea for EarPods; a simple magnetic case to hold my earplugs. These truly block out the sound and your environment all in a comfortable compact case. The case mimics the real AirPods case's opening and satisfying click sound. It's a really easy 2 part print with very little assembly.
-    </p>
-    <hr>
-    <h4>Parts</h4>
-    
-    <ul>
-        <li>
-            <a href="https://www.thingiverse.com/thing:3469952" target="_blank">3D Prints</a>
-        </li>
-        <li>
-            <a href="https://amzn.to/2EMuzEZ" target="_blank">5mm x 1mm magnets</a>
-        </li>
-        <li>
-            Paper clip
-        </li>
-        <li>
-            <a href="https://amzn.to/2SIoA87" target="_blank">Earplugs</a>
-        </li>
-    </ul>
-    <hr>
-    <h4>Assembly</h4>
-    
-    <ol>
-        <li>
-            Use hot glue or super glue to stick one magnet to each side of the case parts. Make sure they attract when they close; mark with a sharpie to be sure.
-        </li>
-        <li>
-            Bend a paperclip straight and insert into the backside where the hinge lies. Pull out again and cut the excess paperclip.
-        </li>
-        <li>
-            Put a dab of superglue or hot glue to seal the end of the hole where the paperclip was inserted to block it off.
-        </li>
-        <li>
-            Let everything dry.
-        </li>
-    </ol>
-    <p>
-        This is a nice simple technique for making hinges that aren't 3D printed. The paperclip is metal, so it should last longer than a purely 3D printed hinge.
-    </p>
-    <hr>
-    <h4>Conclusion</h4>
-    
-    <p>
-        The Earpods have been really convenient. After using them for the past 3 months, they have been an everyday carry item for me. They're light, compact, and fun to open and close, and I can definitely see myself using this hinge idea in another project down the line.
-    </p>
+In college, I would constantly sleep over in friends' rooms or find myself in a situation where I need earplugs. I've tried many earplugs, but [these](https://amzn.to/2H0byRM) seem to be the only ones that work without making my ears sore. Since the earplugs come in a container, I would have to carry them around loosely somewhere before using them. That's when I came up with this idea for EarPods; a simple magnetic case to hold my earplugs. These truly block out the sound and your environment all in a comfortable compact case. The case mimics the real AirPods case's opening and satisfying click sound. It's a really easy 2 part print with very little assembly.
+---
+#### Parts
+- [3D Prints](https://www.thingiverse.com/thing:3469952)
+- [5mm x 1mm magnets](https://amzn.to/2EMuzEZ)
+- Paper clip
+- [Earplugs](https://amzn.to/2SIoA87)
+---
+#### Assembly
+- Use hot glue or super glue to stick one magnet to each side of the case parts. Make sure they attract when they close; mark with a sharpie to be sure.
+- Bend a paperclip straight and insert into the backside where the hinge lies. Pull out again and cut the excess paperclip.
+- Put a dab of superglue or hot glue to seal the end of the hole where the paperclip was inserted to block it off.
+- Let everything dry.
+This is a nice simple technique for making hinges that aren't 3D printed. The paperclip is metal, so it should last longer than a purely 3D printed hinge.
+---
+#### Conclusion
+The Earpods have been really convenient. After using them for the past 3 months, they have been an everyday carry item for me. They're light, compact, and fun to open and close, and I can definitely see myself using this hinge idea in another project down the line.
