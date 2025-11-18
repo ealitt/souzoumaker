@@ -1,6 +1,7 @@
 ---
 import BaseLayout from './BaseLayout.astro';
 import Lightbox from '../components/Lightbox.astro';
+import { Image } from 'astro:assets';
 import type { CollectionEntry } from 'astro:content';
 
 interface Props {
@@ -29,8 +30,10 @@ const formattedDate = new Date(date).toLocaleDateString('en-US', {
         <img
           src={thumbnail.url}
           alt={title}
-          width={thumbnail.dimensions?.[0]}
-          height={thumbnail.dimensions?.[1]}
+          width={thumbnail.dimensions?.[0] || 1920}
+          height={thumbnail.dimensions?.[1] || 1080}
+          loading="lazy"
+          decoding="async"
         />
       </div>
     )}

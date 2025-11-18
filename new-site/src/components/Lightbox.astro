@@ -3,6 +3,8 @@
  * Lightbox component for full-screen image viewing
  * Click any image to expand, click outside or press ESC to close
  */
+import { Image } from 'astro:assets';
+
 interface Props {
   images: Array<{
     url: string;
@@ -21,7 +23,10 @@ const { images, class: className = '' } = Astro.props;
       <img
         src={image.url}
         alt={image.alt || image.name || ''}
+        width="1920"
+        height="1080"
         loading="lazy"
+        decoding="async"
         class="lightbox-thumbnail"
       />
       {image.name && (

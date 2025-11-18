@@ -1,5 +1,6 @@
 ---
 import { getCollection } from 'astro:content';
+import { Image } from 'astro:assets';
 
 const allBlogPosts = await getCollection('blog', ({ data }) => {
   return data.draft !== true && data.language === 'english';
@@ -18,7 +19,10 @@ const posts = allBlogPosts.sort((a, b) =>
         <img
           src={post.data.thumbnail.url}
           alt={post.data.title}
+          width={post.data.thumbnail.dimensions?.[0] || 1920}
+          height={post.data.thumbnail.dimensions?.[1] || 1080}
           loading="lazy"
+          decoding="async"
         />
       )}
       <div class="overlay">
